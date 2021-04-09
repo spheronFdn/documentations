@@ -41,7 +41,12 @@ Explore our documentation to learn about ArGo products and features. Here are so
 
 **Tutorials** – Explore the tutorials on our blog for step-by-step guides on ArGofeatures, and to learn more about the Jamstack and the future of web development.
 
-**Forums** – Visit the ArGo [Discord Channel](https://discord.com/invite/ywrEVuT2) to discuss ideas and questions with ArGo staff and your fellow ArGo users. Checkout ArGo on [Twitter](https://twitter.com/argoapplive) [LinkedIn](https://www.linkedin.com/company/argoapp/) [Github](https://github.com/argoapp-live) [Telegram](https://t.me/argoofficial) [Medium](https://argoapp.medium.com/) as well.
+**Forums** – Visit the ArGo [Discord Channel](https://discord.com/invite/ywrEVuT2) to discuss ideas and questions with ArGo staff and your fellow ArGo users. Connect with us on below as well -
+- [Twitter](https://twitter.com/argoapplive)
+- [LinkedIn](https://www.linkedin.com/company/argoapp/)
+- [Github](https://github.com/argoapp-live)
+- [Telegram](https://t.me/argoofficial)
+- [Medium](https://argoapp.medium.com/)
 
 **Custom packages** – Contact our sales team to create a custom package if you need dedicated secondary DNS, custom deployment options for serverless functions, or other custom Enterprise plan features.
 
