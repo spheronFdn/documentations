@@ -1,4 +1,4 @@
----
+<!-- ---
 # id: doc1
 title: Angular
 # sidebar_label: Configure Build
@@ -29,4 +29,4 @@ When you link a repository for a project, ArGo tries to detect the framework you
 
 Although we recommend prerendering your Angular app with Angular Universal or using Scully to produce static files, you may need to use redirects to enable Angular routing and page refresh functionality for pages with client-side rendering. You can use a \_redirects file or a ArGo configuration file to configure these.
 
-In \_redirects:
+In \_redirects: -->

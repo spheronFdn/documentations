@@ -3,43 +3,45 @@ module.exports = {
     {
       type: "category",
       label: "Home",
-      items: [
-        "Welcome",
-        //'getting-started',
-        //'create-a-page',
-        ///'create-a-document',
-        //'create-a-blog-post',
-        //'markdown-features',
-        //'thank-you',
-      ],
+      items: ["welcome"],
     },
     {
       type: "category",
       label: "Configure Builds",
       items: [
         "get-started",
-        {
-          type: "category",
-          label: "Common Configurations",
-          items: ["angular"],
-        },
-        // 'Common Configuration',
       ],
     },
     {
       type: "category",
-      label: "Internet Computer Hosting",
-      items: ["domain-management"],
+      label: "Domain and HTTPs",
+      items: [
+        {
+          "Custom Domain": [
+            "custom-domain",
+            "create-domain",
+            "multiple-domains",
+          ],
+        },
+        {
+          "HTTPs (SSL)": ["https"],
+        },
+      ],
     },
     {
       type: "category",
-      label: "ArGo Storage",
-      items: ["argo-api"],
+      label: "Organization",
+      items: ["create-org"],
+    },
+    {
+      type: "category",
+      label: "Billing",
+      items: ["argo-wallet"],
     },
     {
       type: "category",
       label: "References",
-      items: ["argo-api"],
+      items: ["get-help"],
     },
   ],
 };

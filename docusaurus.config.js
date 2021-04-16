@@ -18,7 +18,7 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
+          to: "docs/welcome",
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
@@ -43,7 +43,7 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Getting Started",
+              label: "Home",
               to: "docs/",
             },
           ],
@@ -51,10 +51,6 @@ module.exports = {
         {
           title: "Community",
           items: [
-            {
-              label: "LinkedIn",
-              href: "https://www.linkedin.com/company/argoapp/",
-            },
             {
               label: "Discord",
               href: "https://discord.com/invite/ywrEVuT2",
@@ -87,7 +83,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ArGo`,
+      copyright: `© 2021 ArGo • Built on Arweave`,
     },
   },
   presets: [
