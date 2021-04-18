@@ -4,7 +4,7 @@ title: Welcome to ArGo
 sidebar_label: Welcome
 ---
 
-ArGo is an all-in-one platform for automating modern web projects. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow. Integrate dynamic functionality like serverless functions, user authentication, and form handling as your projects grow.
+ArGo is an all-in-one platform for automating modern web projects. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow.
 
 ## Get started
 
@@ -16,15 +16,11 @@ Explore our documentation to learn about ArGo products and features. Here are so
 
 **Configure builds** – ArGo can run your build command and deploy the result whenever you push to your Git repo. Get started with basic build settings, learn about managing build dependencies, and explore additional options available with file-based configuration.
 
-**Site deploys** – Atomic deploys with ArGo guarantee that your site is always consistent. Learn how to manage deploys, enable deploy notifications, and run a branch-based split test.
+**Site deploys** – Atomic deploys with ArGo guarantee that your site is always consistent. Learn how to manage deploys, check logs and build time.
 
 **Domains & HTTPS** – Register a new domain in the ArGo UI, to assign a custom domain to your site.
 
-**Visitor access** – Enable site-wide password protection, authenticate users with ArGo Identity, or configure role-based access control.
-
-**Functions** – Deploy serverless functions built with JavaScript. You can even execute Background Functions for long-running tasks and trigger function calls when certain ArGo events happen.
-
-**Large Media** – Get the benefits of Git version tracking for large files without bloating your repository. Use dynamic image transformations so you can upload images at full resolution, then serve the exact size you need when you need it.
+**Visitor access** – Enable site-wide password protection, authenticate users with ArGo Identity.
 
 **Get help** - Explore self-serve and interactive help resources. Get tips for requesting support by email to help our support engineers help you.
 
@@ -40,5 +36,3 @@ Know us better by connecting with us on below channels -
 - [Github](https://github.com/argoapp-live)
 - [Telegram](https://t.me/argoofficial)
 - [Medium](https://argoapp.medium.com/)
-<!--
-**Custom packages** – Contact our sales team to create a custom package if you need dedicated secondary DNS, custom deployment options for serverless functions, or other custom Enterprise plan features. -->

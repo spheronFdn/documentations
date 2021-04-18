@@ -19,7 +19,7 @@ module.exports = {
         {
           "Custom Domain": [
             "custom-domain",
-            "create-domain",
+            "add-domain",
             "multiple-domains",
           ],
         },

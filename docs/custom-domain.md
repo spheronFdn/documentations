@@ -4,7 +4,7 @@ title: Overview
 sidebar_label: Overview
 ---
 
-Upon deploying a site on Arweave, ArGo will automatically assign a domain name in the following way: https://arweave.net/[TXID]. 
+Upon deploying a site on Arweave, ArGo will automatically assign a domain name in the following way: https://arweave.net/[TXID].
 
 :::tip info
 
@@ -33,6 +33,3 @@ Custom domains allow you to make your sites accessible at your own, non-ArGo dom
 - Primary domain: ArGo term for the main custom domain assigned to a site.
 
 - Domain alias: ArGo term for additional custom domains assigned to a site.
-
-
-

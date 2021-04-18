@@ -4,7 +4,7 @@ title: Multiple Domains
 sidebar_label: Multiple Domains
 ---
 
-In ArGo, all the domains will be pointed to the latest deployed transaction in Arweave.
+<!-- In ArGo, all the domains will be pointed to the latest deployed transaction in Arweave. -->
 
 ## Domain redirects
 
