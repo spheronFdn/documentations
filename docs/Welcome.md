@@ -20,9 +20,7 @@ Explore our documentation to learn about ArGo products and features. Here are so
 
 **Domains & HTTPS** – Register a new domain in the ArGo UI, to assign a custom domain to your site.
 
-**Visitor access** – Enable site-wide password protection, authenticate users with ArGo Identity.
-
-**Get help** - Explore self-serve and interactive help resources. Get tips for requesting support by email to help our support engineers help you.
+**Get help** - Explore self-serve and interactive help resources. Connect directly to our core team through the community channels.
 
 ## We’re here to help
 

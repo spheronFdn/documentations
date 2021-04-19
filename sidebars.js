@@ -8,20 +8,14 @@ module.exports = {
     {
       type: "category",
       label: "Configure Builds",
-      items: [
-        "get-started",
-      ],
+      items: ["get-started"],
     },
     {
       type: "category",
       label: "Domain and HTTPs",
       items: [
         {
-          "Custom Domain": [
-            "custom-domain",
-            "add-domain",
-            "multiple-domains",
-          ],
+          "Custom Domain": ["custom-domain", "add-domain"],
         },
         {
           "HTTPs (SSL)": ["https"],

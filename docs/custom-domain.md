@@ -18,6 +18,10 @@ A domain name is the URL or web address where visitors find your site.
 
 Custom domains allow you to make your sites accessible at your own, non-ArGo domain names (for example, `www.yourcustomdomain.com`). ArGo supports all top-level domains in custom domains.
 
+## Multiple Domains
+
+In ArGo, all the domains will be pointed to the latest deployed transaction in Arweave.
+
 ## Definitions
 
 - Domain name (or domain for short): full name used to access a site. For example, `yoursitename.argo.app` or `www.yourcustomdomain.com`

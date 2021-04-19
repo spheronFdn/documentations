@@ -25,3 +25,5 @@ HTTPS brings a lot of advantages:
 - If the system does not yet have an SSL certificate for this domain, it issues a new SSL certificate from Let's Encrypt. Domain validation is handled for you. After receiving the new certificate (usually within a few seconds), the new certificate is saved, cached, and returned to the client (without dropping the original request).
 
 This uses the ssl_certificate_by_lua functionality in OpenResty 1.9.7.2+.
+
+Check more about OpenResty [here](https://github.com/auto-ssl/lua-resty-auto-ssl).

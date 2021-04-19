@@ -4,9 +4,9 @@ title: Multiple Domains
 sidebar_label: Multiple Domains
 ---
 
-<!-- In ArGo, all the domains will be pointed to the latest deployed transaction in Arweave. -->
+In ArGo, all the domains will be pointed to the latest deployed transaction in Arweave.
 
-## Domain redirects
+<!-- ## Domain redirects
 
 If you have multiple domains assigned to your site, you can redirect visitors between them or add other custom redirect and rewrite rules based on the domain entered into the browser by your visitors.
 
@@ -27,4 +27,4 @@ The primary domain is the custom domain you entered. The other entry is for the 
 
 :::info
 Unless your DNS provider supports CNAME flattening for apex domains, we strongly recommend setting the `www` subdomain (or another subdomain) as your primary domain.
-:::
+::: -->
