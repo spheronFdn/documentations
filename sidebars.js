@@ -1,25 +1,41 @@
 module.exports = {
   docs: [
     {
-      type: 'category',
-      label: 'Home',
+      type: "category",
+      label: "Home",
+      items: ["home"],
+    },
+    {
+      type: "category",
+      label: "Configure Builds",
+      items: ["get-started"],
+    },
+    {
+      type: "category",
+      label: "Domain and HTTPs",
       items: [
-        'Welcome',
-        'getting-started',
-        //'create-a-page',
-        ///'create-a-document',
-        //'create-a-blog-post',
-        //'markdown-features',
-        //'thank-you',
+        {
+          "Custom Domain": ["custom-domain", "add-domain"],
+        },
+        {
+          "HTTPs (SSL)": ["https"],
+        },
       ],
     },
     {
-        type: 'category',
-        label: 'Configure Builds',
-        items: [
-          // 'Get Started',
-          // 'Common Configuration',
-        ],
+      type: "category",
+      label: "Organization",
+      items: ["create-org"],
+    },
+    {
+      type: "category",
+      label: "Billing",
+      items: ["argo-wallet"],
+    },
+    {
+      type: "category",
+      label: "References",
+      items: ["get-help"],
     },
   ],
 };
