@@ -20,7 +20,7 @@ Each new website deployment by ArGo is done atomically, meaning that there will 
 
 ### With Git
 
-<img src={require('@site/static/img/argo-deploy.png').default} />
+<img src={require('@site/static/img/deploy.png').default} />
 
 Simply set the public directory of your project to your GitHub repository and define the build command. ArGo will run the build command and deploy the result whenever you push to your Git repo. The benefits of using continuous deployment include:
 

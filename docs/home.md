@@ -1,5 +1,5 @@
 ---
-id: welcome
+id: home
 title: Welcome to ArGo
 sidebar_label: Welcome
 ---
