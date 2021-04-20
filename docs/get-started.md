@@ -1,8 +1,7 @@
 ---
 id: get-started
 title: Get Started
-# sidebar_label: Welcome
-# slug: /
+sidebar_label: Get Started
 ---
 
 <!-- ## Get started with build configuration -->
@@ -21,7 +20,7 @@ Each new website deployment by ArGo is done atomically, meaning that there will 
 
 ### With Git
 
-<img src={require('@site/static/img/argo-deploy.png').default} />
+<img src={require('@site/static/img/deploy.png').default} />
 
 Simply set the public directory of your project to your GitHub repository and define the build command. ArGo will run the build command and deploy the result whenever you push to your Git repo. The benefits of using continuous deployment include:
 
@@ -31,20 +30,33 @@ Simply set the public directory of your project to your GitHub repository and de
 
 ## Configuring the deployment
 
+### Deploy parameters
+
+ArGo lets you get more control of how you build and deploy your repository
+
+- **Owner**: The organization's name, considered the owner of the deployment. Ex: Your Org's name
+- **Branch to Deploy**: The branch of the repository to be deployed in ArGo. Ex: master branch
+- **Workspace to Deploy**: A Workspace is how your team will keep GitHub Issues organized. You can add any number of GitHub repos into the same Workspace, letting your team benefit from a shared view on all your work
+
 ### Build parameters
 
 ArGo will attempt to autodetect the site's framework and apply the correct build parameters. In some cases, however, you might need to input the parameters manually, either at the initial site deployment stage, or in the site settings after the site has already been deployed.
 
 Below are the build parameters which you can modify.
 
-- **Docker image**: The name of the docker image on docker hub in which your site will be built, defaults to node:slim. ArGo provides images for many popular frameworks, but you can use any that suits your project.
-- **Build command**: The commands to execute to build the site. EG: npm install && npm run build
-- **Publish directory**: The name of the directory containing the index.html file of your site after it has been built
-  Environment variables: The values of your environment variables. It is here for example that you might set your environment as production
+- **Framework**: The framework on which the site is built one. Ex: create-react-app, No Framework - JavaScript, Vue App, etc.
+- **Package Manager**: It helps create project environments and easily import external dependencies. You can choose your package manager here. Ex: npm && yarn
+- **Build command**: The commands to execute to build the site. Ex: npm install && npm run build
+- **Publish directory**: The name of the directory containing the file of your site after it has been built
 
 ## Common frameworks
 
 You will also have to define the correct publish directory, here's list of default configurations for popular frameworks:
 
-| Framework | Docker Image | Build Command | Public Directory | Additional Documentation |
-| --------- | ------------ | ------------- | ---------------- | ------------------------ |
+| Framework    | Package Manager | Build Command                  | Publish Directory    |
+| ------------ | --------------- | ------------------------------ | -------------------- |
+| `JavaScript` | `npm` / `yarn`  | `npm run build` / `yarn build` | `build`              |
+| `React`      | `npm` / `yarn`  | `npm run build` / `yarn build` | `build`              |
+| `Vue`        | `npm` / `yarn`  | `npm run build` / `yarn build` | `dist`               |
+| `Next JS`    | -               | `next build` / `next export`   | `out`                |
+| `Angular`    | `npm`/`yarn`    | `npm run build` / `yarn build` | `dist/your-app-name` |
