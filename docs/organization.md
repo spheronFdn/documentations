@@ -29,4 +29,6 @@ Organizations are associated with individual people by way of members, which are
 
 The Organization page shows you a simple dashboard of all the repositories, users and members that are under this organization.
 
-<img src={require('@site/static/img/org-dashboard.png').default} />
+The Members page shows the members present under the organization.
+
+<img src={require('@site/static/img/members.png').default} />
