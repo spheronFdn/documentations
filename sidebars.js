@@ -15,7 +15,7 @@ module.exports = {
       label: "Domain and HTTPs",
       items: [
         {
-          "Custom Domain": ["custom-domain", "add-domain"],
+          "Custom Domain": ["custom-domain", "attach-domain"],
         },
         {
           "HTTPs (SSL)": ["https"],
@@ -25,7 +25,7 @@ module.exports = {
     {
       type: "category",
       label: "Organization",
-      items: ["create-org"],
+      items: ["organization"],
     },
     {
       type: "category",
