@@ -1,10 +1,11 @@
 ---
-id: add-domain
-title: Add Custom Domain
-sidebar_label: Custom Domain
+id: attach-domain
+title: Attach Domain
+sidebar_label: Attach Domain
+slug: /custom-domain/attach-domain
 ---
 
-### Steps to add a Custom Domain
+### Steps to Attach a Custom Domain
 
 - Go to your Dashboard and select your Project
 - Click on Domain tab and enter the domain you would like to add
@@ -17,7 +18,7 @@ ArGo users just have to attach their domains and add the records only once in th
 
 <img src={require('@site/static/img/domain.png').default} />
 
-## Adding Custom Subdomain
+## Attaching a Custom Subdomain
 
 You can create your Subdomains to organize and navigate to different sections of your Domain.
 

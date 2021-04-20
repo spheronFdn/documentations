@@ -1,6 +1,6 @@
 ---
-id: create-org
-title: Create Organization
+id: organization
+title: Organization
 sidebar_label: Overview
 ---
 

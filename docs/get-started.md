@@ -2,6 +2,7 @@
 id: get-started
 title: Get Started
 sidebar_label: Get Started
+slug: /configure-build
 ---
 
 <!-- ## Get started with build configuration -->

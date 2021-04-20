@@ -1,24 +1,24 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
+  title: "ArGo Docs",
+  tagline: "Decentralised cloud deployment & storage aggregator",
+  url: "https://docs.argoapp.live",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon: "img/logo_light.svg",
+  organizationName: "argoapp-live", // Usually your GitHub org/user name.
+  projectName: "argo-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "ArGo",
+      title: "",
       logo: {
         alt: "ArGo Logo",
-        src: "img/logo_light.svg",
+        src: "img/logo.png",
       },
       items: [
         {
-          to: "docs/home",
+          to: "home",
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
@@ -44,7 +44,11 @@ module.exports = {
           items: [
             {
               label: "Home",
-              to: "docs/",
+              to: "home",
+            },
+            {
+              label: "Website",
+              href: "https://argoapp.live/",
             },
           ],
         },
@@ -94,18 +98,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/argoapp-live/argo-docs",
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      },
+      }
     ],
   ],
 };
