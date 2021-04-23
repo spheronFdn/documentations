@@ -1,33 +1,33 @@
-# Website
+<p align="center">
+  <a href="https://argoapp.live/">
+    <a href="https://imgur.com/J5O9d2O"><img src="https://i.imgur.com/J5O9d2O.png" title="source: imgur.com" alt="ArGo logo (light version)" width="210" /></a>
+  </a>
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+  <h3 align="center">ArGo Doc</h3>
 
-## Installation
+  <p align="center">
+   🛠️ The ArGo Documentation.
+ </p>
+</p>
 
-```console
-yarn install
-```
+## About ArGo
 
-## Local Development
+ArGo is a simple & powerful platform to deploy your frontend app to Arweave Permaweb where your app will live for eternity.
 
-```console
-yarn start
-```
+## Installation for argo-doc development
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+Follow below steps to run ARGO DOC in your local
 
-## Build
+- Clone argo-doc code into your local by using git clone `https://github.com/argoapp-live/argo-docs.git`
+- Once clone do branch checkout to main `git checkout main`
+- Install packages using either yarn or npm from root folder yarn or npm install
+- Run yarn dev or npm dev
+- It will start your server at port specified in .env file Note: you can ping us on discord and we will be happy to share our .env file with you
 
-```console
-yarn build
-```
+## Contributing
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Any contributions are very much welcomed. Feel free to fork and make a PR with any additions (or fixes)!
 
-## Deployment
+## Have questions?
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Reach out to @rekpero#3898 on the ArGo Discord (https://discord.gg/HTMqYAm) or head to the #contributors-forum channel for further discussion!

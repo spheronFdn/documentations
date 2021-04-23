@@ -1,6 +1,7 @@
 ---
 id: https
 title: HTTPS
+slug: /https
 ---
 
 ArGo offers free HTTPS on all sites, including automatic certificate creation and renewal. Our certificates use the modern TLS protocol, which has replaced the now deprecated SSL standard.

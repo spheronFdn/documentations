@@ -2,6 +2,7 @@
 id: home
 title: Welcome to ArGo
 sidebar_label: Welcome
+slug: /home
 ---
 
 ArGo is an all-in-one platform for automating modern web projects. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow.

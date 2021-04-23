@@ -29,6 +29,14 @@ Simply set the public directory of your project to your GitHub repository and de
 - Easy collaboration through pull requests
 - Fix a typo through your Git provider's web UI from your mobile
 
+## Redeploy a deployment
+
+Redeploying a deployment in a project is a very demanded feature from a lot of our users. Earlier, when users had to redeploy a project, they had to do the deployment process from the starting.
+
+Now, ArGo lets user to just redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
+
+<img src={require('@site/static/img/redeploy.png').default} />
+
 ## Configuring the deployment
 
 ### Deploy parameters

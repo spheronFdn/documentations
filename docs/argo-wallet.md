@@ -2,6 +2,7 @@
 id: argo-wallet
 title: ArGo Wallet
 sidebar_label: ArGo Wallet
+slug: /argo-wallet
 ---
 
 ArGo wallet is designed to be a powerful and reliable hub for your deployments. Arweave being our foundation, you can recharge your ArGo Wallet
