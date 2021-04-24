@@ -12,7 +12,7 @@ slug: /custom-domain/attach-domain
 - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to ArGo's **Automated DNS Resolver**, you won't have to change the records after every redeployment
 - From here you will have to confirm that you already own this domain
 
-<img src={require('@site/static/img/auto-dns-resolver.png').default} />
+<img src={require('@site/static/img/custom-domain.png').default} />
 
 ## Attaching a Custom Subdomain
 
