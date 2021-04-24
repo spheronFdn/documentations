@@ -24,6 +24,26 @@ Follow below steps to run ARGO DOC in your local
 - Run yarn dev or npm dev
 - It will start your server at port specified in .env file Note: you can ping us on discord and we will be happy to share our .env file with you
 
+## Docker Installation Instructions
+
+- Fork or Clone this repository
+
+```
+git clone https://github.com/argoapp-live/argo-docs.git
+```
+
+- Docker build -
+
+```
+docker build -t argo-docs .
+```
+
+- Docker run -
+
+```
+docker run -p 3000:3000 argo-docs
+```
+
 ## Contributing
 
 Any contributions are very much welcomed. Feel free to fork and make a PR with any additions (or fixes)!
