@@ -6,7 +6,7 @@
   <h3 align="center">ArGo Doc</h3>
 
   <p align="center">
-   🛠️ The ArGo Documentation.
+   📔 The ArGo Documentation.
  </p>
 </p>
 
