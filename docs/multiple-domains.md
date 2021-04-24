@@ -2,6 +2,7 @@
 id: multiple-domains
 title: Multiple Domains
 sidebar_label: Multiple Domains
+slug: 
 ---
 
 In ArGo, all the domains will be pointed to the latest deployed transaction in Arweave.

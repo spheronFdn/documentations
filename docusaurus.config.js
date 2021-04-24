@@ -34,6 +34,11 @@ module.exports = {
           label: "GitHub",
           position: "right",
         },
+        {
+          href: "https://drive.google.com/file/d/1OUcqwtlavWqCKqKpHA5WOdesuzChLUxB/view",
+          label: "Litepaper",
+          position: "left",
+        },
       ],
     },
     footer: {
@@ -49,6 +54,10 @@ module.exports = {
             {
               label: "Website",
               href: "https://argoapp.live/",
+            },
+            {
+              label: "Litepaper",
+              href: "https://drive.google.com/file/d/1OUcqwtlavWqCKqKpHA5WOdesuzChLUxB/view",
             },
           ],
         },

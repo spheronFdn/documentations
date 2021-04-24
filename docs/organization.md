@@ -2,6 +2,7 @@
 id: organization
 title: Organization
 sidebar_label: Overview
+slug: /organization
 ---
 
 ArGo lets you create one/mutliple Organization accounts. The Organization will contain all their projects imported into it.
