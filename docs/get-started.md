@@ -67,5 +67,5 @@ You will also have to define the correct publish directory, here's list of defau
 | `JavaScript` | `npm` / `yarn`  | `npm run build` / `yarn build` | `build`              |
 | `React`      | `npm` / `yarn`  | `npm run build` / `yarn build` | `build`              |
 | `Vue`        | `npm` / `yarn`  | `npm run build` / `yarn build` | `dist`               |
-| `Next JS`    | -               | `next build` / `next export`   | `out`                |
+| `Next JS`    | -               | `next build && next export`    | `out`                |
 | `Angular`    | `npm`/`yarn`    | `npm run build` / `yarn build` | `dist/your-app-name` |
