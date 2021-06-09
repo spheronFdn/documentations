@@ -34,6 +34,16 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Smart Contracts",
+      items: ["argo-contract-payments", "argo-contract-multiownable"],
+    },
+    {
+      type: "category",
+      label: "SDK",
+      items: ["argo-sdk-getting-started", "argo-sdk-payments"],
+    },
+    {
+      type: "category",
       label: "References",
       items: ["get-help"],
     },
