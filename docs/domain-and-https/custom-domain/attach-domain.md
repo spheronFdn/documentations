@@ -2,7 +2,7 @@
 id: attach-domain
 title: Attach Domain
 sidebar_label: Attach Domain
-slug: /custom-domain/attach-domain
+slug: /domain-and-https/custom-domain/attach-domain
 ---
 
 ### Steps to Attach a Custom Domain
@@ -23,6 +23,14 @@ You can create your Subdomains to organize and navigate to different sections of
 - While attaching Subdomain to a project, attach the records once in your DNS provider and verify it. Thanks to ArGo's **Automated DNS Resolver**, you won't have to change the records after every redeployment
 
 <img src={require('@site/static/img/sub-domain.png').default} />
+
+## Default ArGo Subdomain 
+
+We have added this new feature for providing a default subdomain for every project on our platform. Now every project created in an organization will have an ArGo subdomain attached to it.
+
+The subdomain will be like - ```{subdomain}.argoapp.live```, where `subdomain`- `{project-name}{random 8 digits}`
+
+The default subdomain will always be pointed to the latest deployment that happened in that project. It also provides a better naming convention for sharing your project previews with others.
 
 ## Automated DNS Resolver
 

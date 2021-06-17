@@ -1,8 +1,8 @@
 ---
-id: argo-sdk-getting-started
+id: sdk-getting-started
 title: Getting Started
 sidebar_label: Getting Started
-slug: /argo-sdk
+slug: /sdk/sdk-getting-started
 ---
 
 ## Code

@@ -1,8 +1,8 @@
 ---
-id: argo-sdk-payments
+id: sdk-payments
 title: Payments library
 sidebar_label: Payments Library
-slug: /argo-sdk-payments
+slug: /sdk/argo-sdk-payments
 ---
 
 Argo payments library is a wrapper around Argo payments contract and also provides some misc. supporting functions.

@@ -1,8 +1,8 @@
 ---
-id: argo-contract-multiownable
+id: contract-multiownable
 title: MultiOwnable
 sidebar_label: Multiownable
-slug: /argo-contract-multiownable
+slug: /smart-contracts/multiownable/contract-multiownable
 ---
 
 This contract manages the owner and Managers of the contract.

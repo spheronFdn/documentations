@@ -2,7 +2,7 @@
 id: custom-domain
 title: Overview
 sidebar_label: Overview
-slug: /custom-domain/overview
+slug: /domain-and-https/custom-domain/overview
 ---
 
 Upon deploying a site on Arweave, ArGo will automatically assign a domain name in the following way: https://arweave.net/[TXID].
