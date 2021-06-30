@@ -30,7 +30,7 @@ module.exports = {
           ],
         },
         {
-          "HTTPs (SSL)": ["domain-and-https/https-(ssl)/https"],
+          "HTTPs (SSL)": ["domain-and-https/https-ssl/https"],
         },
       ],
     },

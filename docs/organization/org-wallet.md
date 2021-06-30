@@ -5,7 +5,9 @@ sidebar_label: Wallet
 slug: /organization/org-wallet
 ---
 
-In this release, we introduce our utility token **$ARGO**. To make it easy to onboard for dApp developers, we introduce our ECR20 Native token **$ARGO**.
+In this release, to make it easy to onboard for dApp developers, we introduce stablecoin **$DAI**.
+
+Other stablecoins, such as USDT and USDC will be added in future updates.
 
 - Now, any payment transactions are done using Metamask.
 - We have integrated our Payment Smart Contract that cut fees based on the usage of our computing system and uploading fees on Decentralized Cloud Protocols. Every deployment will show the payments detail and a complete billing overview can be seen in the organization as well. It will help developers to optimize their costing.
@@ -41,12 +43,12 @@ Make sure to switch to Matic Testnet network before connecting.
 
 ## Allowance
 
-Allowance is the allowed amount($ARGO) which can used while deploying. Since the fees required to upload apps are not predetermined, we only cut the fees after the end of the deployment.
-If the organisation does not have enough $ARGO allowance at the start of deployment, the deployment will fail automatically.
+Allowance is the allowed amount($DAI) which can used while deploying. Since the fees required to upload apps are not predetermined, we only cut the fees after the end of the deployment.
+If the organisation does not have enough $DAI allowance at the start of deployment, the deployment will fail automatically.
 
 :::caution Allowance
 
-Make sure your **Allowance** is greater than 20 **$ARGO** to start deploying.
+Make sure your **Allowance** is greater than 2 **$DAI** to start deploying.
 
 :::
 
@@ -64,7 +66,7 @@ Approval transaction is **Gassless** as we use [**Biconomy**](https://biconomy.i
 
 :::info Requirement
 
-To start deploying your application, minimum allowance required is 20 $ARGO and minimum balance required is 20 $ARGO tokens.
+To start deploying your application, minimum allowance required is 2 $DAI and minimum balance required is 2 $DAI tokens.
 
 :::
 

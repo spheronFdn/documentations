@@ -14,7 +14,7 @@ The final payment fee will directly be deducted from your wallet, provided your 
 
 - **Provider Fee** - Fee required to upload the deployment to arweave.
 
-- **Total Fee** - The total fee is cut in **$ARGO** tokens. It includes
+- **Total Fee** - The total fee is cut in **$DAI** tokens. It includes
 
   1. Provider fee
   2. Platform fee to build and deploy your app according to our smart contract.
@@ -24,4 +24,4 @@ The final payment fee will directly be deducted from your wallet, provided your 
 
 - **Final Payment** - Final payment includes the total fee minus the discount given for the build.
 
-<img src={require('@site/static/img/deployment-payment-summary.png').default} />
+<img src={require('@site/static/img/deploy-payment-summary.png').default} />

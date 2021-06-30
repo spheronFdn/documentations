@@ -9,6 +9,16 @@ slug: /configure-build/deploy
 
 Each new website deployment by ArGo is done atomically, meaning that there will never be any inconsistencies when pushing new files or making changes to existing ones.
 
+:::caution info
+
+There are some issues with Arweave URL that may restrict normal routers.
+
+Thus it is better to use a hash router instead of a browser router.
+
+If using a normal router, please use our custom domain to ensure 404 error does not pop up.
+
+:::
+
 ## Creating a Deployment
 
 ### With Git

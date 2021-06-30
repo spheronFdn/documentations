@@ -27,7 +27,7 @@ ArGo can help game developers with the cheap and reliable storage for tons of da
 
 ### Wiki Sites
 
-As time goes on, a lot of wiki links are getting broken. These sites can be hosted on ArGo so that they can live permanently without a need for recurring payments
+As time goes on, a lot of wiki links are getting broken. These sites can be hosted on ArGo so that they can live permanently without a need for recurring payments.
 
 ### Institutions
 
