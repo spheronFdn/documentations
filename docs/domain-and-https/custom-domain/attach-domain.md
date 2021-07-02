@@ -2,7 +2,7 @@
 id: attach-domain
 title: Attach Domain
 sidebar_label: Attach Domain
-slug: /custom-domain/attach-domain
+slug: /domain-and-https/custom-domain/attach-domain
 ---
 
 ### Steps to Attach a Custom Domain
@@ -24,11 +24,21 @@ You can create your Subdomains to organize and navigate to different sections of
 
 <img src={require('@site/static/img/sub-domain.png').default} />
 
+## Default ArGo Subdomain 
+
+We have added this new feature for providing a default subdomain for every project on our platform. Now every project created in an organization will have an ArGo subdomain attached to it.
+
+The subdomain will be like - ```{subdomain}.argoapp.live```, where `subdomain`- `{project-name}{random 8 digits}`
+
+The default subdomain will always be pointed to the latest deployment that happened in that project. It also provides a better naming convention for sharing your project previews with others.
+
 ## Automated DNS Resolver
 
 Earlier, when users attached their domain to a project, they had to add some records to their DNS provider. So, when users redeployed the project again, they had to again change these records which will point to a new deployment which is a great overhead for the users.
 
 Now, ArGo users just have to attach their domains and add the records only once in their DNS provider. Upon successful verification, once the user redeploys any site, their domain will automatically point to the latest deployment or the user can opt for the domain to point a particular deployment.
+
+To use this feature, when adding your domain to a project, you have to select the `latest` option. Choosing this option will link the latest deployed to the domain name and whenever there is any new deployment, it will be linked to the domain name.
 
 ## Verifying the Custom Domain
 

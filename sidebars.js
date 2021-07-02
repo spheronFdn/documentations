@@ -3,39 +3,69 @@ module.exports = {
     {
       type: "category",
       label: "Home",
-      items: ["home"],
+      items: ["home/welcome"],
+    },
+    {
+      type: "category",
+      label: "Architecture",
+      items: ["architecture/arch-overview", "architecture/arch-use-cases"],
     },
     {
       type: "category",
       label: "Configure Builds",
-      items: ["get-started"],
+      items: [
+        "configure-build/deploy-get-started",
+        "configure-build/deploy",
+        "configure-build/deploy-payment",
+      ],
     },
     {
       type: "category",
       label: "Domain and HTTPs",
       items: [
         {
-          "Custom Domain": ["custom-domain", "attach-domain"],
+          "Custom Domain": [
+            "domain-and-https/custom-domain/custom-domain",
+            "domain-and-https/custom-domain/attach-domain",
+          ],
         },
         {
-          "HTTPs (SSL)": ["https"],
+          "HTTPs (SSL)": ["domain-and-https/https-ssl/https"],
         },
       ],
     },
     {
       type: "category",
-      label: "Organization",
-      items: ["organization"],
+      label: "Organisation",
+      items: [
+        "organization/org",
+        "organization/org-wallet",
+        "organization/org-payments",
+      ],
+    },
+    // {
+    //   type: "category",
+    //   label: "Billing",
+    //   items: ["argo-wallet"],
+    // },
+    {
+      type: "category",
+      label: "Smart Contracts",
+      items: [
+        "smart-contracts/payments/contract-payments",
+        "smart-contracts/multiownable/contract-multiownable",
+      ],
     },
     {
       type: "category",
-      label: "Billing",
-      items: ["argo-wallet"],
+      label: "SDK",
+      items: ["sdk/sdk-getting-started", "sdk/sdk-payments"],
     },
+
     {
       type: "category",
       label: "References",
-      items: ["get-help"],
+      items: ["references/get-help"],
     },
   ],
 };

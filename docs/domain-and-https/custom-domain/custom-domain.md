@@ -2,7 +2,7 @@
 id: custom-domain
 title: Overview
 sidebar_label: Overview
-slug: /custom-domain/overview
+slug: /domain-and-https/custom-domain/overview
 ---
 
 Upon deploying a site on Arweave, ArGo will automatically assign a domain name in the following way: https://arweave.net/[TXID].
@@ -10,6 +10,12 @@ Upon deploying a site on Arweave, ArGo will automatically assign a domain name i
 :::tip info
 
 Custom Domains allows user to access their site via one or more non-ArGo domain names. By default, the site is always accessible via arweave gateway based on transaction id.
+
+:::
+
+:::caution info
+
+Custom Domains use our domain resolver to serve deployed links. As it is a beta version and our system is not stable to handle a lot of traffic, we would like to inform you that if you are using it for the production app, please keep in mind that it may break due to unexpected heavy traffic. We are currently working on it to stabilize the system and we will inform everyone about it.
 
 :::
 
@@ -21,7 +27,7 @@ Custom domains allow you to make your sites accessible at your own, non-ArGo dom
 
 ## Multiple Domains
 
-In ArGo, all the domains will be pointed to the latest deployed transaction in Arweave.
+All the domains which selected the latest option when setting it up on the ArGo platform will point to the latest deployed transaction in Arweave. Otherwise, users can point to a single deployment and the domain site won't change with any new deployment.
 
 ## Definitions
 

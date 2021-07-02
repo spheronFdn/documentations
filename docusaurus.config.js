@@ -18,7 +18,7 @@ module.exports = {
       },
       items: [
         {
-          to: "home",
+          to: "/home/welcome",
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
@@ -27,7 +27,7 @@ module.exports = {
           to: "blog",
           label: "Blog",
           position: "left",
-          href: "https://argoapp.live/blogs",
+          href: "https://argoapp.medium.com/",
         },
         {
           href: "https://github.com/argoapp-live",
@@ -35,7 +35,7 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://drive.google.com/file/d/1OUcqwtlavWqCKqKpHA5WOdesuzChLUxB/view",
+          href: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
           label: "Litepaper",
           position: "left",
         },
@@ -49,7 +49,7 @@ module.exports = {
           items: [
             {
               label: "Home",
-              to: "home",
+              to: "home/welcome",
             },
             {
               label: "Website",
@@ -96,7 +96,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `© 2021 ArGo • Built on Arweave`,
+      copyright: `© 2021 ArGo • Built on Decentralized Cloud Protocols`,
     },
   },
   presets: [

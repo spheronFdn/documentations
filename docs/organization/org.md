@@ -1,8 +1,8 @@
 ---
-id: organization
+id: org
 title: Organization
 sidebar_label: Overview
-slug: /organization
+slug: /organization/org
 ---
 
 ArGo lets you create one/mutliple Organization accounts. The Organization will contain all their projects imported into it.
@@ -33,3 +33,11 @@ The Organization page shows you a simple dashboard of all the repositories, user
 The Members page shows the members present under the organization.
 
 <img src={require('@site/static/img/members.png').default} />
+
+## Settings
+
+You can update your **Organization Username** and **Display/Team** name.
+
+**Avatar** can also be updated in the settings tab.
+
+<img src={require('@site/static/img/org-settings.png').default} />
