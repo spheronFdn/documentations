@@ -66,7 +66,7 @@ Approval transaction is **Gassless** as we use [**Biconomy**](https://biconomy.i
 
 :::info Requirement
 
-To start deploying your application, minimum allowance required is 2 $DAI and minimum balance required is 2 $DAI tokens.
+To start deploying your application, minimum allowance required is 20 $DAI and minimum balance required is 20 $DAI tokens.
 
 :::
 

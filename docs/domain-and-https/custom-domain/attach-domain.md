@@ -38,6 +38,8 @@ Earlier, when users attached their domain to a project, they had to add some rec
 
 Now, ArGo users just have to attach their domains and add the records only once in their DNS provider. Upon successful verification, once the user redeploys any site, their domain will automatically point to the latest deployment or the user can opt for the domain to point a particular deployment.
 
+To use this feature, when adding your domain to a project, you have to select the `latest` option. Choosing this option will link the latest deployed to the domain name and whenever there is any new deployment, it will be linked to the domain name.
+
 ## Verifying the Custom Domain
 
 The domain must be verified before it is linked to the site. After adding the domain, add the records shown in the domain item and click on verify. This will check the configuration in the DNS provider. We then must wait for the domain to be propagated before clicking on Verify DNS configuration.
