@@ -96,7 +96,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `© 2021 ArGo • Built on Arweave`,
+      copyright: `© 2021 ArGo • Built on Decentralized Cloud Protocols`,
     },
   },
   presets: [
