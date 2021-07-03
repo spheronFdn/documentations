@@ -5,11 +5,13 @@ sidebar_label: Welcome
 slug: /home/welcome
 ---
 
-ArGo is an all-in-one platform for automating modern web projects. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow.
+ArGo is an all-in-one decentralize platform for automating modern web projects. Replace your hosting infrastructure, continuous integration, deployment pipeline with a single workflow and simplify your deployment process on decentralized cloud protocol.
 
 ## Get started
 
 To get started with ArGo, learn how to create deploys. Options for creating deploys range from connecting a Git repository for continuous deployment to publishing a site folder with drag and drop. Use the Deploy to ArGo button on our Jamstack templates to create a Git repository linked to a ArGo site that you can experiment with.
+
+<iframe src="https://player.vimeo.com/video/570252743" width="100%" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ## Discover ArGo
 
