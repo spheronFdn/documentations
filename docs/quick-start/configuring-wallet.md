@@ -1,17 +1,21 @@
 ---
-id: enable-wallet
-title: Enable Wallet
-sidebar_label: Enable Wallet
-slug: /quick-start/enable-wallet
+id: configuring-wallet
+title: Configuring Wallet
+sidebar_label: Configuring Wallet
+slug: /quick-start/configuring-wallet
 ---
+
+## 1. Enable Wallet
 
 ### Part 1. Install Metamask
 
 MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows you to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications. 
 
-Go to [MetaMask.io](http://metamask.io/) and **Chrome** for desktop. You can also go directly to the Chrome store.
+Go to [MetaMask.io](http://metamask.io/) and download **Chrome** for desktop. You can also go directly to the Chrome store.
 
-You can visit [here](https://www.youtube.com/watch?v=ZIGUC9JAAw8) to learn how to use MetaMask in your browser.
+Check out below video to learn how to use MetaMask in your browser.
+
+<iframe src="https://www.youtube.com/embed/ZIGUC9JAAw8" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 :::danger Matic Testnet
 
@@ -31,23 +35,21 @@ Please visit ArGo [**Faucet**](https://faucet.argoapp.live/) to get 80 test $DAI
 
 ### Part 2. Connect Wallet
 
-- Go to **Wallet** tab in your organisation
-- Click **Connect** to connect your wallet
+**Step 1.** Go to **Wallet** tab in your organisation
+
+**Step 2.** Click **Connect** to connect your wallet
 
 <img src={require('@site/static/img/org-select-wallet.png').default} />
 
-- Select Metamask Wallet and click **Save** to save the wallet for the organisation
+**Step 3.** Select Metamask Wallet and click **Save** to save the wallet for the organisation
 
 <img src={require('@site/static/img/org-save-wallet.png').default} />
 
-- Your wallet is now ready. Happy Deploying!
+Your wallet is now ready. **Happy Deploying!**
 
 <img src={require('@site/static/img/org-wallet.png').default} />
 
-## 2. Allowance
-
-Allowance is the allowed amount($DAI) which can used while deploying. Since the fees required to upload apps are not predetermined, we only cut the fees after the end of the deployment.
-If the organisation does not have enough $DAI allowance at the start of deployment, the deployment will fail automatically.
+## 2. Set Allowance
 
 :::caution Allowance
 
@@ -55,17 +57,15 @@ Make sure your **Allowance** is greater than 20 **$DAI** to start deploying.
 
 :::
 
-### Set Allowance
-
 Allowance can only be set by the owner of the wallet.
 
 Approval transaction is **Gassless** as we use [**Biconomy**](https://biconomy.io/) for it. Thus there is no need to hold $MATIC tokens for approval.
 
-- Click on **Set Allowance**
+**Step 1.** Click on **Set Allowance**
 
 <img src={require('@site/static/img/org-wallet-increase-allowance.png').default} />
 
-- Provide the Approval Amount and **Approve**.
+**Step 2.** Provide the Approval Amount and **Approve**.
 
 :::info Requirement
 
@@ -75,8 +75,8 @@ To start deploying your application, minimum allowance required is 20 $DAI and m
 
 <img src={require('@site/static/img/org-wallet-increase-allowance-approval.png').default} />
 
-- **SIGN** the Signature Request raised in Metamask
+**Step 3.** **SIGN** the Signature Request raised in Metamask
 
 <img src={require('@site/static/img/org-wallet-increase-allowance-approval-sign.png').default} />
 
-- Allowance is set upon successful transaction in Metamask
+**Step 4.** Allowance is set upon successful transaction in Metamask

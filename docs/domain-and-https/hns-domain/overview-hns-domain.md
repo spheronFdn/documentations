@@ -11,9 +11,17 @@ In essence, Handshake takes a core piece of internet infrastructure, DNS's root 
 
 ## Why Handshake?
 
-Handshake is a naming protocol that’s backwards compatible with the existing DNS system. It does not replace the DNS protocol, but instead expands the root zone file where TLD(Top Level Domain) ownership information is stored by adding a distributed and decentralized blockchain-based system that no one controls and anyone can use. This allows for a root zone that is uncensorable, permissionless, and free of gatekeepers.
+1. **Owned, not rented** - Own your name instead of renting domains or relying on the whims of big platforms. You control your name and can do whatever you want with it.
 
-Every peer in the Handshake network cryptographically validates and manages the root zone, which completely removes the need for the Certificate Authority system (CAs). Names are logged on the Handshake blockchain, which is essentially one big distributed zone file to which anyone can add an entry.
+2. **Free second-level names** - Give your team decentralized usernames like satoshi.acme, vitalik.acme, or set up decentralized websites for your projects like bitcoin.nakamoto, bitdns.nakamoto.
+
+3. **Sovereign identity** - Control your own identity and create redirects for your online presence like facebook.yourname, twitter.yourname, github.yourname.
+
+4. **Secure** - Handshake makes it possible to login to websites securely without third parties.
+
+5. **Private** - Use Namebase’s private bidding feature to register names and deploy websites anonymously.
+
+6. **Monetize your name** - Sell second-level names to others or flip your name in our marketplace for a profit.
 
 ## Applications
 

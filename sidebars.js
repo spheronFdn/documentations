@@ -28,7 +28,7 @@ module.exports = {
         {
           "Handshake Domain": [
             "domain-and-https/hns-domain/overview-hns-domain",
-            "domain-and-https/hns-domain/attach-domain",
+            "domain-and-https/hns-domain/hns-attach-domain",
           ],
         },
         {
@@ -49,7 +49,7 @@ module.exports = {
       type: "category",
       label: "Quick Start",      
       collapsed: false,
-      items: ["quick-start/enable-wallet", "quick-start/quick-deploy", "quick-start/configure-domain", "quick-start/create-org"],
+      items: ["quick-start/configuring-wallet", "quick-start/quick-deploy", "quick-start/configure-domain", "quick-start/create-org"],
     },
     {
       type: "category",

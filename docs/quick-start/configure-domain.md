@@ -7,13 +7,15 @@ slug: /quick-start/configure-domain
 
 ## Steps to Attach a Centralized Domain
 
-**Step 1** - Go to your Dashboard and select your Project
+**Step 1** - Go to your Dashboard and select your Project.
 
-**Step 2** - Click on Domain tab and enter the domain you would like to add
+**Step 2** - Click on Domain tab and enter the domain you would like to add.
 
-**Step 3** - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to ArGo's **Automated DNS Resolver**, you won't have to      change the records after every redeployment
+**Step 3** - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to ArGo's **Automated DNS Resolver**, you won't have to change the records after every redeployment.
 
-**Step 4** - From here you will have to confirm that you already own this domain
+**Step 4** - From here you will have to confirm that you already own this domain.
+
+**Step 5** - The domain must be verified before it is linked to the site. After adding the domain, add the records shown in the domain item and click on verify. This will check the configuration in the DNS provider. We then must wait for the domain to be propagated before clicking on Verify DNS configuration.
 
 <img src={require('@site/static/img/custom-domain.png').default} />
 
@@ -21,21 +23,13 @@ slug: /quick-start/configure-domain
 
 You can create your Subdomains to organize and navigate to different sections of your Domain.
 
-**Step 1** - Go to your Dashboard and select your Project
+**Step 1** - Go to your Dashboard and select your Project.
 
-**Step 2** - Click on Subdomains tab and enter the Subdomain you would like to add
+**Step 2** - Click on Subdomains tab and enter the Subdomain you would like to add.
 
-**Step 3** - While attaching Subdomain to a project, attach the records once in your DNS provider and verify it. Thanks to ArGo's **Automated DNS Resolver**, you won't have to change the records after every redeployment
+**Step 3** - While attaching Subdomain to a project, attach the records once in your DNS provider and verify it. Thanks to ArGo's **Automated DNS Resolver**, you won't have to change the records after every redeployment.
 
 <img src={require('@site/static/img/sub-domain.png').default} />
-
-## Verifying Centralized Domain
-
-The domain must be verified before it is linked to the site. After adding the domain, add the records shown in the domain item and click on verify. This will check the configuration in the DNS provider. We then must wait for the domain to be propagated before clicking on Verify DNS configuration.
-
-To verify that the DNS is indeed propagated before clicking on the button, you can use a tool such as https://dnschecker.org/
-
-If the verify dns was successfull, then verify button will not be shown anymore.
 
 # HNS Domain
 
@@ -59,9 +53,15 @@ Once major browsers start supporting the DANE/TLSA certificate, we will move it 
 
 **Step 2** - Click on `HNS Domain` tab and enter the domain you would like to add
 
-**Step 3** - While attaching domain to a project, attach the records once in [namebase.io](https://www.namebase.io/) and verify it.
+**Step 3** - Click on `Update` to update your handshake domain records. You will be redirected to [namebase.io](https://www.namebase.io/), and upon successful confirmation, your records will be updated.
 
-**Step 4** - From here you will have to confirm that you already own this domain
+**Step 4** - You can verify if the update is done or not by clicking `Verify`. We will verify the records for you.
+
+:::note
+
+Updating your domain name or content will always show you to `Update` record, as it changes the content hash.
+
+:::
 
 <img src={require('@site/static/img/hns-domain.png').default} />
 
@@ -73,6 +73,8 @@ You can create your Subdomains to organize and navigate to different sections of
 
 **Step 2** - Click on `HNS Subdomains` tab and enter the Subdomain you would like to add
 
-**Step 3** - While attaching domain to a project, attach the records once in [namebase.io](https://www.namebase.io/) and verify it.
+**Step 3** - Click on `Update` to update your handshake domain records. You will be redirected to [namebase.io](https://www.namebase.io/), and upon successful confirmation, your records will be updated.
+
+**Step 4** - You can verify if the update is done or not by clicking `Verify`. We will verify the records for you.
 
 <img src={require('@site/static/img/hns-subdomain.png').default} />

@@ -53,7 +53,7 @@ Currently, we support **Arweave** and **Skynet** protocols. We are working on ad
 
 <img src={require('@site/static/img/deploy-pick-protocol.png').default} />
 
-### Part 3. Pick your Build options
+### Part 3. Configure your Build options
 
 Get control of the build settings for your site based on the framework of your app.
 

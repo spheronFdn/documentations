@@ -34,6 +34,18 @@ The Members page shows the members present under the organization.
 
 <img src={require('@site/static/img/members.png').default} />
 
+### Invite Members
+
+**Step 1.** Click on `Add Members` and put the *email id* of the member to be added to the organization.
+
+**Step 2.** The member will receive an invitation mail from ArGo. *Please check your Spam folder if you did not receive mail from ArGo*
+
+<img src={require('@site/static/img/invite-members.png').default} />
+
+**Step 3.** On clicking `Accept Invite`, you will be redirected to the GitHub login page.
+
+Upon successful login, you will be added as a member of the organization and your profile will be visible under Organization Members.
+
 ## Settings
 
 You can update your **Organization Username** and **Display/Team** name.

@@ -1,8 +1,8 @@
 ---
-id: attach-domain
+id: hns-attach-domain
 title: Attach Domain
 sidebar_label: Attach Domain
-slug: /domain-and-https/hns-domain/attach-domain
+slug: /domain-and-https/hns-domain/hns-attach-domain
 ---
 
 [Handshake](https://handshake.org/) and ArGo both support [Arweave](https://www.arweave.org/) and [Skynet](https://siasky.net/), thus it is possible to connect the Handshake domain with Skynet as well as the Arweave site.
@@ -25,9 +25,15 @@ Once major browsers start supporting the DANE/TLSA certificate, we will move it 
 
 **Step 2** - Click on `HNS Domain` tab and enter the domain you would like to add
 
-**Step 3** - While attaching domain to a project, attach the records once in [namebase.io](https://www.namebase.io/) and verify it.
+**Step 3** - Click on `Update` to update your handshake domain records. You will be redirected to [namebase.io](https://www.namebase.io/), and upon successful confirmation, your records will be updated.
 
-**Step 4** - From here you will have to confirm that you already own this domain
+**Step 4** - You can verify if the update is done or not by clicking `Verify`. We will verify the records for you.
+
+:::note
+
+Updating your domain name or content will always show you to `Update` record, as it changes the content hash.
+
+:::
 
 <img src={require('@site/static/img/hns-domain.png').default} />
 
@@ -39,6 +45,8 @@ You can create your Subdomains to organize and navigate to different sections of
 
 **Step 2** - Click on `HNS Subdomains` tab and enter the Subdomain you would like to add
 
-**Step 3** - While attaching domain to a project, attach the records once in [namebase.io](https://www.namebase.io/) and verify it.
+**Step 3** - Click on `Update` to update your handshake domain records. You will be redirected to [namebase.io](https://www.namebase.io/), and upon successful confirmation, your records will be updated.
+
+**Step 4** - You can verify if the update is done or not by clicking `Verify`. We will verify the records for you.
 
 <img src={require('@site/static/img/hns-subdomain.png').default} />

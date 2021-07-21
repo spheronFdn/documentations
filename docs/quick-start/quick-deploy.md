@@ -5,7 +5,9 @@ sidebar_label: Create a Deployment
 slug: /quick-start/quick-deploy
 ---
 
-Select **Deploy** on the homepage and go through the following steps for a successful deployment. 
+Select **Deploy** on the homepage and go through the following steps for a successful deployment.
+
+<img src={require('@site/static/img/dashboard.png').default} />
 
 ### Part 1. Pick a Repository
 
@@ -37,7 +39,7 @@ Currently, we support **Arweave** and **Skynet** protocols. We are working on ad
 
 <img src={require('@site/static/img/deploy-pick-protocol.png').default} />
 
-### Part 3. Pick your Build options
+### Part 3. Configure your Build options
 
 Get control of the build settings for your site based on the framework of your app.
 
@@ -67,10 +69,8 @@ Currently ArGo charges its platform fee with respect to the **Build Time** of th
 
 <img src={require('@site/static/img/deploy-success.png').default} />
 
-## 2. Redeploy a deployment
+:::info
 
-Redeploying a deployment in a project is a very demanded feature from a lot of our users. Earlier, when users had to redeploy a project, they had to do the deployment process from the starting.
+ArGo lets user to redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
 
-Now, ArGo lets user to just redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
-
-<img src={require('@site/static/img/deploy-redeploy.png').default} />
+:::
