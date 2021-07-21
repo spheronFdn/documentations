@@ -1,8 +1,8 @@
 ---
 id: welcome
-title: Welcome to ArGo
-sidebar_label: Welcome
-slug: /home/welcome
+title: Intro to ArGo
+sidebar_label: Intro to ArGo
+slug: welcome
 ---
 
 ArGo is an all-in-one decentralize platform for automating modern web projects. Replace your hosting infrastructure, continuous integration, deployment pipeline with a single workflow and simplify your deployment process on decentralized cloud protocol.

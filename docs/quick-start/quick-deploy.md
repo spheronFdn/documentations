@@ -1,25 +1,9 @@
 ---
-id: deploy
-title: Site Deployment
-sidebar_label: Deploy
-slug: /configure-build/deploy
+id: quick-deploy
+title: Create a Deployment 
+sidebar_label: Create a Deployment
+slug: /quick-start/quick-deploy
 ---
-
-<!-- ## Site Deployment -->
-
-Each new website deployment by ArGo is done atomically, meaning that there will never be any inconsistencies when pushing new files or making changes to existing ones.
-
-:::caution info
-
-There are some issues with Arweave URL that may restrict normal routers.
-
-Thus it is better to use a hash router instead of a browser router.
-
-If using a normal router, please use our custom domain to ensure 404 error does not pop up.
-
-:::
-
-## 1. Creating a Deployment
 
 Select **Deploy** on the homepage and go through the following steps for a successful deployment. 
 
@@ -57,7 +41,7 @@ Currently, we support **Arweave** and **Skynet** protocols. We are working on ad
 
 Get control of the build settings for your site based on the framework of your app.
 
-Click [here](deploy-get-started.md/#configuring-the-deployment) to know more about the build settings required by ArGo for your framework.
+Click [here](../configure-build/deploy-get-started.md/#configuring-the-deployment) to know more about the build settings required by ArGo for your framework.
 
 <img src={require('@site/static/img/deploy-build-options.png').default} />
 

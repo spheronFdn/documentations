@@ -1,10 +1,6 @@
 module.exports = {
   docs: [
-    {
-      type: "category",
-      label: "Home",
-      items: ["home/welcome"],
-    },
+    "welcome",    
     {
       type: "category",
       label: "Architecture",
@@ -24,9 +20,15 @@ module.exports = {
       label: "Domain and HTTPs",
       items: [
         {
-          "Custom Domain": [
-            "domain-and-https/custom-domain/custom-domain",
+          "Centralized Domain": [
+            "domain-and-https/custom-domain/overview-custom-domain",
             "domain-and-https/custom-domain/attach-domain",
+          ],
+        },
+        {
+          "Handshake Domain": [
+            "domain-and-https/hns-domain/overview-hns-domain",
+            "domain-and-https/hns-domain/attach-domain",
           ],
         },
         {
@@ -43,11 +45,12 @@ module.exports = {
         "organization/org-payments",
       ],
     },
-    // {
-    //   type: "category",
-    //   label: "Billing",
-    //   items: ["argo-wallet"],
-    // },
+    {
+      type: "category",
+      label: "Quick Start",      
+      collapsed: false,
+      items: ["quick-start/enable-wallet", "quick-start/quick-deploy", "quick-start/configure-domain", "quick-start/create-org"],
+    },
     {
       type: "category",
       label: "Smart Contracts",
@@ -61,11 +64,6 @@ module.exports = {
       label: "SDK",
       items: ["sdk/sdk-getting-started", "sdk/sdk-payments"],
     },
-
-    {
-      type: "category",
-      label: "References",
-      items: ["references/get-help"],
-    },
+    "get-help",
   ],
 };

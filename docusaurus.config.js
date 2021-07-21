@@ -10,6 +10,7 @@ module.exports = {
   organizationName: "argoapp-live", // Usually your GitHub org/user name.
   projectName: "argo-docs", // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
     navbar: {
       title: "",
       logo: {
@@ -18,7 +19,7 @@ module.exports = {
       },
       items: [
         {
-          to: "/home/welcome",
+          to: "welcome",
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
@@ -49,7 +50,7 @@ module.exports = {
           items: [
             {
               label: "Home",
-              to: "home/welcome",
+              to: "welcome",
             },
             {
               label: "Website",
@@ -57,7 +58,7 @@ module.exports = {
             },
             {
               label: "Litepaper",
-              href: "https://drive.google.com/file/d/1OUcqwtlavWqCKqKpHA5WOdesuzChLUxB/view",
+              href: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
             },
           ],
         },
@@ -87,7 +88,7 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              href: "https://argoapp.live/blogs",
+              href: "https://argoapp.medium.com/",
             },
             {
               label: "GitHub",
