@@ -9,6 +9,12 @@ slug: /domain-and-https/hns-domain/overview-hns-domain
 
 In essence, Handshake takes a core piece of internet infrastructure, DNS's root zone file, and puts it on a blockchain. At a high level, Handshake is just decentralized DNS, but solving the [CA problem](https://www.namebase.io/blog/meet-handshake-decentralizing-dns-to-improve-the-security-of-the-internet/) and making it possible to self-custody, use, and transfer names permissionlessly in a publicly-verifiable way opens up exciting applications for developers that weren't feasible before Handshake. 
 
+:::info Note
+
+We are using [Namebase](https://www.namebase.io/) to interact with Handshake Domains and provide users an easy way to configure it for their decentralized websites. Namebase is an NFT name registrar that operates on the Handshake blockchain. Namebase makes it easy to get your own NFT username on Handshake. You can use your Handshake name for secure login, decentralized websites, and decentralized top-level domain names.
+
+:::
+
 ## Why Handshake?
 
 1. **Owned, not rented** - Own your name instead of renting domains or relying on the whims of big platforms. You control your name and can do whatever you want with it.

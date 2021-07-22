@@ -21,6 +21,12 @@ You will be redirected to the GitHub authorization page.
 
 <img src={require('@site/static/img/deploy-github-install.png').default} />
 
+:::info Note
+
+During this process, you can selectively choose some repositories that you want to give write access to ArGo Github App. 
+
+:::
+
 After successful installation of your GitHub account, you will be automatically redirected to ArGo, where you can see the repositories present in your account.
 
 <font size="4"> <b>Step 3.</b> Pick the repository you want to deploy. </font> <br/><br/>

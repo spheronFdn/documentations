@@ -5,7 +5,7 @@ sidebar_label: Configuring Wallet
 slug: /quick-start/configuring-wallet
 ---
 
-## 1. Enable Wallet
+## 1. Enabling your Organization Wallet
 
 ### Part 1. Install Metamask
 
@@ -37,11 +37,11 @@ Please visit ArGo [**Faucet**](https://faucet.argoapp.live/) to get 80 test $DAI
 
 <font size="4"> <b>Step 1.</b> Go to <b>Wallet</b> tab in your organisation. </font> <br/><br/>
 
-<font size="4"> <b>Step 2.</b> Click <b>Connect</b> to connect your wallet. </font> <br/><br/>
+<font size="4"> <b>Step 2.</b> Click <b>Connect</b> to connect your wallet. We currently support all the wallet mentioned in the screenshot below</font> <br/><br/>
 
 <img src={require('@site/static/img/org-select-wallet.png').default} />
 
-<font size="4"> <b>Step 3.</b> Select Metamask Wallet and click <b>Save</b> to save the wallet for the organisation. </font> <br/><br/>
+<font size="4"> <b>Step 3.</b> Select you favorite Wallet and click <b>Save</b> to save the wallet for the organisation. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-save-wallet.png').default} />
 

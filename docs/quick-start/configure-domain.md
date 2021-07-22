@@ -57,7 +57,7 @@ Once major browsers start supporting the DANE/TLSA certificate, we will move it 
 
 <font size="4"> <b>Step 4</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
 
-:::note
+:::info
 
 Updating your domain name or content will always show you to `Update` record, as it changes the content hash.
 

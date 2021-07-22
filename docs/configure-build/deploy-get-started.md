@@ -21,7 +21,7 @@ ArGo lets you get more control of how you build and deploy your repository
 
 ### Build parameters
 
-ArGo will attempt to autodetect the site's framework and apply the correct build parameters. In some cases, however, you might need to input the parameters manually, either at the initial site deployment stage, or in the site settings after the site has already been deployed.
+ArGo doesn't have autodetect framework feature at this moment, so you have to manually enter the site's framework and apply the correct build parameters for your framework. You need to input the parameters manually, either at the initial site deployment stage, or in the site settings after the site has already been deployed.
 
 Below are the build parameters which you can modify.
 
@@ -29,6 +29,28 @@ Below are the build parameters which you can modify.
 - **Package Manager**: It helps create project environments and easily import external dependencies. You can choose your package manager here. Ex: npm && yarn
 - **Build command**: The commands to execute to build the site. Ex: npm install && npm run build
 - **Publish directory**: The name of the directory containing the file of your site after it has been built
+
+### Advanced Build Settings
+
+Advanced Build Settings currently consists of Build Environment Variables. ArGo environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys.
+
+You can access the environment variables by following these 2 steps:
+
+- In **Create a new site > Step 3: Build Options, and deploy! > Advanced Build Settings**
+
+- In **Project settings > Environment variables.**
+
+:::info Note
+
+Adding Environment Variables during new deployment won't work if project already exists, you have to add environment variables by going to your **Project Settings -> Environment Variables**
+
+:::
+
+:::caution Deploy to apply changes
+
+Environment variable changes are applied at deploy time and require a re-deploy to take effect.
+
+:::
 
 ## Common frameworks
 

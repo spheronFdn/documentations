@@ -23,6 +23,8 @@ If using a normal router, please use our custom domain to ensure 404 error does 
 
 Select **Deploy** on the homepage and go through the following steps for a successful deployment.
 
+<img src={require('@site/static/img/dashboard.png').default} />
+
 ### Part 1. Pick a Repository
 
 <font size="4"> <b>Step 1.</b> Click on <code>GitHub</code> to connect your account with ArGo. </font> <br/><br/>
