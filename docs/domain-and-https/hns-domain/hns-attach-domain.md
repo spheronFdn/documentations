@@ -21,13 +21,13 @@ Once major browsers start supporting the DANE/TLSA certificate, we will move it 
 
 ## Steps to Attach a Domain
 
-**Step 1** - Go to your Dashboard and select your Project
+<font size="4"> <b>Step 1</b> - Go to your Dashboard and select your Project. </font> <br/><br/>
 
-**Step 2** - Click on `HNS Domain` tab and enter the domain you would like to add
+<font size="4"> <b>Step 2</b> - Click on <code>HNS Domain</code> tab and enter the domain you would like to add. </font> <br/><br/>
 
-**Step 3** - Click on `Update` to update your handshake domain records. You will be redirected to [namebase.io](https://www.namebase.io/), and upon successful confirmation, your records will be updated.
+<font size="4"> <b>Step 3</b> - Click on <code>Update</code> to update your handshake domain records. You will be redirected to <b>namebase.io</b>, and upon successful confirmation, your records will be updated. </font> <br/><br/>
 
-**Step 4** - You can verify if the update is done or not by clicking `Verify`. We will verify the records for you.
+<font size="4"> <b>Step 4</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
 
 :::note
 
@@ -41,12 +41,12 @@ Updating your domain name or content will always show you to `Update` record, as
 
 You can create your Subdomains to organize and navigate to different sections of your Domain.
 
-**Step 1** - Go to your Dashboard and select your Project
+<font size="4"> <b>Step 1</b> - Go to your Dashboard and select your Project. </font> <br/><br/>
 
-**Step 2** - Click on `HNS Subdomains` tab and enter the Subdomain you would like to add
+<font size="4"> <b>Step 2</b> - Click on <code>HNS Subdomains</code> tab and enter the Subdomain you would like to add. </font> <br/><br/>
 
-**Step 3** - Click on `Update` to update your handshake domain records. You will be redirected to [namebase.io](https://www.namebase.io/), and upon successful confirmation, your records will be updated.
+<font size="4"> <b>Step 3</b> - Click on <code>Update</code> to update your handshake domain records. You will be redirected to <b>namebase.io</b>, and upon successful confirmation, your records will be updated. </font> <br/><br/>
 
-**Step 4** - You can verify if the update is done or not by clicking `Verify`. We will verify the records for you.
+<font size="4"> <b>Step 4</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
 
 <img src={require('@site/static/img/hns-subdomain.png').default} />

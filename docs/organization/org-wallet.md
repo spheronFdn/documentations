@@ -24,7 +24,7 @@ Please visit ArGo [**Faucet**](https://faucet.argoapp.live/) to get 80 test $DAI
 
 ### Part 1. Install Metamask
 
-MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows you to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications. 
+MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows you to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.
 
 Go to [MetaMask.io](http://metamask.io/) and download **Chrome** for desktop. You can also go directly to the Chrome store.
 
@@ -48,13 +48,13 @@ Please check out our demo [video](https://vimeo.com/570252743) which demonstrate
 
 ### Part 2. Connect Wallet
 
-**Step 1.** Go to **Wallet** tab in your organisation
+<font size="4"> <b>Step 1.</b> Go to <b>Wallet</b> tab in your organisation. </font> <br/><br/>
 
-**Step 2.** Click **Connect** to connect your wallet
+<font size="4"> <b>Step 2.</b> Click <b>Connect</b> to connect your wallet. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-select-wallet.png').default} />
 
-**Step 3.** Select Metamask Wallet and click **Save** to save the wallet for the organisation
+<font size="4"> <b>Step 3.</b> Select Metamask Wallet and click <b>Save</b> to save the wallet for the organisation. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-save-wallet.png').default} />
 
@@ -79,11 +79,11 @@ Allowance can only be set by the owner of the wallet.
 
 Approval transaction is **Gassless** as we use [**Biconomy**](https://biconomy.io/) for it. Thus there is no need to hold $MATIC tokens for approval.
 
-**Step 1.** Click on **Set Allowance**
+<font size="4"> <b>Step 1.</b> Click on <b>Set Allowance</b>. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-wallet-increase-allowance.png').default} />
 
-**Step 2.** Provide the Approval Amount and **Approve**.
+<font size="4"> <b>Step 2.</b> Provide the Approval Amount and <b>Approve</b>. </font> <br/><br/>
 
 :::info Requirement
 
@@ -93,18 +93,18 @@ To start deploying your application, minimum allowance required is 20 $DAI and m
 
 <img src={require('@site/static/img/org-wallet-increase-allowance-approval.png').default} />
 
-**Step 3.** **SIGN** the Signature Request raised in Metamask
+<font size="4"> <b>Step 3.</b> <b>SIGN</b> the Signature Request raised in Metamask. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-wallet-increase-allowance-approval-sign.png').default} />
 
-**Step 4.** Allowance is set upon successful transaction in Metamask
+<font size="4"> <b>Step 4.</b> Allowance is set upon successful transaction in Metamask. </font> <br/><br/>
 
 ## 3. Remove Wallet
 
 Only owner of the wallet can remove the saved wallet from the organization.
 
-**Step 1.** Click on **Remove Wallet** in the **Wallet** tab
+<font size="4"> <b>Step 1.</b> Click on <b>Remove Wallet</b> in the <b>Wallet</b> tab. </font> <br/><br/>
 
-**Step 2.** **Sign** the signature request in the Metamask notification
+<font size="4"> <b>Step 2.</b> <b>Sign</b> the signature request in the Metamask notification. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-remove-wallet.png').default} />

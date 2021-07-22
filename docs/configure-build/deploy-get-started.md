@@ -36,7 +36,7 @@ You will also have to define the correct publish directory, here's list of defau
 
 | Framework                                                     | Package Manager | Build Command                                  | Publish Directory          |
 | ------------------------------------------------------------- | --------------- | ---------------------------------------------- | -------------------------- |
-| JavaScript                                                    | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
+| Static                                                        | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
 | [React](https://reactjs.org/)                                 | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
 | [Create Eth App](https://github.com/paulrberg/create-eth-app) | `npm` / `yarn`  | `npm react-app:start` / `yarn react-app:start` | `packages/react-app/build` |
 | [Vue](https://vuejs.org/)                                     | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `dist`                     |

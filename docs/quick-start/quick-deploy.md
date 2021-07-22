@@ -11,19 +11,19 @@ Select **Deploy** on the homepage and go through the following steps for a succe
 
 ### Part 1. Pick a Repository
 
-**Step 1.** Click on `GitHub` to connect your account with ArGo.
+<font size="4"> <b>Step 1.</b> Click on <code>GitHub</code> to connect your account with ArGo. </font> <br/><br/>
 
 <img src={require('@site/static/img/deploy-choose-repo.png').default} />
 
 You will be redirected to the GitHub authorization page.
 
-**Step 2.** Click `Install & Authorize` to authorize ArGo to access your repositories.
- 
+<font size="4"> <b>Step 2.</b> Click <code>Install & Authorize</code> to authorize ArGo to access your repositories. </font> <br/><br/>
+
 <img src={require('@site/static/img/deploy-github-install.png').default} />
 
 After successful installation of your GitHub account, you will be automatically redirected to ArGo, where you can see the repositories present in your account.
 
-**Step 3.** Pick the repository you want to deploy.
+<font size="4"> <b>Step 3.</b> Pick the repository you want to deploy. </font> <br/><br/>
 
 <img src={require('@site/static/img/deploy-github-repo.png').default} />
 

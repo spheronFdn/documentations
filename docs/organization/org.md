@@ -10,11 +10,11 @@ These accounts represent a group of people with shared ownership of projects, an
 
 ## Steps to Create Organization
 
-1. First go to the organization popup and click on `Create a Organization`
+<font size="4"> <b>Step 1.</b> First go to the organization popup and click on <code>Create a Organization</code> </font> <br/><br/>
 
 <img src={require('@site/static/img/org-popup.png').default} />
 
-2. You’ll need to name your organization and provide an username. Then you can invite other users to be part of the organization if you want to.
+<font size="4"> <b>Step 2.</b> You’ll need to name your organization and provide an username. Then you can invite other users to be part of the organization if you want to. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-create.png').default} />
 
@@ -36,13 +36,13 @@ The Members page shows the members present under the organization.
 
 ### Invite Members
 
-**Step 1.** Click on `Add Members` and put the *email id* of the member to be added to the organization.
+<font size="4"> <b>Step 1.</b> Click on <b>Add Members</b> and put the <b>email id</b> of the member to be added to the organization. </font> <br/><br/>
 
-**Step 2.** The member will receive an invitation mail from ArGo. *Please check your Spam folder if you did not receive mail from ArGo*
+<font size="4"> <b>Step 2.</b> The member will receive an invitation mail from ArGo. <i>Please check your Spam folder if you did not receive mail from ArGo.</i> </font> <br/><br/>
 
 <img src={require('@site/static/img/invite-members.png').default} />
 
-**Step 3.** On clicking `Accept Invite`, you will be redirected to the GitHub login page.
+<font size="4"> <b>Step 3.</b> On clicking <code>Accept Invite</code>, you will be redirected to the GitHub login page. </font> <br/><br/>
 
 Upon successful login, you will be added as a member of the organization and your profile will be visible under Organization Members.
 

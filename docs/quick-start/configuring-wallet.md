@@ -35,13 +35,13 @@ Please visit ArGo [**Faucet**](https://faucet.argoapp.live/) to get 80 test $DAI
 
 ### Part 2. Connect Wallet
 
-**Step 1.** Go to **Wallet** tab in your organisation
+<font size="4"> <b>Step 1.</b> Go to <b>Wallet</b> tab in your organisation. </font> <br/><br/>
 
-**Step 2.** Click **Connect** to connect your wallet
+<font size="4"> <b>Step 2.</b> Click <b>Connect</b> to connect your wallet. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-select-wallet.png').default} />
 
-**Step 3.** Select Metamask Wallet and click **Save** to save the wallet for the organisation
+<font size="4"> <b>Step 3.</b> Select Metamask Wallet and click <b>Save</b> to save the wallet for the organisation. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-save-wallet.png').default} />
 
@@ -61,11 +61,11 @@ Allowance can only be set by the owner of the wallet.
 
 Approval transaction is **Gassless** as we use [**Biconomy**](https://biconomy.io/) for it. Thus there is no need to hold $MATIC tokens for approval.
 
-**Step 1.** Click on **Set Allowance**
+<font size="4"> <b>Step 1.</b> Click on <b>Set Allowance</b>. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-wallet-increase-allowance.png').default} />
 
-**Step 2.** Provide the Approval Amount and **Approve**.
+<font size="4"> <b>Step 2.</b> Provide the Approval Amount and <b>Approve</b>. </font> <br/><br/>
 
 :::info Requirement
 
@@ -75,8 +75,8 @@ To start deploying your application, minimum allowance required is 20 $DAI and m
 
 <img src={require('@site/static/img/org-wallet-increase-allowance-approval.png').default} />
 
-**Step 3.** **SIGN** the Signature Request raised in Metamask
+<font size="4"> <b>Step 3.</b> <b>SIGN</b> the Signature Request raised in Metamask. </font> <br/><br/>
 
 <img src={require('@site/static/img/org-wallet-increase-allowance-approval-sign.png').default} />
 
-**Step 4.** Allowance is set upon successful transaction in Metamask
+<font size="4"> <b>Step 4.</b> Allowance is set upon successful transaction in Metamask. </font> <br/><br/>
