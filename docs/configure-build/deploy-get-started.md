@@ -34,10 +34,11 @@ Below are the build parameters which you can modify.
 
 You will also have to define the correct publish directory, here's list of default configurations for popular frameworks:
 
-| Framework    | Package Manager | Build Command                  | Publish Directory    |
-| ------------ | --------------- | ------------------------------ | -------------------- |
-| `JavaScript` | `npm` / `yarn`  | `npm run build` / `yarn build` | `build`              |
-| `React`      | `npm` / `yarn`  | `npm run build` / `yarn build` | `build`              |
-| `Vue`        | `npm` / `yarn`  | `npm run build` / `yarn build` | `dist`               |
-| `Next JS`    | -               | `next build && next export`    | `out`                |
-| `Angular`    | `npm`/`yarn`    | `npm run build` / `yarn build` | `dist/your-app-name` |
+| Framework                                                     | Package Manager | Build Command                                  | Publish Directory          |
+| ------------------------------------------------------------- | --------------- | ---------------------------------------------- | -------------------------- |
+| Static                                                        | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
+| [React](https://reactjs.org/)                                 | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
+| [Create Eth App](https://github.com/paulrberg/create-eth-app) | `npm` / `yarn`  | `npm react-app:start` / `yarn react-app:start` | `packages/react-app/build` |
+| [Vue](https://vuejs.org/)                                     | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `dist`                     |
+| [Next JS](https://nextjs.org/)                                | -               | `next build && next export`                    | `out`                      |
+| [Angular](https://angular.io/)                                | `npm`/`yarn`    | `npm run build` / `yarn build`                 | `dist/your-app-name`       |

@@ -3,6 +3,6 @@ import {Redirect} from '@docusaurus/router';
 
 export default function Home() {
   return (
-    <Redirect to="home/welcome" />
+    <Redirect to="welcome" />
   );
 }
