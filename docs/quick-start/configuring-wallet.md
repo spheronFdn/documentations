@@ -9,7 +9,7 @@ slug: /quick-start/configuring-wallet
 
 ### Part 1. Install Metamask
 
-MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows you to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications. 
+MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows you to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.
 
 Go to [MetaMask.io](http://metamask.io/) and download **Chrome** for desktop. You can also go directly to the Chrome store.
 

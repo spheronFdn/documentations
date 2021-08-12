@@ -6,6 +6,7 @@ slug: /architecture/arch-overview
 ---
 
 ArGo is working toward bringing more usability layers on top of existing **Decentralised Cloud Protocols**.
+
 <p>To give users the ability to choose between multiple blockchain protocols, we have come up with a different approach.</p>
 <p>There are 3 different layers of components interacting with each other to bring more decentralization and usability into the system. </p>
 
@@ -21,13 +22,16 @@ These 3 layers are -
 
 The first main component is the Platform that interacts with our APIs. The platform handles the app logic, version control, automation, and GitHub-related logic. The platform provides users a lot of useful tools & features that are essential for dApp development life cycles. Users get the same experience they get from centralized deployment services like Netlify, Vercel, etc. Some of the useful features that help increase productivity for dApp developers are -
 
-### 1.1 Organizations & Projects 
+### 1.1 Organizations & Projects
+
 ArGo provides an intuitive way of managing deployments. The experience is very similar to the GitHub workflow. Users can create multiple organizations for maintaining their development workflow. Users can also invite their teams to the organization and can collaborate on projects and deployments. Projects are the repository in GitHub and whenever there is any deployment on that repository, it will show under the mapped project. This provides the user a better way to maintain their deployment version.
 
-### 1.2 Continuous Deployment 
+### 1.2 Continuous Deployment
+
 ArGo can connect with repositories in GitHub and automatically detect changes and trigger automated deployments based on the project configuration.
 
-### 1.3 Domains 
+### 1.3 Domains
+
 ArGo platform users can add both centralized & decentralized domains for their project. ArGo also provides an automated domain resolver
 that mitigates the overhead of developers for resolving the latest deployment. This is an important feature for developers as most of the decentralized cloud protocols provide the deployed URL in hashes which is not human readable.
 
@@ -42,4 +46,4 @@ The **Foundation** is completely open to any developer who want to build their a
 
 ## 3. Billing
 
-To solve the complexity of holding multiple wallets and tokens, we came up with a unified currency for deploying anything on any protocols. For payment, users need to hold $DAI tokens in **Matic Mainnet**. Before any deployment, users need to approve a certain amount of $DAI tokens to our Payment Smart Contract. After every deployment, we cut small fees for building their web app and deploy it on the blockchain. ArGo calculates the fees required based on the build time and uploading fee of blockchain in their native tokens. We convert the cumulative amount to $DAI based on the current market price and cut it using our payment smart contracts. The rate for build time is stored in our smart contract for better transparency and can only be changed by governance and updated through proposals. We have  iscounts for every payment which can only be available to developers who have staked some tokens in our Staking Pool.
+To solve the complexity of holding multiple wallets and tokens, we came up with a unified currency for deploying anything on any protocols. For payment, users need to hold $DAI tokens in **Matic Mainnet**. Before any deployment, users need to approve a certain amount of $DAI tokens to our Payment Smart Contract. After every deployment, we cut small fees for building their web app and deploy it on the blockchain. ArGo calculates the fees required based on the build time and uploading fee of blockchain in their native tokens. We convert the cumulative amount to $DAI based on the current market price and cut it using our payment smart contracts. The rate for build time is stored in our smart contract for better transparency and can only be changed by governance and updated through proposals. We have iscounts for every payment which can only be available to developers who have staked some tokens in our Staking Pool.
