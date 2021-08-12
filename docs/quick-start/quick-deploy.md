@@ -23,7 +23,7 @@ You will be redirected to the GitHub authorization page.
 
 :::info Note
 
-During this process, you can selectively choose some repositories that you want to give write access to ArGo Github App. 
+During this process, you can selectively choose some repositories that you want to give write access to ArGo Github App.
 
 :::
 
