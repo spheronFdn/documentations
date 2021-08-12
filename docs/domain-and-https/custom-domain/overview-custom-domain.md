@@ -43,11 +43,11 @@ All the domains which selected the latest option when setting it up on the ArGo 
 
 - Domain alias: ArGo term for additional custom domains assigned to a site.
 
-## Default ArGo Subdomain 
+## Default ArGo Subdomain
 
 We have added this new feature for providing a default subdomain for every project on our platform. Now every project created in an organization will have an ArGo subdomain attached to it.
 
-The subdomain will be like - ```{subdomain}.argoapp.live```, where `subdomain`- `{project-name}{random 8 digits}`
+The subdomain will be like - `{subdomain}.argoapp.live`, where `subdomain`- `{project-name}{random 8 digits}`
 
 The default subdomain will always be pointed to the latest deployment that happened in that project. It also provides a better naming convention for sharing your project previews with others.
 
@@ -58,4 +58,3 @@ Earlier, when users attached their domain to a project, they had to add some rec
 Now, ArGo users just have to attach their domains and add the records only once in their DNS provider. Upon successful verification, once the user redeploys any site, their domain will automatically point to the latest deployment or the user can opt for the domain to point a particular deployment.
 
 To use this feature, when adding your domain to a project, you have to select the `latest` option. Choosing this option will link the latest deployed to the domain name and whenever there is any new deployment, it will be linked to the domain name.
-

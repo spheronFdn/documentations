@@ -16,10 +16,9 @@ HTTPS brings a lot of advantages:
 
 - Referral analytics: HTTPS-enabled sites will not send referral data to sites without HTTPS enabled.
 
-
 ## OpenResty
 
- OpenResty plugin automatically and transparently issues SSL certificates from Let's Encrypt (a free certificate authority) as requests are received. It works like:
+OpenResty plugin automatically and transparently issues SSL certificates from Let's Encrypt (a free certificate authority) as requests are received. It works like:
 
 - A SSL request for a SNI hostname is received.
 - If the system already has a SSL certificate for that domain, it is immediately returned (with OCSP stapling).

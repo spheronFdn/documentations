@@ -1,6 +1,6 @@
 ---
 id: quick-deploy
-title: Create a Deployment 
+title: Create a Deployment
 sidebar_label: Create a Deployment
 slug: /quick-start/quick-deploy
 ---
