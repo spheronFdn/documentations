@@ -92,3 +92,11 @@ Redeploying a deployment in a project is a very demanded feature from a lot of o
 Now, ArGo lets user to just redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
 
 <img src={require('@site/static/img/deploy-redeploy.png').default} />
+
+## 3. Screenshot of deployment
+
+With our v2.2 release, users can now view the screenshot of their website, once their website is deployed.
+
+<img src={require('@site/static/img/screenshot.png').default} />
+
+The screenshots are uploaded on Arweave, thus they are immutable and part of the permaweb.

@@ -1,6 +1,6 @@
 module.exports = {
   docs: [
-    "welcome",    
+    "welcome",
     {
       type: "category",
       label: "Architecture",
@@ -12,6 +12,7 @@ module.exports = {
       items: [
         "configure-build/deploy-get-started",
         "configure-build/deploy",
+        "configure-build/continuous-deployment",
         "configure-build/deploy-payment",
       ],
     },
@@ -47,10 +48,17 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Quick Start",      
+      label: "Quick Start",
       collapsed: false,
-      items: ["quick-start/configuring-wallet", "quick-start/quick-deploy", "quick-start/configure-domain", "quick-start/create-org"],
+      items: [
+        "quick-start/configuring-wallet",
+        "quick-start/quick-deploy",
+        "quick-start/configure-domain",
+        "quick-start/create-org",
+      ],
     },
+    "argo-staking/argo-staking",
+
     {
       type: "category",
       label: "Smart Contracts",
@@ -64,6 +72,7 @@ module.exports = {
       label: "SDK",
       items: ["sdk/sdk-getting-started", "sdk/sdk-payments"],
     },
+    "faqs",
     "get-help",
   ],
 };
