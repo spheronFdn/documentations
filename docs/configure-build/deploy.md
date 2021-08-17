@@ -59,17 +59,9 @@ Currently, we support **Arweave** and **Skynet** protocols. We are working on ad
 
 Get control of the build settings for your site based on the framework of your app.
 
-Click [here](deploy-get-started.md/#configuring-the-deployment) to know more about the build settings required by ArGo for your framework.
+Click [here](configure-build/deploy-get-started.md/#configuring-the-deployment) to know more about the build settings required by ArGo for your framework.
 
 <img src={require('@site/static/img/deploy-build-options.png').default} />
-
-<!-- #### Continuous Deployment
-
-Simply set the public directory of your project to your GitHub repository and define the build command. ArGo will run the build command and deploy the result whenever you push to your Git repo. The benefits of using continuous deployment include:
-
-- No deploying without committing and pushing first
-- Easy collaboration through pull requests
-- Fix a typo through your Git provider's web UI from your mobile -->
 
 ### Part 4. Deploy
 
@@ -92,3 +84,10 @@ Redeploying a deployment in a project is a very demanded feature from a lot of o
 Now, ArGo lets user to just redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
 
 <img src={require('@site/static/img/deploy-redeploy.png').default} />
+
+## 3. Screenshot of deployment
+
+With our **V2.2 Release**, users can now view the screenshot of their website, once their website is deployed successfully.
+The screenshots are uploaded on Arweave, thus just like your website they are immutable and part of the permaweb.
+
+<img src={require('@site/static/img/screenshot.png').default} />
