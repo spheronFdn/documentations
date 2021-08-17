@@ -77,7 +77,7 @@ jobs:
             --cache-control "max-age=86400"
 
 workflows:
-  react-deploy:
+  docs-deploy:
     jobs:
       - formatting
       - build-deploy:
