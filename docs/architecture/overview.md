@@ -1,8 +1,8 @@
 ---
-id: arch-overview
+id: overview
 title: Overview
 sidebar_label: Overview
-slug: /architecture/arch-overview
+slug: /architecture/overview
 ---
 
 ArGo is working toward bringing more usability layers on top of existing **Decentralised Cloud Protocols**.

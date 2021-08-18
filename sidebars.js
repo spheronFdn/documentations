@@ -4,16 +4,16 @@ module.exports = {
     {
       type: "category",
       label: "Architecture",
-      items: ["architecture/arch-overview", "architecture/arch-use-cases"],
+      items: ["architecture/overview", "architecture/use-cases"],
     },
     {
       type: "category",
       label: "Configure Builds",
       items: [
-        "configure-build/deploy-get-started",
+        "configure-build/get-started",
         "configure-build/deploy",
         "configure-build/continuous-deployment",
-        "configure-build/deploy-payment",
+        "configure-build/payment",
       ],
     },
     {
@@ -22,13 +22,13 @@ module.exports = {
       items: [
         {
           "Centralized Domain": [
-            "domain-and-https/custom-domain/overview-custom-domain",
-            "domain-and-https/custom-domain/attach-domain",
+            "domain-and-https/centralized-domain/overview-custom-domain",
+            "domain-and-https/centralized-domain/attach-domain",
           ],
         },
         {
           "Handshake Domain": [
-            "domain-and-https/hns-domain/overview-hns-domain",
+            "domain-and-https/hns-domain/hns-overview",
             "domain-and-https/hns-domain/hns-attach-domain",
           ],
         },
@@ -57,14 +57,14 @@ module.exports = {
         "quick-start/create-org",
       ],
     },
-    "argo-staking/argo-staking",
+    "argo-staking",
 
     {
       type: "category",
       label: "Smart Contracts",
       items: [
-        "smart-contracts/payments/contract-payments",
-        "smart-contracts/multiownable/contract-multiownable",
+        "smart-contracts/payments",
+        "smart-contracts/multiownable",
       ],
     },
     {

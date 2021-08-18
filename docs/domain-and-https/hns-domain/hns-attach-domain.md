@@ -2,7 +2,7 @@
 id: hns-attach-domain
 title: Attach Domain
 sidebar_label: Attach Domain
-slug: /domain-and-https/hns-domain/hns-attach-domain
+slug: /domain-and-https/hns-domain/attach-domain
 ---
 
 [Handshake](https://handshake.org/) and ArGo both support [Arweave](https://www.arweave.org/) and [Skynet](https://siasky.net/), thus it is possible to connect the Handshake domain with Skynet as well as the Arweave site.

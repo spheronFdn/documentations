@@ -1,8 +1,8 @@
 ---
-id: deploy-payment
+id: payment
 title: Payment
 sidebar_label: Payment
-slug: /configure-build/deploy-payment
+slug: /configure-build/payment
 ---
 
 All details of payment corresponding to your deployment are shown in the Payment Summary.

@@ -1,8 +1,8 @@
 ---
-id: arch-use-cases
+id: use-cases
 title: System Use Cases
 sidebar_label: Use Cases
-slug: /architecture/arch-use-cases
+slug: /architecture/use-cases
 ---
 
 Here are some ArGo use cases, which can illustrate the possible adoption of ArGo. We are going to publish a separate article on Medium that will be specifically dedicated to this topic.

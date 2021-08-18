@@ -2,7 +2,7 @@
 id: argo-staking
 title: ArGo Staking
 sidebar_label: ArGo Staking
-slug: /argo-staking/argo-staking
+slug: argo-staking
 ---
 
 :::tip Guide

@@ -1,8 +1,8 @@
 ---
-id: deploy-get-started
+id: get-started
 title: Get Started
 sidebar_label: Get Started
-slug: /configure-build/deploy-configure-build
+slug: /configure-build/get-started
 ---
 
 ArGo lets you link a GitHub repository to a site for continuous deployment. Each time you push to your Git provider, ArGo runs a build with your tool of choice and deploys the result to our powerful CDN.
