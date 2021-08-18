@@ -1,8 +1,8 @@
 ---
-id: contract-payments
+id: payments
 title: Payments
 sidebar_label: Payments
-slug: /smart-contracts/payments/contract-payments
+slug: /smart-contracts/payments
 ---
 
 There are three `actors` in this contract that will perform various actions on the contract.

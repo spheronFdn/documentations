@@ -2,7 +2,7 @@
 id: overview-custom-domain
 title: Overview
 sidebar_label: Overview
-slug: /domain-and-https/custom-domain/overview-custom-domain
+slug: /domain-and-https/centralized-domain/overview
 ---
 
 :::tip info

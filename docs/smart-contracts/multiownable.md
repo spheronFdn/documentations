@@ -1,8 +1,8 @@
 ---
-id: contract-multiownable
+id: multiownable
 title: MultiOwnable
 sidebar_label: Multiownable
-slug: /smart-contracts/multiownable/contract-multiownable
+slug: /smart-contracts/multiownable
 ---
 
 This contract manages the owner and Managers of the contract.

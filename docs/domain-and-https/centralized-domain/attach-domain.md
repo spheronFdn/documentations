@@ -2,7 +2,7 @@
 id: attach-domain
 title: Attach Domain
 sidebar_label: Attach Domain
-slug: /domain-and-https/custom-domain/attach-domain
+slug: /domain-and-https/centralized-domain/attach-domain
 ---
 
 ## Steps to Attach a Domain

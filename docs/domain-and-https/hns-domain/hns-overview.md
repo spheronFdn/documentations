@@ -1,8 +1,8 @@
 ---
-id: overview-hns-domain
+id: hns-overview
 title: Overview
 sidebar_label: Overview
-slug: /domain-and-https/hns-domain/overview-hns-domain
+slug: /domain-and-https/hns-domain/overview
 ---
 
 **Handshake** is a decentralized, permissionless naming protocol where every peer is validating and in charge of managing the root DNS naming zone with the goal of creating an alternative to existing Certificate Authorities and naming systems.
