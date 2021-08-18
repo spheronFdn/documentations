@@ -59,7 +59,7 @@ Currently, we support **Arweave** and **Skynet** protocols. We are working on ad
 
 Get control of the build settings for your site based on the framework of your app.
 
-Click [here](configure-build/deploy-get-started.md/#configuring-the-deployment) to know more about the build settings required by ArGo for your framework.
+Click [here](configure-build/get-started.md/#configuring-the-deployment) to know more about the build settings required by ArGo for your framework.
 
 <img src={require('@site/static/img/deploy-build-options.png').default} />
 
