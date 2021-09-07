@@ -2,7 +2,7 @@
 module.exports = {
   title: "ArGo Docs",
   tagline: "Decentralised cloud deployment & storage aggregator",
-  url: "https://docs.argoapp.live",
+  url: "https://docs.argoapp.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -54,7 +54,7 @@ module.exports = {
             },
             {
               label: "Website",
-              href: "https://argoapp.live/",
+              href: "https://argoapp.net/",
             },
             {
               label: "Litepaper",

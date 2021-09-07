@@ -31,7 +31,7 @@ Please check out our demo [video](https://vimeo.com/570252743) which demonstrate
 
 :::
 
-Please visit ArGo [**Faucet**](https://faucet.argoapp.live/) to get 80 test $DAI tokens in your wallet.
+Please visit ArGo [**Faucet**](https://faucet.argoapp.net/) to get 80 test $DAI tokens in your wallet.
 
 ### Part 2. Connect Wallet
 

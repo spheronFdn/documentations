@@ -27,7 +27,7 @@ Explore our documentation to learn about ArGo products and features. Here are so
 
 ## We’re here to help
 
-**FAQ** - Visit the [FAQ](https://argoapp.live/faqs-argo/) section to get a more clearer picture of who we are and how we work!
+**FAQ** - Visit the [FAQ](https://argoapp.net/faqs-argo/) section to get a more clearer picture of who we are and how we work!
 
 **Forums** – Visit the ArGo [Discord Channel](https://discord.gg/5p4XqrNhVB) to discuss ideas and questions with ArGo staff and your fellow ArGo users.
 Know us better by connecting with us on below channels -
