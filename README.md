@@ -1,20 +1,20 @@
 [![CircleCI](https://circleci.com/gh/argoapp-live/argo-docs/tree/main.svg?style=shield)](https://circleci.com/gh/argoapp-live/argo-docs/tree/main)
 
 <p align="center">
-  <a href="https://argoapp.net/">
+  <a href="https://spheron.network/">
     <a href="https://imgur.com/J5O9d2O"><img src="https://i.imgur.com/J5O9d2O.png" title="source: imgur.com" alt="ArGo logo (light version)" width="210" /></a>
   </a>
 
-  <h3 align="center">ArGo Doc</h3>
+  <h3 align="center">Spheron Doc</h3>
 
   <p align="center">
-   📔 The ArGo Documentation.
+   📔 The Spheron Documentation.
  </p>
 </p>
 
-## About ArGo
+## About Spheron Protocol
 
-ArGo is a simple & powerful platform to deploy your frontend app to Arweave Permaweb where your app will live for eternity.
+Spheron Protocol is a simple & powerful platform to deploy your frontend app to Arweave Permaweb where your app will live for eternity.
 
 ## Installation for argo-doc development
 

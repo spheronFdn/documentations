@@ -1,12 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "ArGo Docs",
-  tagline: "Decentralised cloud deployment & storage aggregator",
-  url: "https://docs.argoapp.net",
+  title: "Spheron Protocol Docs",
+  tagline: "Build. Deploy. Decentralize.",
+  url: "https://docs.spheron.network",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/logo_light.svg",
+  favicon: "img/favicon.ico",
   organizationName: "argoapp-live", // Usually your GitHub org/user name.
   projectName: "argo-docs", // Usually your repo name.
   themeConfig: {
@@ -14,8 +14,8 @@ module.exports = {
     navbar: {
       title: "",
       logo: {
-        alt: "ArGo Logo",
-        src: "img/logo.png",
+        alt: "Spheron Logo",
+        src: "img/favicon.ico",
       },
       items: [
         {
@@ -28,7 +28,7 @@ module.exports = {
           to: "blog",
           label: "Blog",
           position: "left",
-          href: "https://argoapp.medium.com/",
+          href: "https://spheron.medium.com/",
         },
         {
           href: "https://github.com/argoapp-live",
@@ -54,7 +54,7 @@ module.exports = {
             },
             {
               label: "Website",
-              href: "https://argoapp.net/",
+              href: "https://spheron.network/",
             },
             {
               label: "Litepaper",
@@ -71,11 +71,11 @@ module.exports = {
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/argoapplive",
+              href: "https://twitter.com/spheronHQ",
             },
             {
               label: "Medium",
-              href: "https://argoapp.medium.com/",
+              href: "https://spheron.medium.com/",
             },
             {
               label: "Telegram",
@@ -88,7 +88,7 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              href: "https://argoapp.medium.com/",
+              href: "https://spheron.medium.com/",
             },
             {
               label: "GitHub",
@@ -97,7 +97,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `© 2021 ArGo • Built on Decentralized Cloud Protocols`,
+      copyright: `© 2021 Spheron Protocol • Built on Decentralized Cloud Protocols`,
     },
   },
   presets: [

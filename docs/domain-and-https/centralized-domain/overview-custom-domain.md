@@ -47,7 +47,7 @@ All the domains which selected the latest option when setting it up on the ArGo 
 
 We have added this new feature for providing a default subdomain for every project on our platform. Now every project created in an organization will have an ArGo subdomain attached to it.
 
-The subdomain will be like - `{subdomain}.argoapp.net`, where `subdomain`- `{project-name}{random 8 digits}`
+The subdomain will be like - `{subdomain}.argoapp.io`, where `subdomain` is `{project-name}{random 8 digits}`
 
 The default subdomain will always be pointed to the latest deployment that happened in that project. It also provides a better naming convention for sharing your project previews with others.
 
