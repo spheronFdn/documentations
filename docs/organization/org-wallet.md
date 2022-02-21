@@ -18,7 +18,7 @@ To start any deployments in an **organisation** in our platform, users need to f
 
 Since the computation time and fees required to upload the app are not predetermined, we only cut fees after the end of deployment. Our smart contract takes care of cutting fees with build time and upload fees. All the payments are done in the Polygon chain (previously Matic), which has higher TPS and lesser fees.
 
-Please visit ArGo [**Faucet**](https://faucet.spheron.network/) to get 80 test $DAI tokens in your wallet.
+Please visit Spheron [**Faucet**](https://faucet.spheron.network/) to get 80 test $DAI tokens in your wallet.
 
 ## 1. Enabling Wallet
 

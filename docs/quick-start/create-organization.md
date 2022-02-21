@@ -5,7 +5,7 @@ sidebar_label: Create Organisation
 slug: /quick-start/create-org
 ---
 
-ArGo lets you create one/mutliple Organization accounts. The Organization will contain all their projects imported into it.
+Spheron Protocol lets you create one/multiple Organization accounts. The Organization will contain all their projects imported into it.
 These accounts represent a group of people with shared ownership of projects, and there are many tools to manage subgroups of those people
 
 ## Steps to Create Organization
@@ -32,7 +32,7 @@ The Members page shows the members present under the organization.
 
 <font size="4"> <b>Step 1.</b> Click on <code>Add Members</code> and put the <b>email id</b> of the member to be added to the organization. </font> <br/><br/>
 
-<font size="4"> <b>Step 2.</b> The member will receive an invitation mail from ArGo. <i>Please check your Spam folder if you did not receive mail from ArGo</i>. </font> <br/><br/>
+<font size="4"> <b>Step 2.</b> The member will receive an invitation mail from Spheron. <i>Please check your Spam folder if you did not receive mail from Spheron</i>. </font> <br/><br/>
 
 <img src={require('@site/static/img/invite-members.png').default} />
 

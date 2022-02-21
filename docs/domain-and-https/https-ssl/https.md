@@ -4,7 +4,7 @@ title: HTTPS
 slug: /domain-and-https/https-ssl/https
 ---
 
-ArGo offers free HTTPS on all sites, including automatic certificate creation and renewal. Our certificates use the modern TLS protocol, which has replaced the now deprecated SSL standard.
+Spheron Protocol offers free HTTPS on all sites, including automatic certificate creation and renewal. Our certificates use the modern TLS protocol, which has replaced the now deprecated SSL standard.
 
 HTTPS brings a lot of advantages:
 

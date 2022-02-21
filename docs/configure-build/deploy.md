@@ -7,7 +7,7 @@ slug: /configure-build/deploy
 
 <!-- ## Site Deployment -->
 
-Each new website deployment by ArGo is done atomically, meaning that there will never be any inconsistencies when pushing new files or making changes to existing ones.
+Each new website deployment by Spheron Protocol is done atomically, meaning that there will never be any inconsistencies when pushing new files or making changes to existing ones.
 
 :::caution info
 
@@ -27,17 +27,17 @@ Select **Deploy** on the homepage and go through the following steps for a succe
 
 ### Part 1. Pick a Repository
 
-<font size="4"> <b>Step 1.</b> Click on <code>GitHub</code> to connect your account with ArGo. </font> <br/><br/>
+<font size="4"> <b>Step 1.</b> Click on <code>GitHub</code> to connect your account with Spheron. </font> <br/><br/>
 
 <img src={require('@site/static/img/deploy-choose-repo.png').default} />
 
 You will be redirected to the GitHub authorization page.
 
-<font size="4"> <b>Step 2.</b> Click <code>Install & Authorize</code> to authorize ArGo to access your repositories. </font> <br/><br/>
+<font size="4"> <b>Step 2.</b> Click <code>Install & Authorize</code> to authorize Spheron to access your repositories. </font> <br/><br/>
 
 <img src={require('@site/static/img/deploy-github-install.png').default} />
 
-After successful installation of your GitHub account, you will be automatically redirected to ArGo, where you can see the repositories present in your account.
+After successful installation of your GitHub account, you will be automatically redirected to Spheron, where you can see the repositories present in your account.
 
 <font size="4"> <b>Step 3.</b> Pick the repository you want to deploy. </font> <br/><br/>
 
@@ -59,7 +59,7 @@ Currently, we support **Arweave** and **Skynet** protocols. We are working on ad
 
 Get control of the build settings for your site based on the framework of your app.
 
-Click [here](configure-build/get-started.md/#configuring-the-deployment) to know more about the build settings required by ArGo for your framework.
+Click [here](configure-build/get-started.md/#configuring-the-deployment) to know more about the build settings required by Spheron for your framework.
 
 <img src={require('@site/static/img/deploy-build-options.png').default} />
 
@@ -71,7 +71,7 @@ Your deployment will start and the deployment logs will be visible on the screen
 
 :::info
 
-Currently ArGo charges its platform fee with respect to the **Build Time** of the application on the selected protocol.
+Currently Spheron charges its platform fee with respect to the **Build Time** of the application on the selected protocol.
 
 :::
 
@@ -81,7 +81,7 @@ Currently ArGo charges its platform fee with respect to the **Build Time** of th
 
 Redeploying a deployment in a project is a very demanded feature from a lot of our users. Earlier, when users had to redeploy a project, they had to do the deployment process from the starting.
 
-Now, ArGo lets user to just redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
+Now, Spheron lets user to just redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
 
 <img src={require('@site/static/img/deploy-redeploy.png').default} />
 

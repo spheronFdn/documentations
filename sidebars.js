@@ -57,8 +57,6 @@ module.exports = {
         "quick-start/create-org",
       ],
     },
-    "argo-staking",
-
     {
       type: "category",
       label: "Smart Contracts",

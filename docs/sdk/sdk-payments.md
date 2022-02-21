@@ -5,7 +5,7 @@ sidebar_label: Payments Library
 slug: /sdk/argo-sdk-payments
 ---
 
-Argo payments library is a wrapper around Argo payments contract and also provides some misc. supporting functions.
+Spheron payments library is a wrapper around Spheron payments contract and also provides some misc. supporting functions.
 
 There are three `actors` involved with payments smart contract.
 
@@ -213,7 +213,7 @@ Managers are admins that can call all the necessary functions of the contract, t
 async setNewApprovals(a: string): Promise<TxResponse>
 ```
 
-This function can be used to allow ArGo payments contract to use ArGo tokens on the user's behalf. This function should be called from the front end where the user is the signer.
+This function can be used to allow Spheron payments contract to use Spheron tokens on the user's behalf. This function should be called from the front end where the user is the signer.
 
 **Caller-**
 
@@ -237,7 +237,7 @@ Getter functions can be called by anyone.
 async getApprovalAmount(a: string): Promise<any>
 ```
 
-This function can be used to get allowance given to ArGo payments contract for ArGo token, especially useful to perform allowance checks.
+This function can be used to get allowance given to Spheron payments contract for Spheron token, especially useful to perform allowance checks.
 
 **Args-**
 
@@ -249,7 +249,7 @@ This function can be used to get allowance given to ArGo payments contract for A
 async getUserBalance(a: string): Promise<any>
 ```
 
-ArGo token balance of the user can be fetched using this function. Especially useful to perform balance checks.
+Spheron token balance of the user can be fetched using this function. Especially useful to perform balance checks.
 
 **Args**-
 
@@ -277,7 +277,7 @@ This function can be used to get the address of the governance role.
 async getToken(): Promise<string>
 ```
 
-This function can be used to get the address of the token being used for payments. (ArGo token)
+This function can be used to get the address of the token being used for payments. (Spheron token)
 
 ### getEscrow
 
@@ -301,7 +301,7 @@ This function can be called to check if the payment contract is giving a discoun
 async getStakingManagerAddress(): Promise<string>
 ```
 
-Staking manager is the contract where users stake their ArGo token for yield farming, and ArGo Payments contract gives a discount for the amount of stake that is made, this function can be used to get the stake amount.
+Staking manager is the contract where users stake their Spheron token for yield farming, and Spheron Payments contract gives a discount for the amount of stake that is made, this function can be used to get the stake amount.
 
 ### getDiscountSlabs
 

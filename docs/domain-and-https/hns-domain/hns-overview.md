@@ -31,7 +31,7 @@ We are using [Namebase](https://www.namebase.io/) to interact with Handshake Dom
 
 ## Applications
 
-1. **Traditional Website** - Use a Handshake name to resolve traditional websites hosted on ArGo.
+1. **Traditional Website** - Use a Handshake name to resolve traditional websites hosted on Spheron.
 
    - **Scenario**: Personal blog, Existing websites, Decentralized domain backup
 

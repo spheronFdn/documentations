@@ -7,7 +7,7 @@ slug: /domain-and-https/centralized-domain/overview
 
 :::tip info
 
-Custom Domains allows user to access their site via one or more non-ArGo domain names. By default, the site is always accessible via arweave gateway based on transaction id.
+Custom Domains allows user to access their site via one or more non-Spheron domain names. By default, the site is always accessible via arweave gateway based on transaction id.
 
 :::
 
@@ -21,15 +21,15 @@ Custom Domains use our domain resolver to serve deployed links. As it is a beta 
 
 A domain name is the URL or web address where visitors find your site.
 
-Custom domains allow you to make your sites accessible at your own, non-ArGo domain names (for example, `www.yourcustomdomain.com`). ArGo supports all top-level domains in custom domains.
+Custom domains allow you to make your sites accessible at your own, non-Spheron domain names (for example, `www.yourcustomdomain.com`). Spheron supports all top-level domains in custom domains.
 
 ## Multiple Domains
 
-All the domains which selected the latest option when setting it up on the ArGo platform will point to the latest deployed transaction in Arweave. Otherwise, users can point to a single deployment and the domain site won't change with any new deployment.
+All the domains which selected the latest option when setting it up on the Spheron platform will point to the latest deployed transaction in Arweave. Otherwise, users can point to a single deployment and the domain site won't change with any new deployment.
 
 ## Definitions
 
-- Domain name (or domain for short): full name used to access a site. For example, `yoursitename.argo.app` or `www.yourcustomdomain.com`
+- Domain name (or domain for short): full name used to access a site. For example, `yoursitename.spheron.app` or `www.yourcustomdomain.com`
 
 - Top-level domain: last part of the domain name. For example, the `.com` part in `www.yourcustomdomain.com`.
 
@@ -37,17 +37,17 @@ All the domains which selected the latest option when setting it up on the ArGo 
 
 - Subdomain: a domain that is part of a larger domain; the only domain that is not also a subdomain is the apex domain. For example, `www.yourcustomdomain.com` and `app.yourcustomdomain.com` are subdomains of `yourcustomdomain.com`.
 
-- Custom domain: a non-ArGo domain assigned to a site.
+- Custom domain: a non-Spheron domain assigned to a site.
 
-- Primary domain: ArGo term for the main custom domain assigned to a site.
+- Primary domain: Spheron term for the main custom domain assigned to a site.
 
-- Domain alias: ArGo term for additional custom domains assigned to a site.
+- Domain alias: Spheron term for additional custom domains assigned to a site.
 
-## Default ArGo Subdomain
+## Default Spheron Subdomain
 
-We have added this new feature for providing a default subdomain for every project on our platform. Now every project created in an organization will have an ArGo subdomain attached to it.
+We have added this new feature for providing a default subdomain for every project on our platform. Now every project created in an organization will have an Spheron subdomain attached to it.
 
-The subdomain will be like - `{subdomain}.argoapp.io`, where `subdomain` is `{project-name}{random 8 digits}`
+The subdomain will be like - `{subdomain}.spheron.app`, where `subdomain` is `{project-name}{random 8 digits}`
 
 The default subdomain will always be pointed to the latest deployment that happened in that project. It also provides a better naming convention for sharing your project previews with others.
 
@@ -55,6 +55,6 @@ The default subdomain will always be pointed to the latest deployment that happe
 
 Earlier, when users attached their domain to a project, they had to add some records to their DNS provider. So, when users redeployed the project again, they had to again change these records which will point to a new deployment which is a great overhead for the users.
 
-Now, ArGo users just have to attach their domains and add the records only once in their DNS provider. Upon successful verification, once the user redeploys any site, their domain will automatically point to the latest deployment or the user can opt for the domain to point a particular deployment.
+Now, Spheron users just have to attach their domains and add the records only once in their DNS provider. Upon successful verification, once the user redeploys any site, their domain will automatically point to the latest deployment or the user can opt for the domain to point a particular deployment.
 
 To use this feature, when adding your domain to a project, you have to select the `latest` option. Choosing this option will link the latest deployed to the domain name and whenever there is any new deployment, it will be linked to the domain name.

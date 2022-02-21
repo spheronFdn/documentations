@@ -11,7 +11,7 @@ slug: /domain-and-https/centralized-domain/attach-domain
 
 <font size="4"> <b>Step 2</b> - Click on <code>Domains</code> tab and enter the domain you would like to add. </font> <br/><br/>
 
-<font size="4"> <b>Step 3</b> - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to ArGo's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment. </font> <br/><br/>
+<font size="4"> <b>Step 3</b> - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to Spheron's <b>Automated Domain Resolver</b>, you won't have to change the records after every redeployment. </font> <br/><br/>
 
 <font size="4"> <b>Step 4</b> - From here you will have to confirm that you already own this domain. </font> <br/><br/>
 
@@ -25,7 +25,7 @@ You can create your Subdomains to organize and navigate to different sections of
 
 <font size="4"> <b>Step 2</b> - Click on <code>Subdomains</code> tab and enter the Subdomain you would like to add. </font> <br/><br/>
 
-<font size="4"> <b>Step 3</b> - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to ArGo's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment. </font> <br/><br/>
+<font size="4"> <b>Step 3</b> - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to Spheron's <b>Automated Domain Resolver</b>, you won't have to change the records after every redeployment. </font> <br/><br/>
 
 <img src={require('@site/static/img/sub-domain.png').default} />
 

@@ -5,7 +5,7 @@ sidebar_label: Get Started
 slug: /configure-build/get-started
 ---
 
-ArGo lets you link a GitHub repository to a site for continuous deployment. Each time you push to your Git provider, ArGo runs a build with your tool of choice and deploys the result to our powerful CDN.
+Spheron Protocol lets you link a GitHub repository to a site for continuous deployment. Each time you push to your Git provider, Spheron runs a build with your tool of choice and deploys the result to our powerful CDN.
 
 The quickest way to begin is by connecting your website's GitHub repository to deploy directly from there and allow for continuous deployment. If you so choose, you can also deploy by uploading the full code base for your website.
 
@@ -13,15 +13,15 @@ The quickest way to begin is by connecting your website's GitHub repository to d
 
 ### Deploy parameters
 
-ArGo lets you get more control of how you build and deploy your repository
+Spheron lets you get more control of how you build and deploy your repository
 
 - **Owner**: The organization's name, considered the owner of the deployment. Ex: Your Org's name
-- **Branch to Deploy**: The branch of the repository to be deployed in ArGo. Ex: master branch
+- **Branch to Deploy**: The branch of the repository to be deployed in Spheron. Ex: main, dev, etc
 - **Workspace to Deploy**: A Workspace is how your team will keep GitHub Issues organized. You can add any number of GitHub repos into the same Workspace, letting your team benefit from a shared view on all your work
 
 ### Build parameters
 
-ArGo doesn't have autodetect framework feature at this moment, so you have to manually enter the site's framework and apply the correct build parameters for your framework. You need to input the parameters manually, either at the initial site deployment stage, or in the site settings after the site has already been deployed.
+Spheron doesn't have autodetect framework feature at this moment, so you have to manually enter the site's framework and apply the correct build parameters for your framework. You need to input the parameters manually, either at the initial site deployment stage, or in the site settings after the site has already been deployed.
 
 Below are the build parameters which you can modify.
 
@@ -32,7 +32,7 @@ Below are the build parameters which you can modify.
 
 ### Advanced Build Settings
 
-Advanced Build Settings currently consists of Build Environment Variables. ArGo environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys.
+Advanced Build Settings currently consists of Build Environment Variables. Spheron environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys.
 
 You can access the environment variables by following these 2 steps:
 

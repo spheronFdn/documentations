@@ -35,11 +35,11 @@ module.exports = {
           label: "GitHub",
           position: "right",
         },
-        {
-          href: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
-          label: "Litepaper",
-          position: "left",
-        },
+        // {
+        //   href: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
+        //   label: "Litepaper",
+        //   position: "left",
+        // },
       ],
     },
     footer: {
@@ -56,10 +56,10 @@ module.exports = {
               label: "Website",
               href: "https://spheron.network/",
             },
-            {
-              label: "Litepaper",
-              href: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
-            },
+            // {
+            //   label: "Litepaper",
+            //   href: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
+            // },
           ],
         },
         {
