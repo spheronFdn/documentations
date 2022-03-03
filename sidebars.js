@@ -48,6 +48,11 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Templates",
+      items: ["templates/koii-template"],
+    },
+    {
+      type: "category",
       label: "Quick Start",
       collapsed: false,
       items: [
@@ -60,10 +65,7 @@ module.exports = {
     {
       type: "category",
       label: "Smart Contracts",
-      items: [
-        "smart-contracts/payments",
-        "smart-contracts/multiownable",
-      ],
+      items: ["smart-contracts/payments", "smart-contracts/multiownable"],
     },
     {
       type: "category",
