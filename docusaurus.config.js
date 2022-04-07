@@ -33,7 +33,7 @@ module.exports = {
         {
           type: "docsVersionDropdown",
           position: "right",
-          dropdownItemsAfter: [{ to: "/versions", label: "All versions" }],
+          dropdownItemsAfter: [{ to: "/1.1.0" }],
           dropdownActiveClassDisabled: true,
         },
         {
@@ -111,6 +111,24 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          // lastVersion: "current",
+          // versions: {
+          //   current: {
+          //     label: "1.1.0",
+          //     path: "1.1.0",
+          //   },
+          //   last: {
+          //     label: "1.0.0",
+          //     path: "1.0.0",
+          //   },
+          // },
+          // lastVersion: "1.0.0",
+          // versions: {
+          //   current: {
+          //     label: "1.1.0",
+          //     path: "1.1.0",
+          //   },
+          // },
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/argoapp-live/argo-docs",
