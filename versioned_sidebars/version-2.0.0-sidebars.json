@@ -28,9 +28,7 @@
           ]
         },
         {
-          "HTTPs (SSL)": [
-            "domain-and-https/https-ssl/https"
-          ]
+          "HTTPs (SSL)": ["domain-and-https/https-ssl/https"]
         }
       ]
     },
@@ -46,23 +44,17 @@
     {
       "type": "category",
       "label": "NFT Gated Access",
-      "items": [
-        "templates/koii-template"
-      ]
+      "items": ["templates/koii-template"]
     },
     {
       "type": "category",
       "label": "Billing",
-      "items": [
-        "templates/koii-template"
-      ]
+      "items": ["templates/koii-template"]
     },
     {
       "type": "category",
       "label": "Templates",
-      "items": [
-        "templates/koii-template"
-      ]
+      "items": ["templates/koii-template"]
     },
     {
       "type": "category",
@@ -78,10 +70,7 @@
     {
       "type": "category",
       "label": "Smart Contracts",
-      "items": [
-        "smart-contracts/payments",
-        "smart-contracts/multiownable"
-      ]
+      "items": ["smart-contracts/payments", "smart-contracts/multiownable"]
     },
     "faqs",
     "get-help"
