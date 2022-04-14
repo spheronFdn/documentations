@@ -5,10 +5,10 @@
       "type": "category",
       "label": "Deployments",
       "items": [
-        "configure-build/get-started",
-        "configure-build/deploy",
-        "configure-build/continuous-deployment",
-        "configure-build/payment"
+        "version-2.0.0/deployments/get-started",
+        "version-2.0.0/deployments/decentralized-protocols",
+        "version-2.0.0/deployments/continuous-deployment",
+        "version-2.0.0/deployments/payment"
       ]
     },
     {

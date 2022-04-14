@@ -2,7 +2,7 @@
 id: payment
 title: Payment
 sidebar_label: Payment
-slug: /configure-build/payment
+slug: /deployments/payment
 ---
 
 All details of payment corresponding to your deployment are shown in the Payment Summary.

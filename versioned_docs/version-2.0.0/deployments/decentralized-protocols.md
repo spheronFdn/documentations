@@ -1,9 +1,25 @@
 ---
-id: quick-deploy
-title: Create a Deployment
-sidebar_label: Create a Deployment
-slug: /quick-start/quick-deploy
+id: decentralized-protocols
+title: Decentralized Protocols
+sidebar_label: Decentralized Protocols
+slug: /deployments/decentralized-protocols
 ---
+
+<!-- ## Site Deployment -->
+
+Each new website deployment by Spheron Protocol is done atomically, meaning that there will never be any inconsistencies when pushing new files or making changes to existing ones.
+
+:::caution info
+
+There are some issues with Arweave URL that may restrict normal routers.
+
+Thus it is better to use a hash router instead of a browser router.
+
+If using a normal router, please use our custom domain to ensure 404 error does not pop up.
+
+:::
+
+## 1. Creating a Deployment
 
 Select **Deploy** on the homepage and go through the following steps for a successful deployment.
 
@@ -20,12 +36,6 @@ You will be redirected to the GitHub authorization page.
 <font size="4"> <b>Step 2.</b> Click <code>Install & Authorize</code> to authorize Spheron to access your repositories. </font> <br/><br/>
 
 <img src={require('@site/static/img/deploy-github-install.png').default} />
-
-:::info Note
-
-During this process, you can selectively choose some repositories that you want to give write access to Spheron Github App.
-
-:::
 
 After successful installation of your GitHub account, you will be automatically redirected to Spheron, where you can see the repositories present in your account.
 
@@ -53,14 +63,6 @@ Click [here](deployments/get-started.md/#configuring-the-deployment) to know mor
 
 <img src={require('@site/static/img/deploy-build-options.png').default} />
 
-<!-- #### Continuous Deployment
-
-Simply set the public directory of your project to your GitHub repository and define the build command. Spheron will run the build command and deploy the result whenever you push to your Git repo. The benefits of using continuous deployment include:
-
-- No deploying without committing and pushing first
-- Easy collaboration through pull requests
-- Fix a typo through your Git provider's web UI from your mobile -->
-
 ### Part 4. Deploy
 
 Upon successful selection of all the parameters, click the **Deploy** button to deploy your app.
@@ -75,8 +77,17 @@ Currently Spheron charges its platform fee with respect to the **Build Time** of
 
 <img src={require('@site/static/img/deploy-success.png').default} />
 
-:::info
+## 2. Redeploy a deployment
 
-Spheron lets user to redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
+Redeploying a deployment in a project is a very demanded feature from a lot of our users. Earlier, when users had to redeploy a project, they had to do the deployment process from the starting.
 
-:::
+Now, Spheron lets user to just redeploy any project with just a click. It will take the latest configuration used by the latest deployment in the project.
+
+<img src={require('@site/static/img/deploy-redeploy.png').default} />
+
+## 3. Screenshot of deployment
+
+With our **V2.2 Release**, users can now view the screenshot of their website, once their website is deployed successfully.
+The screenshots are uploaded on Arweave, thus just like your website they are immutable and part of the permaweb.
+
+<img src={require('@site/static/img/screenshot.png').default} />
