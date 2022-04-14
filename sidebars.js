@@ -3,22 +3,17 @@ module.exports = {
     "welcome",
     {
       type: "category",
-      label: "Architecture",
-      items: ["architecture/overview", "architecture/use-cases"],
-    },
-    {
-      type: "category",
-      label: "Configure Builds",
+      label: "Deployments",
       items: [
         "configure-build/get-started",
-        "configure-build/deploy",
+        "configure-build/decentralized-protocols",
         "configure-build/continuous-deployment",
         "configure-build/payment",
       ],
     },
     {
       type: "category",
-      label: "Domain and HTTPs",
+      label: "Projects",
       items: [
         {
           "Centralized Domain": [
@@ -39,12 +34,22 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Organisation",
+      label: "Organization",
       items: [
         "organization/org",
         "organization/org-wallet",
         "organization/org-payments",
       ],
+    },
+    {
+      type: "category",
+      label: "NFT Gated Access",
+      items: ["templates/koii-template"],
+    },
+    {
+      type: "category",
+      label: "Billing",
+      items: ["templates/koii-template"],
     },
     {
       type: "category",
@@ -66,11 +71,6 @@ module.exports = {
       type: "category",
       label: "Smart Contracts",
       items: ["smart-contracts/payments", "smart-contracts/multiownable"],
-    },
-    {
-      type: "category",
-      label: "SDK",
-      items: ["sdk/sdk-getting-started", "sdk/sdk-payments"],
     },
     "faqs",
     "get-help",

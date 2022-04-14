@@ -2,7 +2,7 @@
 id: get-started
 title: Get Started
 sidebar_label: Get Started
-slug: /configure-build/get-started
+slug: /deployments/get-started
 ---
 
 Spheron Protocol lets you link a GitHub repository to a site for continuous deployment. Each time you push to your Git provider, Spheron runs a build with your tool of choice and deploys the result to our powerful CDN.

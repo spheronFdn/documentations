@@ -9,6 +9,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "argoapp-live", // Usually your GitHub org/user name.
   projectName: "argo-docs", // Usually your repo name.
+  onBrokenLinks: "ignore",
   themeConfig: {
     hideableSidebar: true,
     navbar: {
