@@ -27,7 +27,7 @@ Explore our documentation to learn about Spheron products and features. Here are
 
 ## We’re here to help
 
-**Forums** – Visit the Spheron [Discord Channel](https://discord.gg/5p4XqrNhVB) to discuss ideas and questions with Spheron staff and your fellow Spheron users.
+**Forums** – Visit the Spheron [Discord Channel](https://discord.com/invite/ahxuCtm) to discuss ideas and questions with Spheron staff and your fellow Spheron users.
 Know us better by connecting with us on below channels -
 
 - [Twitter](https://twitter.com/SpheronHQ)

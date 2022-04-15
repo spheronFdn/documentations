@@ -9,6 +9,6 @@ We at Spheron Protocol, believe in creating a superior community and would be mo
 
 Feel free to contact Spheron for any of your issues through the links below -
 
-- [Discord](https://discord.gg/5p4XqrNhVB)
+- [Discord](https://discord.com/invite/ahxuCtm)
 - [Twitter](https://twitter.com/SpheronHQ)
 - [Telegram](https://t.me/argoofficial)

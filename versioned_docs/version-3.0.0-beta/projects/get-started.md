@@ -2,12 +2,12 @@
 id: get-started
 title: Get Started
 sidebar_label: Get Started
-slug: /deployments/get-started
+slug: /projects/get-started
 ---
 
-Spheron Protocol lets you link a GitHub repository to a site for continuous deployment. Each time you push to your Git provider, Spheron runs a build with your tool of choice and deploys the result to our powerful CDN.
+You can use the Spheron Protocol to connect a GitHub, Gitlab, or Bitbucket repository to a site for continuous deployment. Spheron conducts a build with your preferred tool and deploys on your preferred storage networks every time.
 
-The quickest way to begin is by connecting your website's GitHub repository to deploy directly from there and allow for continuous deployment. If you so choose, you can also deploy by uploading the full code base for your website.
+Connecting your website's GitHub repository to deploy directly from there and enabling continuous deployment is the simplest method to get started.
 
 ## Configuring the deployment
 
@@ -17,11 +17,15 @@ Spheron lets you get more control of how you build and deploy your repository
 
 - **Owner**: The organization's name, considered the owner of the deployment. Ex: Your Org's name
 - **Branch to Deploy**: The branch of the repository to be deployed in Spheron. Ex: main, dev, etc
-- **Workspace to Deploy**: A Workspace is how your team will keep GitHub Issues organized. You can add any number of GitHub repos into the same Workspace, letting your team benefit from a shared view on all your work
+- **Root directory**: In some projects, the top-level directory of the repository may not be the root directory of the app you’d like to build. For example, your repository might be a monorepo that has a frontend directory, which contains a stand-alone Next.js app.
+
+In cases like this, you can specify the project root directory. If you do so, please note the following:
+
+If you specify a root directory, then your app won’t be able to access files outside of that directory. You also cannot use it to move up a level.
 
 ### Build parameters
 
-Spheron doesn't have autodetect framework feature at this moment, so you have to manually enter the site's framework and apply the correct build parameters for your framework. You need to input the parameters manually, either at the initial site deployment stage, or in the site settings after the site has already been deployed.
+Spheron has an auto-detect framework option, making it seamless for you by applying appropriate build parameters according to your selected repository. The parameters can also be manually entered, either during the initial site deployment stage or later in the site settings after the project has been deployed.
 
 Below are the build parameters which you can modify.
 
@@ -32,7 +36,7 @@ Below are the build parameters which you can modify.
 
 ### Advanced Build Settings
 
-Advanced Build Settings currently consists of Build Environment Variables. Spheron environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys.
+Build Environment Variables are currently included in Advanced Build Settings. During the construction, you can access Spheron environment variables. This allows you to adjust behavior based on deploy settings or include information in your repository that you don't want to save, such as API keys.
 
 You can access the environment variables by following these 2 steps:
 

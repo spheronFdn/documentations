@@ -1,0 +1,91 @@
+{
+  "docs": [
+    "welcome",
+    {
+      "type": "category",
+      "label": "Deployments",
+      "items": [
+        "version-3.0.0-beta/deployments/get-started",
+        "version-3.0.0-beta/deployments/deploy",
+        "version-3.0.0-beta/deployments/decentralized-protocols",
+        "version-3.0.0-beta/deployments/git-workflow",
+        "version-3.0.0-beta/deployments/deployment-environments",
+        "version-3.0.0-beta/deployments/logs"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Projects",
+      "items": [
+        "version-3.0.0-beta/projects/get-started",
+        {
+          "type": "category",
+          "label": "Domain and HTTPs",
+          "items": [
+            {
+              "Centralized Domain": [
+                "projects/domain-and-https/centralized-domain/overview-custom-domain",
+                "projects/domain-and-https/centralized-domain/attach-domain"
+              ]
+            },
+            {
+              "Handshake Domain": [
+                "projects/domain-and-https/hns-domain/hns-overview",
+                "projects/domain-and-https/hns-domain/hns-attach-domain"
+              ]
+            },
+
+            {
+              "ENS Domain": [
+                "projects/domain-and-https/ens-domain/ens-overview",
+                "projects/domain-and-https/ens-domain/ens-attach-domain"
+              ]
+            },
+            {
+              "HTTPs (SSL)": ["projects/domain-and-https/https-ssl/https"]
+            }
+          ]
+        },
+        "version-3.0.0-beta/projects/environment-variables"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Organization",
+      "items": [
+        "organization/org",
+        "organization/org-wallet",
+        "organization/org-payments"
+      ]
+    },
+    "version-3.0.0-beta/nft-gated-access",
+    {
+      "type": "category",
+      "label": "Billing",
+      "items": ["templates/koii-template"]
+    },
+    {
+      "type": "category",
+      "label": "Templates",
+      "items": ["templates/koii-template"]
+    },
+    {
+      "type": "category",
+      "label": "Quick Start",
+      "collapsed": false,
+      "items": [
+        "quick-start/configuring-wallet",
+        "quick-start/quick-deploy",
+        "quick-start/configure-domain",
+        "quick-start/create-org"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Smart Contracts",
+      "items": ["smart-contracts/payments", "smart-contracts/multiownable"]
+    },
+    "faqs",
+    "get-help"
+  ]
+}

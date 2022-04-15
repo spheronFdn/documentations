@@ -29,7 +29,7 @@ Explore our documentation to learn about Spheron products and features. Here are
 
 **Subscribe with your favorite token** - Users must specify a token, network, and wallet provider in order to install web apps utilizing Spheron. Spheron presently offers four distinct types of tokens for subscription payment: USDT, WMATIC, DAI, and WETH.
 
-**Get Support** - Visit the Spheron [Discord Channel](https://discord.gg/5p4XqrNhVB) to discuss ideas and questions with Spheron staff and your fellow Spheron users.
+**Get Support** - Visit the Spheron [Discord Channel](https://discord.com/invite/ahxuCtm) to discuss ideas and questions with Spheron staff and your fellow Spheron users.
 Know us better by connecting with us on below channels -
 
 - [Twitter](https://twitter.com/SpheronHQ)
