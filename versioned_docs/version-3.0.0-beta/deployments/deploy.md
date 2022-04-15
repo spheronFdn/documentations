@@ -1,6 +1,6 @@
 ---
 id: deploy
-title: Site Deployment
+title: Deployment
 sidebar_label: Deploy
 slug: /deployments/deploy
 ---
@@ -47,7 +47,7 @@ We support multiple decentralized protocols in which you can deploy your app. Pi
 
 :::info
 
-Currently, we support **Arweave** and **Skynet** protocols. We are working on adding multiple protocols, which will be added soon.
+Currently, we support **Arweave**, **Skynet**, **Filecoin** and **Pinata** protocols. We are constantly working on adding multiple protocols, which will be added soon.
 
 :::
 
@@ -66,11 +66,5 @@ Click [here](deployments/get-started.md/#configuring-the-deployment) to know mor
 Upon successful selection of all the parameters, click the **Deploy** button to deploy your app.
 
 Your deployment will start and the deployment logs will be visible on the screen.
-
-:::info
-
-Currently Spheron charges its platform fee with respect to the **Build Time** of the application on the selected protocol.
-
-:::
 
 <img src={require('@site/static/img/3.0.0/deploy-success.png').default} />

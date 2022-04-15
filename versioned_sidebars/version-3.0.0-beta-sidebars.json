@@ -35,15 +35,8 @@
               ]
             },
 
-            {
-              "ENS Domain": [
-                "projects/domain-and-https/ens-domain/ens-overview",
-                "projects/domain-and-https/ens-domain/ens-attach-domain"
-              ]
-            },
-            {
-              "HTTPs (SSL)": ["projects/domain-and-https/https-ssl/https"]
-            }
+            "version-3.0.0-beta/projects/domain-and-https/ens-domain",
+            "version-3.0.0-beta/projects/domain-and-https/https-ssl/https"
           ]
         },
         "version-3.0.0-beta/projects/environment-variables"
@@ -52,17 +45,13 @@
     {
       "type": "category",
       "label": "Organization",
-      "items": [
-        "organization/org",
-        "organization/org-wallet",
-        "organization/org-payments"
-      ]
+      "items": ["organization/org", "organization/org-wallet"]
     },
     "version-3.0.0-beta/nft-gated-access",
     {
       "type": "category",
       "label": "Billing",
-      "items": ["templates/koii-template"]
+      "items": ["billing/wallet", "billing/plans"]
     },
     {
       "type": "category",

@@ -11,4 +11,8 @@ For all Deployments, build logs are created at build time. With a few small impr
 
 If there are any faults or warnings in the Build logs, they will be marked in various colors (e.g. yellow for warnings). This makes it simple to pinpoint the source of any unsuccessful Builds and locations you might want to look into more.
 
+:::info
+
 Build logs are kept on each Deployment forever.
+
+:::

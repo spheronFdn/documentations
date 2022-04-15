@@ -17,7 +17,7 @@ slug: /quick-start/configure-domain
 
 <font size="4"> <b>Step 5</b> - The domain must be verified before it is linked to the site. After adding the domain, add the records shown in the domain item and click on verify. This will check the configuration in the DNS provider. We then must wait for the domain to be propagated before clicking on Verify DNS configuration. </font> <br/><br/>
 
-<img src={require('@site/static/img/custom-domain.png').default} />
+<img src={require('@site/static/img/3.0.0/custom-domain.png').default} />
 
 ## Steps to Attach a Centralized Subdomain
 
@@ -29,11 +29,9 @@ You can create your Subdomains to organize and navigate to different sections of
 
 <font size="4"> <b>Step 3</b> - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to Spheron's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment. </font> <br/><br/>
 
-<img src={require('@site/static/img/sub-domain.png').default} />
+<img src={require('@site/static/img/3.0.0/custom-subdomain.png').default} />
 
 # HNS Domain
-
-[Handshake](https://handshake.org/) and Spheron both support [Arweave](https://www.arweave.org/) and [Skynet](https://siasky.net/), thus it is possible to connect the Handshake domain with Skynet as well as the Arweave site.
 
 We are using [namebase.io](https://www.namebase.io/) to interact with Handshake.
 
@@ -63,7 +61,7 @@ Updating your domain name or content will always show you to `Update` record, as
 
 :::
 
-<img src={require('@site/static/img/hns-domain.png').default} />
+<img src={require('@site/static/img/3.0.0/hns-domain.png').default} />
 
 ## Steps to Attach a HNS Subdomain
 
@@ -77,4 +75,38 @@ You can create your Subdomains to organize and navigate to different sections of
 
 <font size="4"> <b>Step 4</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
 
-<img src={require('@site/static/img/hns-subdomain.png').default} />
+<img src={require('@site/static/img/3.0.0/hns-subdomain.png').default} />
+
+# ENS Domain
+
+You can easily point an Ethereum Name Service (ENS) domain to your Deployed link and have the content hash automatically updated for your link via Spheron. The benefit of ENS domains is that they are decentralized and trustless, running on the Ethereum blockchain network through smart contracts.
+
+## Steps to Attach an ENS Domain
+
+<font size="4"> <b>Step 1</b> - Go to your Dashboard and select your Project. </font> <br/><br/>
+
+<font size="4"> <b>Step 2</b> - Click on the <code>ENS Domains</code> tab. Input your ENS domain name in the Select Site section, select the deployed link that you want to link with the specified ENS domain, and click on Add.<br/><br/>
+The selected configuration will be added to the screen.  
+ </font> <br/><br/>
+
+<img src={require('@site/static/img/3.0.0/ens-domain.png').default} />
+
+<font size="4"> <b>Step 3</b> - With Spheron, you can update your ENS content hash directly from the app. Just click on the <code>Update</code> button, sign the metamask transactions (make sure of the associated gas fees), and boom, the content hash has been updated.<br/><br/>
+
+:::caution info
+
+Make sure you are connected to the same wallet as in your ENS Domain for successful updation.
+
+:::
+
+You can also manually update the content hash of your ENS domain by going to your [ENS dashboard](https://app.ens.domains/) and updating your content hash with the CONTENT provided for the same in Spheron.
+
+</font> <br/><br/>
+
+<font size="4"> <b>Step 4</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you and the domain will be ready to shoot! </font> <br/><br/>
+
+:::note
+
+Updating your domain name or content will always show you to `Update` record, as it changes the content hash.
+
+:::

@@ -35,7 +35,7 @@ Updating your domain name or content will always show you to `Update` record, as
 
 :::
 
-<img src={require('@site/static/img/hns-domain.png').default} />
+<img src={require('@site/static/img/3.0.0/hns-domain.png').default} />
 
 ## Steps to Attach a Subdomain
 
@@ -49,4 +49,4 @@ You can create your Subdomains to organize and navigate to different sections of
 
 <font size="4"> <b>Step 4</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
 
-<img src={require('@site/static/img/hns-subdomain.png').default} />
+<img src={require('@site/static/img/3.0.0/hns-subdomain.png').default} />
