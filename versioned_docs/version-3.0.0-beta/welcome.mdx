@@ -5,6 +5,65 @@ sidebar_label: Intro to Spheron
 slug: welcome
 ---
 
+import { useState } from "react";
+
+export const Link = ({ icon, title, subtitle, link }) => {
+  const [hover, setHover] = useState(false);
+  const toggleHover = (state) => {
+    setHover(state);
+  };
+  return (
+    <div
+      style={{
+        boxShadow: "0px 1px 2px rgb(0 0 0 / 12%)",
+        padding: "1rem",
+        borderRadius: "4px",
+        border: hover
+          ? "1px solid rgb(23, 23, 83)"
+          : "1px solid rgba(227,232,237,1.00)",
+        display: "flex",
+        alignItems: "center",
+        cursor: "pointer",
+      }}
+      onMouseEnter={(e) => {
+        toggleHover(true);
+      }}
+      onMouseLeave={(e) => {
+        toggleHover(false);
+      }}
+      onClick={(e) => {
+        window.open(link, "_blank");
+      }}
+    >
+      <div style={{ marginRight: "1rem" }}>
+        <img src={icon} height={32} width={32} />
+      </div>
+      <div>
+        <div
+          style={{
+            fontWeight: "600",
+            color: "rgba(59,69,78,1.00)",
+            fontSize: "16px",
+            lineHeight: "24px",
+          }}
+        >
+          {title}
+        </div>
+        <div
+          style={{
+            color: "rgba(136,153,168,1.00)",
+            fontWeight: "400",
+            fontSize: "16px",
+            lineHeight: "24px",
+          }}
+        >
+          {subtitle}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 Spheron Protocol is an all-in-one decentralized platform for automating modern dapps.
 
 We provide a frictionless developer experience to take care of the hard things: deploying instantly, scaling automatically, and serving personalized content on decentralized networks.
@@ -44,3 +103,17 @@ Know us better by connecting with us on below channels -
 - [Github](https://github.com/argoapp-live)
 - [Telegram](https://t.me/argoofficial)
 - [Medium](https://spheron.medium.com/)
+
+<Link
+  icon={require("@site/static/img/Koii-Logo.png").default}
+  title="Koii-X"
+  subtitle="Koii's Proprietary App Building Toolkit"
+  link="https://docs.koii.network/build-dapps-with-koii/template-library/deploy"
+/>
+
+<Link
+  icon={require("@site/static/img/Koii-Logo.png").default}
+  title="Koii-X"
+  subtitle="Koii's Proprietary App Building Toolkit"
+  link="https://docs.koii.network/build-dapps-with-koii/template-library/deploy"
+/>
