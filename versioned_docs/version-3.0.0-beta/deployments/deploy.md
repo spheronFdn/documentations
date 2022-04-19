@@ -17,7 +17,7 @@ If using a normal router, please use our custom domain to ensure 404 error does 
 
 :::
 
-## 1. Creating a Deployment
+## Creating a Deployment
 
 Select **New Project** on the Spheron dashboard and go through the following steps for deploying a successful project.
 
@@ -35,11 +35,26 @@ After successful installation of your account, you will be automatically redirec
 
 <font size="4"> <b>Step 2.</b> Pick the repository you want to deploy. </font> <br/><br/>
 
-<img src={require('@site/static/img/3.0.0/deploy-github-repo.png').default} />
+<img src={require('@site/static/img/3.0.0/deploy-github-repo.png').default} /> <br/><br/>
 
-<font size="5"> <b>Repository Card</b></font> <br/><br/>
+#### <font size="5"> <b>Repository Card</b></font>
+
+The repository card comes with a unique design and displays all the relevant details of each repository.
 
 <img src={require('@site/static/img/3.0.0/repository-card.png').default} />
+
+It shows the following information -
+
+- Repository name
+- Last Updated Date
+- Framework/Language of your repository
+- Private repositories: Private repositories will be displayed with a lock icon
+
+:::info
+
+Users can go to the git repository by clicking on the top right link bubble.
+
+:::
 
 ### Part 2. Pick a Protocol
 

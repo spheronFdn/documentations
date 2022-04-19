@@ -79,11 +79,6 @@
         "quick-start/create-org"
       ]
     },
-    {
-      "type": "category",
-      "label": "Smart Contracts",
-      "items": ["smart-contracts/payments", "smart-contracts/multiownable"]
-    },
     "faqs",
     "get-help"
   ]

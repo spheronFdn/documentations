@@ -11,6 +11,8 @@ NFT Based app access to the platform will allow only whitelisted developers and 
 
 On a high level, we are bringing NFT gated access to onboard x number of people and allowing them to test the new app.
 
+<img src={require('@site/static/img/3.0.0/nft-access.png').default} /> <br/><br/>
+
 ### Why NFT Gated Access?
 
 It has been evident across the Web3 space that NFT is playing a very vital role in driving user adoption. NFT also gives developers and companies to have a sense of ownership of the community in which they are involved.

@@ -23,11 +23,13 @@ Once major browsers start supporting the DANE/TLSA certificate, we will move it 
 
 <font size="4"> <b>Step 1</b> - Go to your Dashboard and select your Project. </font> <br/><br/>
 
-<font size="4"> <b>Step 2</b> - Click on <code>HNS Domain</code> tab and enter the domain you would like to add. </font> <br/><br/>
+<font size="4"> <b>Step 2</b> - Click on <code>HNS Domain</code> tab. </font> <br/><br/>
 
-<font size="4"> <b>Step 3</b> - Click on <code>Update</code> to update your handshake domain records. You will be redirected to <b>namebase.io</b>, and upon successful confirmation, your records will be updated. </font> <br/><br/>
+<font size="4"> <b>Step 3</b> - Enter your Handshake Domain name and select the deployed site that you want to link with your domain. </font> <br/><br/>
 
-<font size="4"> <b>Step 4</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
+<font size="4"> <b>Step 4</b> - Click on <code>Update</code> to update your handshake domain records. You will be redirected to <b>namebase.io</b>, and upon successful confirmation, your records will be updated. </font> <br/><br/>
+
+<font size="4"> <b>Step 5</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
 
 :::note
 
@@ -43,10 +45,12 @@ You can create your Subdomains to organize and navigate to different sections of
 
 <font size="4"> <b>Step 1</b> - Go to your Dashboard and select your Project. </font> <br/><br/>
 
-<font size="4"> <b>Step 2</b> - Click on <code>HNS Subdomains</code> tab and enter the Subdomain you would like to add. </font> <br/><br/>
+<font size="4"> <b>Step 2</b> - Click on <code>HNS Subdomains</code> tab. </font> <br/><br/>
 
-<font size="4"> <b>Step 3</b> - Click on <code>Update</code> to update your handshake domain records. You will be redirected to <b>namebase.io</b>, and upon successful confirmation, your records will be updated. </font> <br/><br/>
+<font size="4"> <b>Step 3</b> - Enter your Handshake Subdomain name and select the deployed site that you want to link with your subdomain. </font> <br/><br/>
 
-<font size="4"> <b>Step 4</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
+<font size="4"> <b>Step 4</b> - Click on <code>Update</code> to update your handshake domain records. You will be redirected to <b>namebase.io</b>, and upon successful confirmation, your records will be updated. </font> <br/><br/>
+
+<font size="4"> <b>Step 5</b> - You can verify if the update is done or not by clicking <code>Verify</code>. We will verify the records for you. </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/hns-subdomain.png').default} />
