@@ -76,7 +76,8 @@
         "quick-start/configuring-wallet",
         "quick-start/quick-deploy",
         "quick-start/configure-domain",
-        "quick-start/create-org"
+        "quick-start/create-org",
+        "quick-start/upgrade-plan"
       ]
     },
     "faqs",

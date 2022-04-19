@@ -1,14 +1,14 @@
 ---
-id: plans
-title: Plans
-sidebar_label: Plans
-slug: /billing/plans
+id: upgrade-plan
+title: Upgrade Plan
+sidebar_label: Upgrade Plan
+slug: /quick-start/upgrade-plan
 ---
 
 Spheron platform currently offers below two package for its user:
 
-1. <b>Starter</b>
-2. <b>Pro</b>
+- <b>Starter</b>
+- <b>Pro</b>
 
 Once a user has successfully logged in, he is granted access to Spheron's Starter pack Which is accessible for 30 days, starting right away.
 

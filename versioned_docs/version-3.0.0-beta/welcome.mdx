@@ -57,6 +57,7 @@ export const Link = ({ icon, title, subtitle, link }) => {
       style={{
         boxShadow: "0px 1px 2px rgb(0 0 0 / 12%)",
         padding: "1rem",
+        paddingLeft: "1.5rem",
         borderRadius: "4px",
         border: hover
           ? "1px solid rgb(23, 23, 83)"
@@ -64,6 +65,7 @@ export const Link = ({ icon, title, subtitle, link }) => {
         display: "flex",
         alignItems: "center",
         cursor: "pointer",
+        transitionDuration: "200ms",
       }}
       onMouseEnter={(e) => {
         toggleHover(true);
@@ -72,12 +74,9 @@ export const Link = ({ icon, title, subtitle, link }) => {
         toggleHover(false);
       }}
       onClick={(e) => {
-        window.open(link, "_blank");
+        window.open(link, "_self");
       }}
     >
-      <div style={{ marginRight: "1rem" }}>
-        <img src={icon} height={32} width={32} />
-      </div>
       <div>
         <div
           style={{
@@ -93,7 +92,7 @@ export const Link = ({ icon, title, subtitle, link }) => {
           style={{
             color: "rgba(136,153,168,1.00)",
             fontWeight: "400",
-            fontSize: "16px",
+            fontSize: "14px",
             lineHeight: "24px",
           }}
         >
@@ -119,29 +118,32 @@ export const Grid = ({ children }) => {
   );
 };
 
+## Quick Start
+
 <Grid>
   <Link
-    icon={require("@site/static/img/Koii-Logo.png").default}
-    title="Koii-X"
-    subtitle="Koii's Proprietary App Building Toolkit"
-    link="https://docs.koii.network/build-dapps-with-koii/template-library/deploy"
+    title="Configure Wallet"
+    subtitle="Start with configuring your wallet"
+    link="/quick-start/configuring-wallet"
   />
   <Link
-    icon={require("@site/static/img/Koii-Logo.png").default}
-    title="Koii-X"
-    subtitle="Koii's Proprietary App Building Toolkit"
-    link="https://docs.koii.network/build-dapps-with-koii/template-library/deploy"
+    title="Create a Deployment"
+    subtitle="Deploy your first application with us"
+    link="/quick-start/quick-deploy"
   />
   <Link
-    icon={require("@site/static/img/Koii-Logo.png").default}
-    title="Koii-X"
-    subtitle="Koii's Proprietary App Building Toolkit"
-    link="https://docs.koii.network/build-dapps-with-koii/template-library/deploy"
+    title="Configure Domain"
+    subtitle="Configure your domains"
+    link="/quick-start/configure-domain"
   />
   <Link
-    icon={require("@site/static/img/Koii-Logo.png").default}
-    title="Koii-X"
-    subtitle="Koii's Proprietary App Building Toolkit"
-    link="https://docs.koii.network/build-dapps-with-koii/template-library/deploy"
+    title="Create Organization"
+    subtitle="Create your Organization and manage Members"
+    link="/quick-start/create-org"
+  />
+  <Link
+    title="Upgrade Plan"
+    subtitle="Experience Spheron at its fullest"
+    link="/quick-start/upgrade-plan"
   />
 </Grid>
