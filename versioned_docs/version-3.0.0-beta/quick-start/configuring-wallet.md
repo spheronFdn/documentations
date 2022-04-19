@@ -5,7 +5,7 @@ sidebar_label: Configuring Wallet
 slug: /quick-start/configuring-wallet
 ---
 
-## 1. Enabling your Organization Wallet
+## Enabling your Organization Wallet
 
 ### Part 1. Install Metamask
 
@@ -31,52 +31,61 @@ Please check out our demo [video](https://vimeo.com/570252743) which demonstrate
 
 :::
 
-Please visit Spheron [**Faucet**](https://faucet.spheron.network/) to get 80 test $DAI tokens in your wallet.
-
 ### Part 2. Connect Wallet
 
-<font size="4"> <b>Step 1.</b> Go to <b>Wallet</b> tab in your organisation. </font> <br/><br/>
+<font size="4"> <b>Step 1.</b> Go to Billing section and click on <code>Connect Wallet</code> button. </font> <br/><br/>
 
-<font size="4"> <b>Step 2.</b> Click <b>Connect</b> to connect your wallet. We currently support all the wallet mentioned in the screenshot below</font> <br/><br/>
+<img src={require('@site/static/img/3.0.0/connect-wallet.png').default} />
 
-<img src={require('@site/static/img/org-select-wallet.png').default} />
+<font size="4"> <b>Step 2.</b> Choose your preferred token (<b>USDT</b>, <b>DAI</b>, <b>WMATIC</b>, <b>WETH</b>), network (<b>Polygon Mumbai</b>), and wallet (<b>Metamask</b>) on the pop-up modal.</font> <br/><br/>
 
-<font size="4"> <b>Step 3.</b> Select you favorite Wallet and click <b>Save</b> to save the wallet for the organisation. </font> <br/><br/>
+<img src={require('@site/static/img/3.0.0/connect-wallet-modal.png').default} />
 
-<img src={require('@site/static/img/org-save-wallet.png').default} />
+<font size="4"> <b>Step 3.</b> Metamask raises an alert message stating <code>I'm the owner of this wallet and want to attach it to the organization</code>. Sign the transaction. And your wallet is connected. </font> <br/><br/>
 
-Your wallet is now ready. **Happy Deploying!**
+<img src={require('@site/static/img/3.0.0/connect-wallet-metamask.png').default} />
 
-<img src={require('@site/static/img/org-wallet.png').default} />
+## Spheron Faucet
 
-## 2. Set Allowance
+A Faucet is a tool that provides a small number of funds to start using a cryptocurrency without having to buy some. Spheron has its own faucet app, which will send the selected **TEST** tokens straight into your wallet. The goal of this faucet is to make the onboarding to the Spheron Platform smoother.
 
-:::caution Allowance
+Spheron faucet sends **100 TEST USDT**, **100 TEST DAI**, **0.05 TEST WETH** or **70 TEST WMATIC** based on the chosen token. You can use it up to 3 times a day.
 
-Make sure your **Allowance** is greater than 20 **$DAI** to start deploying.
+Please visit Spheron [**Faucet**](https://faucet.spheron.network/) to get **TEST** tokens in your wallet, and get started with Spheron.
+
+## Allowance
+
+Spheron asks you to give a token allowance amount to ensure that your subscription is renewed every month. Unable to cut subscription may stop all the all services running in the platform. Please make sure, your wallet have enough balance.
+
+:::danger Overdue
+
+Failure in payment to pay for a PRO plan may cause your organization to go into an overdue state, halting all platform services for your organization.
+
+:::
+It is informed to ensure that your wallet has sufficient funds.
+
+Only the wallet's owner has the ability to set the allowance.
+
+:::info Gasless
+
+We utilize Biconomy for the approval transaction, therefore it's Gasless. As a result, no <b>$MATIC</b> tokens are required for approval.
 
 :::
 
-Allowance can only be set by the owner of the wallet.
+### Set Allowance
 
-Approval transaction is **Gassless** as we use [**Biconomy**](https://biconomy.io/) for it. Thus there is no need to hold $MATIC tokens for approval.
+<font size="4"> <b>Step 1.</b> Go to Billing section and under the wallet dropdown, click on <code>Set Allowance</code>. </font> <br/><br/>
 
-<font size="4"> <b>Step 1.</b> Click on <b>Set Allowance</b>. </font> <br/><br/>
+<img src={require('@site/static/img/3.0.0/set-allowance.png').default} />
 
-<img src={require('@site/static/img/org-wallet-increase-allowance.png').default} />
+<font size="4"> <b>Step 2.</b> In the allowance popup, input the amount you want to allow Spheron, which can be cut from your wallet for subscriptions. </font> <br/><br/>
 
-<font size="4"> <b>Step 2.</b> Provide the Approval Amount and <b>Approve</b>. </font> <br/><br/>
+<img src={require('@site/static/img/3.0.0/set-allowance-popup.png').default} />
 
-:::info Requirement
+<font size="4"> <b>Step 3.</b> Sign the <b>Metamask</b> Signature Request, and voila! you have set your allowance successfully!</font> <br/><br/>
 
-To start deploying your application, minimum allowance required is 20 $DAI and minimum balance required is 20 $DAI tokens.
+## View Wallet
 
-:::
+Viewing the connected wallet lets you check the pre-set <b>Allowance</b> and <b>Wallet Balance</b>. The wallet also gives you details about the current token and network your organization is connected to.
 
-<img src={require('@site/static/img/org-wallet-increase-allowance-approval.png').default} />
-
-<font size="4"> <b>Step 3.</b> <b>SIGN</b> the Signature Request raised in Metamask. </font> <br/><br/>
-
-<img src={require('@site/static/img/org-wallet-increase-allowance-approval-sign.png').default} />
-
-<font size="4"> <b>Step 4.</b> Allowance is set upon successful transaction in Metamask. </font> <br/><br/>
+<img src={require('@site/static/img/3.0.0/view-wallet.png').default} />

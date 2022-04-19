@@ -9,7 +9,6 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "argoapp-live", // Usually your GitHub org/user name.
   projectName: "argo-docs", // Usually your repo name.
-  onBrokenLinks: "ignore",
   themeConfig: {
     hideableSidebar: true,
     navbar: {
@@ -31,11 +30,12 @@ module.exports = {
           position: "left",
           to: "https://spheron.medium.com/",
         },
+
         {
           type: "docsVersionDropdown",
           position: "right",
-          dropdownItemsAfter: [{ to: "/1.1.0" }],
-          dropdownActiveClassDisabled: true,
+          dropdownActiveClassDisabled: false,
+          activeBasePath: "docs",
         },
         {
           to: "https://github.com/argoapp-live",
@@ -112,24 +112,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          // lastVersion: "current",
-          // versions: {
-          //   current: {
-          //     label: "1.1.0",
-          //     path: "1.1.0",
-          //   },
-          //   last: {
-          //     label: "1.0.0",
-          //     path: "1.0.0",
-          //   },
-          // },
-          // lastVersion: "1.0.0",
-          // versions: {
-          //   current: {
-          //     label: "1.1.0",
-          //     path: "1.1.0",
-          //   },
-          // },
+          includeCurrentVersion: false,
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/argoapp-live/argo-docs",

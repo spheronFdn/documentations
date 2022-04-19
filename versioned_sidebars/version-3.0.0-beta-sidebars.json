@@ -45,13 +45,23 @@
     {
       "type": "category",
       "label": "Organization",
-      "items": ["organization/org", "organization/org-wallet"]
+      "items": [
+        "organization/org",
+        "organization/members",
+        "organization/archive-project"
+      ]
     },
     "version-3.0.0-beta/nft-gated-access",
     {
       "type": "category",
       "label": "Billing",
-      "items": ["billing/wallet", "billing/plans"]
+      "items": [
+        "billing/wallet",
+        "billing/plans",
+        "billing/bonus",
+        "billing/invoice",
+        "billing/usage"
+      ]
     },
     {
       "type": "category",

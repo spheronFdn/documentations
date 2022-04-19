@@ -21,9 +21,17 @@ After creating an organization, the user will be given a starter pack by Spheron
 
 <img src={require('@site/static/img/3.0.0/connect-wallet-metamask.png').default} />
 
+## Spheron Faucet
+
+A Faucet is a tool that provides a small number of funds to start using a cryptocurrency without having to buy some. Spheron has its own faucet app, which will send the selected **TEST** tokens straight into your wallet. The goal of this faucet is to make the onboarding to the Spheron Platform smoother.
+
+Spheron faucet sends **100 TEST USDT**, **100 TEST DAI**, **0.05 TEST WETH** or **70 TEST WMATIC** based on the chosen token. You can use it up to 3 times a day.
+
+Please visit Spheron [**Faucet**](https://faucet.spheron.network/) to get **TEST** tokens in your wallet, and get started with Spheron.
+
 ## Allowance
 
-Spheron asks you to give a token allowance amount to ensure that your subscription is renewed.
+Spheron asks you to give a token allowance amount to ensure that your subscription is renewed every month. Unable to cut subscription may stop all the all services running in the platform. Please make sure, your wallet have enough balance.
 
 :::danger Overdue
 
