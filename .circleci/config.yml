@@ -126,7 +126,7 @@ workflows:
             - formatting # Only run deploy job once the build job has completed
           filters:
             branches:
-              only: dev-v3
+              only: versioning
       - build-deploy-prod:
           requires:
             - formatting # Only run deploy job once the build job has completed
