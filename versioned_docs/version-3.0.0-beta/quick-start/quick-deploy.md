@@ -7,11 +7,11 @@ slug: /quick-start/quick-deploy
 
 Spheron Protocol deploys each new website atomically, ensuring that there are no anomalies while submitting new files or making modifications to existing ones.
 
-:::caution info
+:::info info
 
 There are some issues with Arweave URL that may restrict normal routers.
 
-Thus it is better to use a hash router instead of a browser router.
+Thus it is better to use a [Hash Router](https://v5.reactrouter.com/web/api/HashRouter) instead of a [Browser Router](https://v5.reactrouter.com/web/api/BrowserRouter).
 
 If using a normal router, please use our custom domain to ensure 404 error does not pop up.
 
@@ -36,10 +36,6 @@ After successful installation of your account, you will be automatically redirec
 <font size="4"> <b>Step 2.</b> Pick the repository you want to deploy. </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/deploy-github-repo.png').default} />
-
-<font size="5"> <b>Repository Card</b></font> <br/><br/>
-
-<img src={require('@site/static/img/3.0.0/repository-card.png').default} />
 
 ### Part 2. Pick a Protocol
 

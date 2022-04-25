@@ -25,7 +25,7 @@ The selected configuration will be added to the screen.
 
 <img src={require('@site/static/img/3.0.0/ens-domain.png').default} />
 
-<font size="4"> <b>Step 3</b> - With Spheron, you can update your ENS content hash directly from the app. Just click on the <code>Update</code> button, sign the metamask transactions (make sure of the associated gas fees), and boom, the content hash has been updated.<br/><br/>
+<font size="4"> <b>Step 3</b> - With Spheron, you can update your ENS content hash directly from the app. Just click on the <code>Update</code> button, confirm the metamask transactions (make sure of the associated gas fees), and boom, the content hash has been updated. Check it out in your ENS Domain Manager<br/><br/>
 
 :::caution info
 
@@ -45,7 +45,7 @@ Updating your domain name or content will always show you to `Update` record, as
 
 :::
 
-## Review Your ENS Site with eth.link, ens.limo, MetaMask, or Other Options.
+## Review Your ENS Site with Supported Resolvers.
 
 If you’re using an ENS-compatible browser, like Brave, or if you have the MetaMask extension installed, you can just type your address in the search bar “address.eth/” (don’t forget the “/”) and it should be automatically resolved.
 
@@ -55,6 +55,6 @@ If you have none of those, you can always append the “.link” suffix after yo
 
 #### Using eth.limo
 
-An alternative to eth.link is eth.limo! It's a decentralized option (Cloudflare's eth.link is centralized and can experience downtimes) that was created so that there is not only one Web2 gateway to ENS sites. As easy as .eth.link. You just add .limo at the end of your ENS name, e.g, http://nitinshr.eth.limo/
+An alternative to eth.link is eth.limo! It's a decentralized option (Cloudflare's eth.link is centralized and can experience downtimes) that was created so that there is not only one Web2 gateway to ENS sites. As easy as .eth.link. You just add .limo at the end of your ENS name, e.g, http://{your-ens}.eth.limo
 
 All of these are third-party resolving options you, or anyone can use to visit your site using .eth ENS domains. If your ENS record is configured properly, and you experience an issue on any of these gateways, contact that specific provider.

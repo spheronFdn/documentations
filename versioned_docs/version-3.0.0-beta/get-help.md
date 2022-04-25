@@ -11,4 +11,3 @@ Feel free to contact Spheron for any of your issues through the links below -
 
 - [Discord](https://discord.com/invite/ahxuCtm)
 - [Twitter](https://twitter.com/SpheronHQ)
-- [Telegram](https://t.me/argoofficial)

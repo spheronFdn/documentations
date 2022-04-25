@@ -1,5 +1,5 @@
 ---
-id: overview-custom-domain
+id: overview-domain
 title: Overview
 sidebar_label: Overview
 slug: /domain-and-https/centralized-domain/overview
@@ -7,21 +7,21 @@ slug: /domain-and-https/centralized-domain/overview
 
 :::tip info
 
-Custom Domains allows user to access their site via one or more non-Spheron domain names. By default, the site is always accessible via arweave gateway based on transaction id.
+Domains allows user to access their site via one or more non-Spheron domain names. By default, the site is always accessible via arweave gateway based on transaction id.
 
 :::
 
 :::caution info
 
-Custom Domains use our domain resolver to serve deployed links. As it is a beta version and our system is not stable to handle a lot of traffic, we would like to inform you that if you are using it for the production app, please keep in mind that it may break due to unexpected heavy traffic. We are currently working on it to stabilize the system and we will inform everyone about it.
+Domains use our domain resolver to serve deployed links. As it is a beta version and our system is not stable to handle a lot of traffic, we would like to inform you that if you are using it for the production app, please keep in mind that it may break due to unexpected heavy traffic. We are currently working on it to stabilize the system and we will inform everyone about it.
 
 :::
 
-## Custom domains
+## Domains
 
 A domain name is the URL or web address where visitors find your site.
 
-Custom domains allow you to make your sites accessible at your own, non-Spheron domain names (for example, `www.yourcustomdomain.com`). Spheron supports all top-level domains in custom domains.
+Custom domains allow you to make your sites accessible at your own, non-Spheron domain names (for example, `www.yourdomain.com`). Spheron supports all top-level domains.
 
 ## Multiple Domains
 
@@ -29,25 +29,25 @@ All the domains which selected the latest option when setting it up on the Spher
 
 ## Definitions
 
-- Domain name (or domain for short): full name used to access a site. For example, `yoursitename.spheron.app` or `www.yourcustomdomain.com`
+- Domain name (or domain for short): full name used to access a site. For example, `yoursitename.spheron.app` or `www.yourdomain.com`
 
-- Top-level domain: last part of the domain name. For example, the `.com` part in `www.yourcustomdomain.com`.
+- Top-level domain: last part of the domain name. For example, the `.com` part in `www.yourdomain.com`.
 
-- Apex domain (also known as a root, bare, or naked domain): the `yourcustomdomain.com` part in `www.yourcustomdomain.com`.
+- Apex domain (also known as a root, bare, or naked domain): the `youdomain.com` part in `www.yourdomain.com`.
 
-- Subdomain: a domain that is part of a larger domain; the only domain that is not also a subdomain is the apex domain. For example, `www.yourcustomdomain.com` and `app.yourcustomdomain.com` are subdomains of `yourcustomdomain.com`.
+- Subdomain: a domain that is part of a larger domain; the only domain that is not also a subdomain is the apex domain. For example, `www.yourdomain.com` and `app.yourdomain.com` are subdomains of `yourdomain.com`.
 
-- Custom domain: a non-Spheron domain assigned to a site.
+- Domain: a non-Spheron domain assigned to a site.
 
-- Primary domain: Spheron term for the main custom domain assigned to a site.
+- Primary domain: Spheron term for the main domain assigned to a site.
 
-- Domain alias: Spheron term for additional custom domains assigned to a site.
+- Domain alias: Spheron term for additional domains assigned to a site.
 
 ## Default Spheron Subdomain
 
 We have added this new feature for providing a default subdomain for every project on our platform. Now every project created in an organization will have an Spheron subdomain attached to it.
 
-The subdomain will be like - `{subdomain}.spheron.app`, where `subdomain` is `{project-name}{random 8 digits}`
+The subdomain will be like - `{subdomain}.spheron.app`, where `subdomain` is `{project-name}-{random 8 digits}`
 
 The default subdomain will always be pointed to the latest deployment that happened in that project. It also provides a better naming convention for sharing your project previews with others.
 

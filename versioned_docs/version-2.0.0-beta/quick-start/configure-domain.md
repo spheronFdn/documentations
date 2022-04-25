@@ -33,7 +33,7 @@ You can create your Subdomains to organize and navigate to different sections of
 
 # HNS Domain
 
-[Handshake](https://handshake.org/) and Spheron both support [Arweave](https://www.arweave.org/) and [Skynet](https://siasky.net/), thus it is possible to connect the Handshake domain with Skynet as well as the Arweave site.
+[Handshake](https://handshake.org/) and Spheron both support [Arweave](https://www.arweave.org/), [IPFS](https://ipfs.io/) and [Skynet](https://siasky.net/), thus it is possible to connect the Handshake domain with Skynet as well as the Arweave site.
 
 We are using [namebase.io](https://www.namebase.io/) to interact with Handshake.
 

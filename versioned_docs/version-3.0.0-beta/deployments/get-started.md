@@ -5,7 +5,7 @@ sidebar_label: Get Started
 slug: /deployments/get-started
 ---
 
-You can use the Spheron Protocol to connect a GitHub, Gitlab, or Bitbucket repository to a site for continuous deployment. Spheron conducts a build with your preferred tool and deploys on your preferred storage networks every time.
+You can use the Spheron Protocol to connect a **GitHub**, **Gitlab**, or **Bitbucket** repository to a site for continuous deployment. Spheron conducts a build with your preferred tool and deploys on your preferred storage networks every time.
 
 Connecting your website's GitHub repository to deploy directly from there and enabling continuous deployment is the simplest method to get started.
 
@@ -25,7 +25,7 @@ If you specify a root directory, then your app won’t be able to access files o
 
 ### Build parameters
 
-Spheron has an auto-detect framework option, making it seamless for you by applying appropriate build parameters according to your selected repository. The parameters can also be manually entered, either during the initial site deployment stage or later in the site settings after the project has been deployed.
+Spheron has an auto-detect framework option, making it seamless for you by applying appropriate build parameters according to your selected repository. The parameters can also be manually entered, either during the initial site deployment stage or later in the project settings after the project has been deployed.
 
 Below are the build parameters which you can modify.
 
@@ -36,7 +36,7 @@ Below are the build parameters which you can modify.
 
 ### Advanced Build Settings
 
-Build Environment Variables are currently included in Advanced Build Settings. During the construction, you can access Spheron environment variables. This allows you to adjust behavior based on deploy settings or include information in your repository that you don't want to save, such as API keys.
+Build Environment Variables are currently included in Advanced Build Settings. During the construction, you can access Project's environment variables. This allows you to adjust behavior based on deploy settings or include information in your repository that you don't want to save, such as API keys.
 
 You can access the environment variables by following these 2 steps:
 

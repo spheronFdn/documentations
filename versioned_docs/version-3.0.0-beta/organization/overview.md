@@ -1,11 +1,12 @@
 ---
-id: org
+id: overview
 title: Organization
 sidebar_label: Overview
-slug: /organization/org
+slug: /organization/overview
 ---
 
-Spheron Protocol lets you create one/multiple Organization accounts. The Organization will contain all their projects imported into it.
+Spheron Protocol lets you create multiple organization accounts. The organization will contain all its projects imported into it.
+
 These accounts represent a group of people with shared ownership of projects, and there are many tools to manage subgroups of those people. Each organization has it's own separate billing associated with it.
 
 ## Steps to Create Organization

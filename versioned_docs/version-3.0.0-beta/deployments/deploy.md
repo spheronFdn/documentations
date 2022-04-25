@@ -1,17 +1,17 @@
 ---
-id: deploy
+id: deployment
 title: Deployment
-sidebar_label: Deploy
-slug: /deployments/deploy
+sidebar_label: Deployment
+slug: /deployments/deployment
 ---
 
 Spheron Protocol deploys each new website atomically, ensuring that there are no anomalies while submitting new files or making modifications to existing ones.
 
-:::caution info
+:::info info
 
 There are some issues with Arweave URL that may restrict normal routers.
 
-Thus it is better to use a hash router instead of a browser router.
+Thus it is better to use a [Hash Router](https://v5.reactrouter.com/web/api/HashRouter) instead of a [Browser Router](https://v5.reactrouter.com/web/api/BrowserRouter).
 
 If using a normal router, please use our custom domain to ensure 404 error does not pop up.
 

@@ -27,7 +27,7 @@ It shows the following information -
 - **Time and date of deployment**: The deployment facilitates users by displaying the date and time at which the particular web app is deployed.
 
 - **Domain attached to the deployment link**: Your Project will be assigned a custom Domain by the Spheron protocol, which others will be able to use to access your Production Deployment.
-  By default, each newly created Project is given its own subdomain, ending in spheron.app, which is assigned to Production Deployments.
+  By default, each newly created Project is given its own subdomain, ending in **spheron.app**, which is assigned to Production Deployments.
 
 - **GitHub/Gitlab/Bitbucket details of the deployed repository**: Spheron displays the logo of the Git repository or template along with the branch you've chosen for your new project.
 

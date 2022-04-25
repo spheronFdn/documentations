@@ -32,7 +32,7 @@ Below are the build parameters which you can modify.
 
 ### Advanced Build Settings
 
-Advanced Build Settings currently consists of Build Environment Variables. Spheron environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys.
+Advanced Build Settings currently consists of Build Environment Variables. The project's environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys.
 
 You can access the environment variables by following these 2 steps:
 

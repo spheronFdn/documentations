@@ -6,7 +6,7 @@
       "label": "Deployments",
       "items": [
         "version-3.0.0-beta/deployments/get-started",
-        "version-3.0.0-beta/deployments/deploy",
+        "version-3.0.0-beta/deployments/deployment",
         "version-3.0.0-beta/deployments/decentralized-protocols",
         "version-3.0.0-beta/deployments/git-workflow",
         "version-3.0.0-beta/deployments/deployment-environments",
@@ -24,7 +24,7 @@
           "items": [
             {
               "Centralized Domain": [
-                "projects/domain-and-https/centralized-domain/overview-custom-domain",
+                "projects/domain-and-https/centralized-domain/overview-domain",
                 "projects/domain-and-https/centralized-domain/attach-domain"
               ]
             },
@@ -46,12 +46,11 @@
       "type": "category",
       "label": "Organization",
       "items": [
-        "organization/org",
+        "organization/overview",
         "organization/members",
         "organization/archive-project"
       ]
     },
-    "version-3.0.0-beta/nft-gated-access",
     {
       "type": "category",
       "label": "Billing",
@@ -63,6 +62,7 @@
         "billing/usage"
       ]
     },
+    "version-3.0.0-beta/nft-gated-access",
     {
       "type": "category",
       "label": "Templates",

@@ -1,21 +1,26 @@
 ---
 id: configure-domain
-title: Centralized Domain
+title: Configuring Domain
 sidebar_label: Configuring Domain
 slug: /quick-start/configure-domain
 ---
+
+## Centralized Domain
 
 ## Steps to Attach a Centralized Domain
 
 <font size="4"> <b>Step 1</b> - Go to your Dashboard and select your Project. </font> <br/><br/>
 
-<font size="4"> <b>Step 2</b> - Click on <code>Domains</code> tab and enter the domain you would like to add. </font> <br/><br/>
+<font size="4"> <b>Step 2</b> - Click on the <code>Domains</code> tab. Input your domain name in the Select Site section, select the deployed link that you want to link with the specified domain, and click on Add. The selected configuration will be added to the screen.  
+ </font> <br/><br/>
 
-<font size="4"> <b>Step 3</b> - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to Spheron's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment. </font> <br/><br/>
+:::tip Note
 
-<font size="4"> <b>Step 4</b> - From here you will have to confirm that you already own this domain. </font> <br/><br/>
+Thanks to Spheron's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment.
 
-<font size="4"> <b>Step 5</b> - The domain must be verified before it is linked to the site. After adding the domain, add the records shown in the domain item and click on verify. This will check the configuration in the DNS provider. We then must wait for the domain to be propagated before clicking on Verify DNS configuration. </font> <br/><br/>
+:::
+
+<font size="4"> <b>Step 3</b> - Add the records shown in the domain item in your DNS provider and click on verify. This will check the configuration in the DNS provider. We then must wait for the domain records to be propagated before clicking on Verify DNS configuration. </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/custom-domain.png').default} />
 
@@ -25,13 +30,19 @@ You can create your Subdomains to organize and navigate to different sections of
 
 <font size="4"> <b>Step 1</b> - Go to your Dashboard and select your Project. </font> <br/><br/>
 
-<font size="4"> <b>Step 2</b> - Click on <code>Subdomains</code> tab and enter the Subdomain you would like to add. </font> <br/><br/>
+<font size="4"> <b>Step 2</b> - Click on <code>Subdomains</code> tab. Input your subdomain name in the Select Site section, select the deployed link that you want to link with the specified subdomain, and click on Add. The selected configuration will be added to the screen. </font> <br/><br/>
 
-<font size="4"> <b>Step 3</b> - While attaching domain to a project, attach the records once in your DNS provider and verify it. Thanks to Spheron's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment. </font> <br/><br/>
+:::tip Note
+
+Thanks to Spheron's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment.
+
+:::
+
+<font size="4"> <b>Step 3</b> - Add the records shown in the subdomain item in your DNS provider and click on verify. This will check the configuration in the DNS provider. We then must wait for the subdomain records to be propagated before clicking on Verify DNS configuration. </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/custom-subdomain.png').default} />
 
-# HNS Domain
+## HNS Domain
 
 We are using [namebase.io](https://www.namebase.io/) to interact with Handshake.
 
@@ -77,7 +88,7 @@ You can create your Subdomains to organize and navigate to different sections of
 
 <img src={require('@site/static/img/3.0.0/hns-subdomain.png').default} />
 
-# ENS Domain
+## ENS Domain
 
 You can easily point an Ethereum Name Service (ENS) domain to your Deployed link and have the content hash automatically updated for your link via Spheron. The benefit of ENS domains is that they are decentralized and trustless, running on the Ethereum blockchain network through smart contracts.
 
@@ -91,7 +102,7 @@ The selected configuration will be added to the screen.
 
 <img src={require('@site/static/img/3.0.0/ens-domain.png').default} />
 
-<font size="4"> <b>Step 3</b> - With Spheron, you can update your ENS content hash directly from the app. Just click on the <code>Update</code> button, sign the metamask transactions (make sure of the associated gas fees), and boom, the content hash has been updated.<br/><br/>
+<font size="4"> <b>Step 3</b> - With Spheron, you can update your ENS content hash directly from the app. Just click on the <code>Update</code> button, confirm the metamask transactions (make sure of the associated gas fees), and boom, the content hash has been updated. Check it out in your ENS Domain Manager<br/><br/>
 
 :::caution info
 

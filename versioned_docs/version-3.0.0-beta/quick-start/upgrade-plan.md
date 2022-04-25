@@ -37,13 +37,16 @@ Users can upgrade or downsize their team in Spheron's Pro membership model to fi
 
 #### PRO Package
 
-Currently, the <b>Pro</b> subscription plan costs $18 per month. Covering in features like
+Currently, the <b>Pro</b> subscription plan costs $10 per month per member. Covering in features like
 
-- <b>500 GB Bandwidth</b>
-- <b>60000 BuildExecution</b>
-- <b>50 ENSDomainLimit</b>
-- <b>50 HNSDomainLimit</b>
-- <b>500 GB Storage</b>
+- <b>Unlimited Members, Unlimited Concurrent Builds</b>
+- <b>1000 minutes Build Execution</b>
+- <b>50 Domain Limit</b>
+- <b>50 ENS Domain Limit</b>
+- <b>50 HNS Domain Limit</b>
+- <b>2 Storage Package - 300MB Arweave, 4GB Skynet, 2GB Pinata, 2GB Filecoin</b>
+
+Please checkout our [Pricing](https://spheron.network/pricing) page for more details.
 
 To leverage the features of Spheron’s Pro subscription, Click on <b>Upgrade Plan</b> and follow these steps -
 
@@ -61,7 +64,13 @@ Review the plan summary, Token chosen, and Token value.
 
 :::
 
-<font size="4"> <b>Step 3.</b> Click on <b>Approve plan</b>. It will move to upgrade pending state, and upon successful payment, your plan will get active! </font> <br/><br/>
+<font size="4"> <b>Step 3.</b> If the current allowance is less than the required <b>Token Value</b>, a popup for setting allownce will show. Enter the allowance equal or more than the token value to proceed.</font> <br/><br/>
+
+Click [here](/quick-start/configuring-wallet#allowance) to know more about allowance.
+
+<img src={require('@site/static/img/3.0.0/upgrade-set-allowance.png').default} />
+
+<font size="4"> <b>Step 4.</b> Click on <b>Approve plan</b>. It will move to upgrade pending state, and upon successful payment, your plan will get active! </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/upgrade-pending.png').default} />
 

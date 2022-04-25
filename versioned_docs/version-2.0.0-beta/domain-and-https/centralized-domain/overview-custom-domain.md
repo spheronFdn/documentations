@@ -47,7 +47,7 @@ All the domains which selected the latest option when setting it up on the Spher
 
 We have added this new feature for providing a default subdomain for every project on our platform. Now every project created in an organization will have an Spheron subdomain attached to it.
 
-The subdomain will be like - `{subdomain}.spheron.app`, where `subdomain` is `{project-name}{random 8 digits}`
+The subdomain will be like - `{subdomain}.spheron.app`, where `subdomain` is `{project-name}-{random 8 digits}`
 
 The default subdomain will always be pointed to the latest deployment that happened in that project. It also provides a better naming convention for sharing your project previews with others.
 

@@ -1,8 +1,8 @@
 ---
-id: org
+id: org-overview
 title: Organization
 sidebar_label: Overview
-slug: /organization/org
+slug: /organization/org-overview
 ---
 
 Spheron Protocol lets you create one/multiple Organization accounts. The Organization will contain all their projects imported into it.

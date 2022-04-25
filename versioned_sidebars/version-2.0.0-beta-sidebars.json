@@ -41,7 +41,7 @@
       "type": "category",
       "label": "Organisation",
       "items": [
-        "organization/org",
+        "organization/org-overview",
         "organization/org-wallet",
         "organization/org-payments"
       ]

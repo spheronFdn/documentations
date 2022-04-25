@@ -25,12 +25,6 @@ Please check out [here](https://docs.matic.network/docs/develop/network-details/
 
 :::
 
-:::tip Demo
-
-Please check out our demo [video](https://vimeo.com/570252743) which demonstrates how you can attach Matic Mumbai Testnet in your MetaMask.
-
-:::
-
 ### Part 2. Connect Wallet
 
 <font size="4"> <b>Step 1.</b> Go to Billing section and click on <code>Connect Wallet</code> button. </font> <br/><br/>
