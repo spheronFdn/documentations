@@ -16,6 +16,8 @@ slug: /domain-and-https/centralized-domain/attach-domain
 
 Thanks to Spheron's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment.
 
+To enable it, select **Latest** from the deployed link options
+
 :::
 
 <font size="4"> <b>Step 3</b> - Add the records shown in the domain item in your DNS provider and click on verify. This will check the configuration in the DNS provider. We then must wait for the domain records to be propagated before clicking on Verify DNS configuration. </font> <br/><br/>
@@ -33,6 +35,8 @@ You can create your Subdomains to organize and navigate to different sections of
 :::tip Note
 
 Thanks to Spheron's <b>Automated DNS Resolver</b>, you won't have to change the records after every redeployment.
+
+To enable it, select **Latest** from the deployed link options
 
 :::
 

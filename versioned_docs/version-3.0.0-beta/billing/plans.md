@@ -20,6 +20,8 @@ Spheron’s starter pack is accessible for 30 days, starting right away. It prov
 - <b>1 Concurrent Build</b>
 - <b>100 Deployments / Day</b>
 - <b>10 Domain Limit</b>
+- <b>10 ENS Domain Limit</b>
+- <b>10 HNS Domain Limit</b>
 
 ### How do I upgrade to the Pro package?
 
@@ -70,7 +72,7 @@ Click [here](/quick-start/configuring-wallet#allowance) to know more about allow
 
 <img src={require('@site/static/img/3.0.0/upgrade-set-allowance.png').default} />
 
-<font size="4"> <b>Step 4.</b> Click on <b>Approve plan</b>. It will move to upgrade pending state, and upon successful payment, your plan will get active! </font> <br/><br/>
+<font size="4"> <b>Step 4.</b> Click on <b>Upgrade plan</b>. It will move to upgrade pending state, and upon successful payment, your plan will get active! </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/upgrade-pending.png').default} />
 
