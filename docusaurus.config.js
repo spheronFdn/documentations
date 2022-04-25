@@ -42,11 +42,16 @@ module.exports = {
           label: "GitHub",
           position: "right",
         },
-        // {
-        //   to: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
-        //   label: "Litepaper",
-        //   position: "left",
-        // },
+        {
+          to: "https://discord.com/invite/ahxuCtm",
+          label: "Support",
+          position: "right",
+        },
+        {
+          to: "https://aqua.spheron.network/",
+          label: "Login/Signup",
+          position: "right",
+        },
       ],
     },
     footer: {

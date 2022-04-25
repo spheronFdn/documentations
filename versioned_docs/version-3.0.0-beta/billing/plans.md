@@ -10,7 +10,7 @@ Spheron platform currently offers below two package for its user:
 1. <b>Starter</b>
 2. <b>Pro</b>
 
-Once a user has successfully logged in, he is granted access to Spheron's Starter pack Which is accessible for 30 days, starting right away.
+Once a user has successfully logged in, he is automatically placed on the Starter pack until when the user upgrades.
 
 ### What features does the Spheron starter pack offer?
 
