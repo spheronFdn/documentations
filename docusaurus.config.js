@@ -17,6 +17,7 @@ module.exports = {
         alt: "Spheron Logo",
         src: "img/favicon.ico",
       },
+      hideOnScroll: true,
       items: [
         {
           to: "welcome",
@@ -25,21 +26,31 @@ module.exports = {
           position: "left",
         },
         {
-          to: "blog",
           label: "Blog",
           position: "left",
-          href: "https://spheron.medium.com/",
+          to: "https://spheron.medium.com/",
         },
         {
-          href: "https://github.com/argoapp-live",
+          to: "https://github.com/argoapp-live",
           label: "GitHub",
           position: "right",
         },
-        // {
-        //   href: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
-        //   label: "Litepaper",
-        //   position: "left",
-        // },
+        {
+          to: "https://discord.com/invite/ahxuCtm",
+          label: "Support",
+          position: "right",
+        },
+        {
+          to: "https://aqua.spheron.network/",
+          label: "Signup",
+          position: "right",
+        },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+          dropdownActiveClassDisabled: false,
+          activeBasePath: "docs",
+        },
       ],
     },
     footer: {
@@ -54,11 +65,11 @@ module.exports = {
             },
             {
               label: "Website",
-              href: "https://spheron.network/",
+              to: "https://spheron.network/",
             },
             // {
             //   label: "Litepaper",
-            //   href: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
+            //   to: "https://drive.google.com/file/d/1IlrqGEwhvm-fUfTdy8evGX72gZpfZ-fV/view?usp=sharing",
             // },
           ],
         },
@@ -67,19 +78,19 @@ module.exports = {
           items: [
             {
               label: "Discord",
-              href: "https://discord.gg/5p4XqrNhVB",
+              to: "https://discord.com/invite/ahxuCtm",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/spheronHQ",
+              to: "https://twitter.com/spheronHQ",
             },
             {
               label: "Medium",
-              href: "https://spheron.medium.com/",
+              to: "https://spheron.medium.com/",
             },
             {
               label: "Telegram",
-              href: "https://t.me/argoofficial",
+              to: "https://t.me/argoofficial",
             },
           ],
         },
@@ -88,11 +99,11 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              href: "https://spheron.medium.com/",
+              to: "https://spheron.medium.com/",
             },
             {
               label: "GitHub",
-              href: "https://github.com/argoapp-live",
+              to: "https://github.com/argoapp-live",
             },
           ],
         },
@@ -105,6 +116,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          includeCurrentVersion: false,
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/argoapp-live/argo-docs",

@@ -1,0 +1,92 @@
+---
+id: koii-template
+title: Koii Templates
+sidebar_label: Koii Templates
+slug: /templates/koii-template
+---
+
+Spheron Protocol lets you deploy any frontend template built with supporting frameworks and libraries. To get started with Spheron Protocol, learn how to create deploys. Options for creating deploys range from connecting a Git repository for continuous deployment. Use the Deploy to Spheron button on our Jamstack templates to create a Git repository linked to a Spheron site that you can experiment with.
+
+import { useState } from "react";
+
+export const Link = ({ icon, title, subtitle, link }) => {
+  const [hover, setHover] = useState(false);
+  const toggleHover = (state) => {
+    setHover(state);
+  };
+  return (
+    <div
+      style={{
+        boxShadow: "0px 1px 2px rgb(0 0 0 / 12%)",
+        padding: "1rem",
+        borderRadius: "4px",
+        border: hover
+          ? "1px solid rgb(23, 23, 83)"
+          : "1px solid rgba(227,232,237,1.00)",
+        display: "flex",
+        alignItems: "center",
+        cursor: "pointer",
+      }}
+      onMouseEnter={(e) => {
+        toggleHover(true);
+      }}
+      onMouseLeave={(e) => {
+        toggleHover(false);
+      }}
+      onClick={(e) => {
+        window.open(link, "_blank");
+      }}
+    >
+      <div style={{ marginRight: "1rem" }}>
+        <img src={icon} height={32} width={32} />
+      </div>
+      <div>
+        <div
+          style={{
+            fontWeight: "600",
+            color: "rgba(59,69,78,1.00)",
+            fontSize: "16px",
+            lineHeight: "24px",
+          }}
+        >
+          {title}
+        </div>
+        <div
+          style={{
+            color: "rgba(136,153,168,1.00)",
+            fontWeight: "400",
+            fontSize: "16px",
+            lineHeight: "24px",
+          }}
+        >
+          {subtitle}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+## What is Koii?
+
+The Koii Network is a protocol focused on building infrastructure to enable a more open and transparent internet. They are making the tools developers and creators need to permanently own their content while also earning rewards from the attention that content receives. The Koii protocol tracks the attention of registered content across the internet while leveraging our network of lightweight Koii Nodes. These nodes form the core of the network and provide fast and inexpensive ways to build, run, and deploy blockchain agnostic decentralized Apps (“dApps”).
+
+## What is Koii-X?
+
+It's a Koii's Proprietary App Building Toolkit. This toolkit will help you take advantage of all that Koii has to offer:
+
+- Earn KOII tokens whenever your content is viewed
+- Store content as Atomic NFTs using decentralized storage networks
+- Easily integrate wallets from popular blockchains
+- Build a Crowdfunding Portal or Leaderboard Social Platform
+- Integrate Koii Tasks for Trustless Back-End Services (Coming Soon)
+
+An easy option to launch your koii-x template is by using Spheron
+
+**More info on how coming soon! Checkout Koii Docs 👇**
+
+<Link
+  icon={require("@site/static/img/Koii-Logo.png").default}
+  title="Koii-X"
+  subtitle="Koii's Proprietary App Building Toolkit"
+  link="https://docs.koii.network/build-dapps-with-koii/template-library/deploy"
+/>
