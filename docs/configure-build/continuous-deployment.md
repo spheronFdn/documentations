@@ -2,7 +2,7 @@
 id: continuous-deployment
 title: Continuous Deployment
 sidebar_label: Continuous Deployment
-slug: /configure-build/continuous-deployment
+slug: /deployments/continuous-deployment
 ---
 
 <font size="4"> Continuous Deployment is now possible with Spheron directly from Github, users can now enable continuous deployment and every merge to the branch will trigger a new build and their website will be always updated with the latest changes. We have mitigated the hassle of manually deploying the website again and again. </font> <br/><br/>
