@@ -30,13 +30,6 @@ module.exports = {
           position: "left",
           to: "https://spheron.medium.com/",
         },
-
-        {
-          type: "docsVersionDropdown",
-          position: "right",
-          dropdownActiveClassDisabled: false,
-          activeBasePath: "docs",
-        },
         {
           to: "https://github.com/argoapp-live",
           label: "GitHub",
@@ -49,8 +42,14 @@ module.exports = {
         },
         {
           to: "https://aqua.spheron.network/",
-          label: "Login/Signup",
+          label: "Signup",
           position: "right",
+        },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+          dropdownActiveClassDisabled: false,
+          activeBasePath: "docs",
         },
       ],
     },
