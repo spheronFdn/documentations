@@ -32,3 +32,7 @@ A. We currently support Arweave, Skynet, IPFS & Filecoin for the static sites.
 #### Q. What can be deployed?
 
 A. Traditional cloud-native applications, Decentralized projects & Serverless app
+
+#### Q. How are public identity and privacy maintained for the project which uses your platform for deployment?
+
+A. Spheron enables total privacy in regards to authentication since users are given separate organizations and the choice to decide and add the members they want to their organizations. The developers are free to share their experience of using Spheron on social media & with their peers as well.
