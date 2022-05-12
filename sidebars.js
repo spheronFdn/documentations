@@ -58,6 +58,11 @@ module.exports = {
     },
     {
       type: "category",
+      label: "tutorial",
+      items: ["tutorial/minting-nft"],
+    },
+    {
+      type: "category",
       label: "Quick Start",
       collapsed: false,
       items: [
