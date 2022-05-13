@@ -2,7 +2,7 @@
 id: minting-101
 title: Minting 101
 sidebar_label: Minting 101
-slug: /tutorial/minting-101
+slug: /quick-start/minting-101
 ---
 
 Hey there, in this tutorial we would show you how to mint your first  NFT on Spheron after you have been whitelisted.
