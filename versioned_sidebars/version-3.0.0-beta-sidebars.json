@@ -71,7 +71,7 @@
     {
       "type": "category",
       "label": "Tutorial",
-      "items": ["tutorial/minting-nft"]
+      "items": ["tutorial/minting-nft","tutorial/minting-101"]
     },
     {
       "type": "category",
