@@ -70,8 +70,8 @@
     },
     {
       "type": "category",
-      "label": "Tutorial",
-      "items": ["tutorial/minting-101"]
+      "label": "Tutorials",
+      "items": ["tutorials/minting-101"]
     },
     {
       "type": "category",

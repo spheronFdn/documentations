@@ -46,6 +46,6 @@ When the tokens have been reflected  in your wallet, go back to your NFT minting
 
 ***Wait for the loader to load and voila!!***
 
-<img src={require('@site/static/img/3.0.0/final.png').default} /> <br/><br/>
+<img src={require('@site/static/img/3.0.0/finalnft.png').default} /> <br/><br/>
 
 #### Go back to your App by clicking on Launch App.
