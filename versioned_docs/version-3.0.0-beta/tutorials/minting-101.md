@@ -42,9 +42,14 @@ If you got the insufficient funds notification as shown above to mint your NFT, 
 <img src={require('@site/static/img/3.0.0/step4b.png').default} /> <br/><br/>
 
 ### Final step
-When the tokens have been reflected  in your wallet, go back to your NFT minting Page and click on **MINT A KEY** as shown in [step3](#step-3-minting-an-nft). Confirm the transaction.
+When the tokens have been reflected  in your wallet, go back to your NFT minting Page and click on **MINT A KEY** as shown in [step3](#step-3-minting-an-nft). Confirm the transaction as seen below
+<img src={require('@site/static/img/3.0.0/finalb.png').default} /> <br/><br/>
 
-***Wait for the loader to load and voila!!***
+***Wait for the loader to load...***
+
+<img src={require('@site/static/img/3.0.0/loader.png').default} /> <br/><br/>
+
+### voila!! You have just minted your NFT
 
 <img src={require('@site/static/img/3.0.0/finalnft.png').default} /> <br/><br/>
 
