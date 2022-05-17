@@ -49,11 +49,17 @@ When the tokens have been reflected  in your wallet, go back to your NFT minting
 
 <img src={require('@site/static/img/3.0.0/loader.png').default} /> <br/><br/>
 
+#### sign the pop-up message thhat will give you access to the platform
+
 ### voila!! You have just minted your NFT
 
-#### Note: If you see an error message popping up, just refresh the page and click on the *Find Out* button again, you will be able to view your NFT and launch the App.
+***If you see an error message popping up, just refresh the page and click on the Find Out button again, you will be able to view your NFT and launch the App.***
 
 <img src={require('@site/static/img/3.0.0/finalnft.png').default} /> <br/><br/>
 
-#### Note: Transfering your minted NFT to another wallet address will revoke your access to the platform
+#### Note:
+* If you get an error message at any stage of the minting process, just refresh the page
+* You don't have to go through this process of validating and minting NFT more than once.
+* Transfering your minted NFT to another wallet address will revoke your access to the platform
+
 #### Go back to your App by clicking on Launch App.
