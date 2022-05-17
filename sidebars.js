@@ -61,6 +61,7 @@ module.exports = {
       label: "Quick Start",
       collapsed: false,
       items: [
+        "quick-start/minting-101",
         "quick-start/configuring-wallet",
         "quick-start/quick-deploy",
         "quick-start/configure-domain",
