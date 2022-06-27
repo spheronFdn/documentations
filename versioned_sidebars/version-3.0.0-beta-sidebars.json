@@ -81,6 +81,12 @@
         "quick-start/upgrade-plan"
       ]
     },
+    {
+      "type": "category",
+      "label": "Partners",
+      "collapsed": false,
+      "items": ["partners/dapp-development"]
+    },
     "faqs",
     "get-help"
   ]
