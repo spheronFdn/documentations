@@ -1,8 +1,8 @@
 ---
-id: bunzz
+id: Bunzz
 title: Bunzz
-sidebar_label: bunzz
-slug: /dapp-development/bunzz
+sidebar_label: Bunzz
+slug: /Dapp Development/bunzz
 ---
 
 ## What is Bunzz?
@@ -70,7 +70,7 @@ developers to focus more on value-added work.
 7. Vaulting function module (a function that locks tokens for a certain period of time and
    distributes interest based on the amount of tokens) [To be implemented in 2022 Q2].
 
-[**more information on Bunzz doc here**](https://docs.bunzz.dev/product-docs/introduction/what-is-bunzz)
+[**More information on Bunzz doc here**](https://docs.bunzz.dev/product-docs/introduction/what-is-bunzz)
 
 [**Click here to get free access to Bunzz**](http://www.bunzz.dev/)
 
