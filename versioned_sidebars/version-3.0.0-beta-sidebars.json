@@ -90,7 +90,7 @@
     {
       "type": "category",
       "label": "Change-log",
-      "collapsed": false,
+      "collapsed": true,
       "items": ["change-log/V3.0.3", "change-log/V3.0.4", "change-log/V3.0.5"]
     },
     "faqs",
