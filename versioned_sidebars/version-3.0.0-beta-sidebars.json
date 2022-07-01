@@ -83,13 +83,13 @@
     },
     {
       "type": "category",
-      "label": "Partners",
+      "label": "Dapp-development",
       "collapsed": true,
-      "items": ["partners/dapp-development"]
+      "items": ["dapp-development/bunzz"]
     },
     {
       "type": "category",
-      "label": "Change-log",
+      "label": "Change logs",
       "collapsed": true,
       "items": ["change-log/V3.0.3", "change-log/V3.0.4", "change-log/V3.0.5"]
     },
