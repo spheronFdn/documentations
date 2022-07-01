@@ -71,7 +71,7 @@
     {
       "type": "category",
       "label": "Quick Start",
-      "collapsed": false,
+      "collapsed": true,
       "items": [
         "quick-start/minting-101",
         "quick-start/configuring-wallet",
@@ -84,8 +84,14 @@
     {
       "type": "category",
       "label": "Partners",
-      "collapsed": false,
+      "collapsed": true,
       "items": ["partners/dapp-development"]
+    },
+    {
+      "type": "category",
+      "label": "Change-log",
+      "collapsed": false,
+      "items": ["change-log/V3.0.3"]
     },
     "faqs",
     "get-help"
