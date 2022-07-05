@@ -71,7 +71,7 @@
     {
       "type": "category",
       "label": "Quick Start",
-      "collapsed": false,
+      "collapsed": true,
       "items": [
         "quick-start/minting-101",
         "quick-start/configuring-wallet",
@@ -80,6 +80,18 @@
         "quick-start/create-org",
         "quick-start/upgrade-plan"
       ]
+    },
+    {
+      "type": "category",
+      "label": "Dapp Development",
+      "collapsed": true,
+      "items": ["Dapp Development/Bunzz"]
+    },
+    {
+      "type": "category",
+      "label": "Changelogs",
+      "collapsed": true,
+      "items": ["changelogs/V3.0.0","changelogs/V3.0.3", "changelogs/V3.0.4", "changelogs/V3.0.5"]
     },
     "faqs",
     "get-help"

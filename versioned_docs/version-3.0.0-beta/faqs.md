@@ -23,7 +23,7 @@ A. Some say it is even easier, just connect your GitHub and click deploy it real
 
 #### Q. Can you deploy any Framework?
 
-A. Yes! We can host absolutely dApp with any frameworks, currently, we support React, Vue, Angular & Next.js. We’ll be adding more frameworks. Go from your Git to any decentralized cloud network of your choice in just 3 clicks.
+A. No! You can deploy only supported frameworks,[**please checkout out the supported frameworks here**](https://spheron.network/features/frameworks)
 
 #### Q. Which platform does Spheron use for storage?
 
@@ -31,7 +31,7 @@ A. We currently support Arweave, Skynet, IPFS & Filecoin for the static sites.
 
 #### Q. What can be deployed?
 
-A. Traditional cloud-native applications, Decentralized projects & Serverless app
+A. All the Static Web App built using Supported Frameworks. [**checkout out the supported frameworks here**](https://spheron.network/features/frameworks)
 
 #### Q. How are public identity and privacy maintained for the project which uses your platform for deployment?
 
