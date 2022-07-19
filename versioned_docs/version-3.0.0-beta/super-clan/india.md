@@ -1,7 +1,7 @@
 ---
 id: india
 title: Announcing the Spheron Clan India
-sidebar_label: india
+sidebar_label: India
 slug: /super-clan/india
 ---
 
