@@ -104,7 +104,7 @@
       "type": "category",
       "label": "Spheron Clan",
       "collapsed": true,
-      "items": ["Super Clan/Africa", "Super Clan/india"]
+      "items": ["super-clan/africa", "super-clan/india"]
     },
     "faqs",
     "get-help"

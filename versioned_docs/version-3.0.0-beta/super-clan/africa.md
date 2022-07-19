@@ -1,8 +1,8 @@
 ---
-id: Africa
+id: africa
 title: Announcing the Spheron Clan Africa
-sidebar_label: Africa
-slug: /Super Clan/Africa
+sidebar_label: africa
+slug: /super-clan/africa
 ---
 
 Spheron Clan Africa Program is for Web3, blockchain, and open source enthusiasts who help us spread Crypto, web3, blockchain, and open source literacy in the greater web3 community via moderation, open source contribution, and educational content while earning Swags, Crypto and NFT’s
