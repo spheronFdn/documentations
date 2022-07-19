@@ -1,8 +1,8 @@
 ---
 id: india
 title: Announcing the Spheron Clan India
-sidebar_label: India
-slug: /Super Clan/india
+sidebar_label: india
+slug: /super-clan/india
 ---
 
 Spheron Clan India Program is for Web3, blockchain, and open source enthusiasts who help us spread Crypto, web3, blockchain, and open source literacy in the greater web3 community via moderation, open source contribution, and educational content while earning Swags, Crypto and NFT’s
