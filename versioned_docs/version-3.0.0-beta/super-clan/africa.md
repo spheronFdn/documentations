@@ -1,7 +1,7 @@
 ---
 id: africa
 title: Announcing the Spheron Clan Africa
-sidebar_label: africa
+sidebar_label: Africa
 slug: /super-clan/africa
 ---
 
