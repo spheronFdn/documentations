@@ -5,11 +5,11 @@ sidebar_label: India
 slug: /super-clan/india
 ---
 
-Spheron Clan India Program is for Web3, blockchain, and open source enthusiasts active and intrested in Crypto, web3, blockchain, and open source literacy in the greater web3 community via moderation, open source contribution, and educational content while earning Swags, Crypto and NFT’s
+Spheron Clan India Program is for Web3, blockchain, and open source enthusiasts who help us spread Crypto, web3, blockchain, and open source literacy in the greater web3 community via moderation, open source contribution, and educational content while earning Swags, Crypto and NFT’s
 
 Our aim is to spread web3, blockchain, and Open Source awareness among student and professional communities.
 
-This program is for you, If you are a student or professional who is a:
+This program is for you, If you are a student or professional who is a :
 
 🛠️ Developer
 
@@ -25,7 +25,7 @@ This program is for you, If you are a student or professional who is a:
 
 ## Desired Pre-requisites for the Spheron Clan India Program:
 
-- The program is open to all students and professionals based out of India.
+- The program is open to all students and professionals based out of India
 - You must be proficient in English and the regional language that you are applying for 👀
 - Have a good knowledge and enthusiasm for Open Source and Web3👨‍💻
 - Having previous community-building experience would be an advantage. However, it shouldn't stop you from applying 🙌🏻
