@@ -17,7 +17,7 @@ Follow these steps to deploy your first Angular app on Spheron successfully.
 
 While this feature is not new to developers, the magic of Spheron is that every push to any branch in your GitHub, GitLab, or Bitbucket repo triggers a new build and deployment of your project.
 
-### Step 2: Update Your Vue.js Project for Deploying on Decentralised Storage
+### Step 2: Update Your Angular Project for Deploying on Decentralised Storage
 
 Decentralized Storage needs a different configuration for the dapp to work without any issues. The only issue you will face after deploying on decentralized Storage is the routing issue. The decentralized Storage works in a hash-based system, so you need to change your routing module from **BrowserRouter** (e.g., `domain.com/testing`) to **HashRouter** (e.g., `domain.com/#/testing`)
 
