@@ -107,6 +107,17 @@
       "collapsed": true,
       "items": ["super-clan/africa", "super-clan/india"]
     },
+    {
+      "type": "category",
+      "label": "Framework Guide",
+      "collapsed": true,
+      "items": [
+        "framework-guide/deploy-react",
+        "framework-guide/deploy-vue",
+        "framework-guide/deploy-angular",
+        "framework-guide/deploy-next"
+      ]
+    },
     "faqs",
     "get-help"
   ]
