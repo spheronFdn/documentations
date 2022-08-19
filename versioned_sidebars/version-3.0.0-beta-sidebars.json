@@ -115,7 +115,8 @@
         "framework-guide/deploy-react",
         "framework-guide/deploy-vue",
         "framework-guide/deploy-angular",
-        "framework-guide/deploy-next"
+        "framework-guide/deploy-next",
+        "framework-guide/deploy-docusarus"
       ]
     },
     "faqs",
