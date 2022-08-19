@@ -17,7 +17,7 @@ This guide will show you how to deploy a Docusarus project and get your domain u
 
 While this feature is not new to developers, the magic of Spheron is that every push to any branch in your GitHub, GitLab, or Bitbucket repo triggers a new build and deployment of your project.
 
-### Step 2: Update Your Docusarus Project for Deploying on Decentralised Storage
+### Step 2: Deploy using the Spheron Platform UI.
 
 
 You can **create a new Spheron project using the platform UI**. First, visit [Spheron Protocol](https://aqua.spheron.network/) in your browser.
