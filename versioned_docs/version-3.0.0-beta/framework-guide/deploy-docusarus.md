@@ -5,11 +5,9 @@ sidebar_label: Deploy Docusarus App
 slug: /framework-guide/deploy-docusarus
 ---
 
-
 This guide will show you how to deploy a Docusarus project and get your domain up.
 
 [Docusarus](https://docusaurus.io/) is a tool designed to make it easy for teams to publish documentation websites without having to worry about the infrastructure and design details. At its core, all a user has to provide are documentation files written in Markdown, customization of a provided home page written in React, and a few configuration modifications.
-
 
 ## Follow these steps to deploy your Docusarus app on Spheron.
 
@@ -18,7 +16,6 @@ This guide will show you how to deploy a Docusarus project and get your domain u
 While this feature is not new to developers, the magic of Spheron is that every push to any branch in your GitHub, GitLab, or Bitbucket repo triggers a new build and deployment of your project.
 
 ### Step 2: Deploy using the Spheron Platform UI.
-
 
 You can **create a new Spheron project using the platform UI**. First, visit [Spheron Protocol](https://aqua.spheron.network/) in your browser.
 
@@ -59,4 +56,3 @@ Now that you've deployed your Docusarus project on Spheron, you have all the ben
 After deploying, your new Docusarus project will automatically be assigned a **.spheron.app** suffixed domain. You can then add a [Custom Domain](https://docs.spheron.network/domain-and-https/centralized-domain/attach-domain) on your choice.
 
 We're so excited to see what you build with Docusarus on Spheron!
-

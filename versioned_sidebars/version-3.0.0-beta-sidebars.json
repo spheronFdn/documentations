@@ -85,7 +85,7 @@
       "type": "category",
       "label": "Dapp Development",
       "collapsed": true,
-      "items": ["Dapp Development/Bunzz"]
+      "items": ["dapp-development/bunzz"]
     },
     {
       "type": "category",
