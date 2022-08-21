@@ -15,7 +15,6 @@ Connecting your website's GitHub repository to deploy directly from there and en
 
 Spheron lets you get more control of how you build and deploy your repository
 
-- **Owner**: The organization's name, considered the owner of the deployment. Ex: Your Org's name
 - **Branch to Deploy**: The branch of the repository to be deployed in Spheron. Ex: main, dev, etc
 - **Root directory**: In some projects, the top-level directory of the repository may not be the root directory of the app you’d like to build. For example, your repository might be a monorepo that has a frontend directory, which contains a stand-alone Next.js app.
 
