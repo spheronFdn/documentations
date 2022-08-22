@@ -69,3 +69,4 @@ You will also have to define the correct publish directory, here's list of defau
 | [Angular](https://angular.io/)                                | `npm`/`yarn`    | `npm run build` / `yarn build`                 | `dist/your-app-name`       |
 | [Nuxt JS](https://nuxtjs.org/)                                | `npm`/`yarn`    | `yarn generate`                 | `dist/`       |
 | [Vanilla JS](http://vanilla-js.com/)                                |    |               |       |
+| [Hugo](https://gohugo.io/)                                | `npm`/`yarn`    | `hugo -D --gc`                 | `public`       |
