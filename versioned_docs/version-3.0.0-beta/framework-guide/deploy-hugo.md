@@ -15,13 +15,7 @@ This guide will show you how to deploy a Hugo project and set up your domain.
 
 While this feature is not new to developers, the magic of Spheron is that every push to any branch in your GitHub, GitLab, or Bitbucket repo triggers a new build and deployment of your project.
 
-### Step 2: Update Your Hugo Project for Deploying on Decentralised Storage
-
-Decentralized Storage needs a different configuration for the dapp to work without any issues. The only issue you will face after deploying on decentralized Storage is the routing issue. The decentralized Storage works in a hash-based system, so you need to change your routing module from **BrowserRouter** (e.g., `domain.com/testing`) to **HashRouter** (e.g., `domain.com/#/testing`)
-
-Once you change all the instances of browser routing to hash routing, you can now deploy your project via Spheron on any Protocol.
-
-### Step 3: Deploy using the Spheron Platform UI.
+### Step 2: Deploy using the Spheron Platform UI.
 
 You can **create a new Spheron project using the platform UI**. First, visit [Spheron Protocol](https://aqua.spheron.network/) in your browser.
 
