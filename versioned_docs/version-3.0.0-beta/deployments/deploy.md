@@ -76,6 +76,13 @@ Click [here](deployments/get-started.md/#configuring-the-deployment) to know mor
 
 <img src={require('@site/static/img/3.0.0/deploy-build-options.png').default} />
 
+
+Select Nodde Engine
+
+Select the node engine of your project,users have the flexibility to choose which node version their project is based on. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1v13jJT3Q3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Part 4. Deploy
 
 Upon successful selection of all the parameters, click the **Deploy** button to deploy your app.
