@@ -47,7 +47,7 @@
       "label": "Organization",
       "items": [
         "organization/overview",
-        "organization/members",
+        "organization/roles",
         "organization/archive-project"
       ]
     },
