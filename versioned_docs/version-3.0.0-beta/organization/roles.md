@@ -1,15 +1,16 @@
 ---
-id: members
-title: Members
-sidebar_label: Members
-slug: /organization/members
+id: roles
+titles: Roles
+sidebar_label: Roles
+slug: /organization/roles
+
 ---
 
 Organizations are associated with individual people by way of members, which are simply a grouping of individual user accounts and repositories within the organization. People in the organization are assigned different roles based on the owner's own preference and each role has different powers attached to it.
 
 The Members page shows the members and their roles present under the organization.
 
-<img src={require('@site/static/img/3.0.0/members.png').default} />
+<img src={require('@site/static/img/3.0.0/orgmem.png').default} />
 
 ### Roles
 
@@ -56,12 +57,13 @@ The member can only deploy projects and view details around them. When a member 
 New team members will get an email with a link to accept the invitation. You can enter several email addresses separated by commas (without spaces).
 
 :::
+<img src={require('@site/static/img/3.0.0/invitem.png').default} />
 
-<img src={require('@site/static/img/3.0.0/pending-invite.png').default} />
 
 <font size="4"> <b>Step 2.</b> The member will receive an invitation mail from Spheron. <i>Please check your Spam folder as well if you cannot find it in your mailbox.</i> </font> <br/><br/>
 
-<img src={require('@site/static/img/3.0.0/invite-members.png').default} />
+<img src={require('@site/static/img/3.0.0/mememail.png').default} />
+
 
 <font size="4"> <b>Step 3.</b> On clicking <code>Accept Invite</code>, you will be redirected to the Spheron login page. Login/Signup using your favourite provider. </font> <br/><br/>
 

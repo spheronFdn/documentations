@@ -47,7 +47,7 @@
       "label": "Organization",
       "items": [
         "organization/overview",
-        "organization/members",
+        "organization/roles",
         "organization/archive-project"
       ]
     },
@@ -116,7 +116,10 @@
         "framework-guide/deploy-vue",
         "framework-guide/deploy-angular",
         "framework-guide/deploy-next",
-        "framework-guide/deploy-docusarus"
+        "framework-guide/deploy-docusarus",
+        "framework-guide/deploy-nuxt",
+        "framework-guide/deploy-vanilla",
+        "framework-guide/deploy-hugo"
       ]
     },
     "faqs",

@@ -59,11 +59,14 @@ Environment variable changes are applied at deploy time and require a re-deploy 
 
 You will also have to define the correct publish directory, here's list of default configurations for popular frameworks:
 
-| Framework                                                     | Package Manager | Build Command                                  | Publish Directory          |
+| Framework                                                     | Link to guide | Build Command                                  | Publish Directory          |
 | ------------------------------------------------------------- | --------------- | ---------------------------------------------- | -------------------------- |
-| Static                                                        | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
-| [React](https://reactjs.org/)                                 | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
-| [Create Eth App](https://github.com/paulrberg/create-eth-app) | `npm` / `yarn`  | `npm react-app:start` / `yarn react-app:start` | `packages/react-app/build` |
-| [Vue](https://vuejs.org/)                                     | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `dist`                     |
-| [Next JS](https://nextjs.org/)                                | -               | `next build && next export`                    | `out`                      |
-| [Angular](https://angular.io/)                                | `npm`/`yarn`    | `npm run build` / `yarn build`                 | `dist/your-app-name`       |
+| Static                                                        |   | `npm run build` / `yarn build`                 | `build`                    |
+| [React](https://reactjs.org/)                                 | [click here](https://docs.spheron.network/framework-guide/deploy-react)  |  / `yarn build`                 | `build`                    |
+| [Create Eth App](https://github.com/paulrberg/create-eth-app) |  | `npm react-app:start` / `yarn react-app:start` | `packages/react-app/build` |
+| [Vue](https://vuejs.org/)                                     |  [click here](https://docs.spheron.network/framework-guide/deploy-vue)    | `npm run build` / `yarn build`                 | `dist`                     |
+| [Next JS](https://nextjs.org/)                                | [click here](https://docs.spheron.network/framework-guide/deploy-next)              | `next build && next export`                    | `out`                      |
+| [Angular](https://angular.io/)                                | [click here](https://docs.spheron.network/framework-guide/deploy-angular)      | `npm run build` / `yarn build`                 | `dist/your-app-name`       |
+| [Nuxt JS](https://nuxtjs.org/)                                |     | `yarn generate`                 | `dist/`       |
+| [Vanilla JS](http://vanilla-js.com/)                                |    |               |       |
+| [Hugo](https://gohugo.io/)                                |  | `hugo -D --gc`                 | `public`       |
