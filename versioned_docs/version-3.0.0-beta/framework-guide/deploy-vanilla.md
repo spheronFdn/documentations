@@ -9,12 +9,11 @@ This guide will show you how to deploy a Vanilla project and set up your domain.
 
 [Vanilla JS](http://vanilla-js.com/) is a fast, lightweight, cross-platform framework for building incredible, powerful JavaScript applications.
 
-## Follow these steps to deploy your  Vanilla app on Spheron successfully.
+## Follow these steps to deploy your Vanilla app on Spheron successfully.
 
 ### Step 1: Put Your Vanilla Project Code in a Git Repo
 
 While this feature is not new to developers, the magic of Spheron is that every push to any branch in your GitHub, GitLab, or Bitbucket repo triggers a new build and deployment of your project.
-
 
 Once you change all the instances of browser routing to hash routing, you can now deploy your project via Spheron on any Protocol.
 

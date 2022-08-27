@@ -9,7 +9,6 @@ This guide will show you how to deploy a Nuxt.js project and get your domain up.
 
 [Nuxt.js](https://nuxtjs.org/) is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js. The framework is advertised as a "Meta-framework for universal [applications"](https://en.wikipedia.org/wiki/Nuxt.js).
 
-
 ## Follow these steps to deploy your Nuxt.js app on Spheron.
 
 ### Step 1: Put Your Nuxt.js Project Code in a Git Repo

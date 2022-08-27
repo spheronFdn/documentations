@@ -9,7 +9,7 @@ This guide will show you how to deploy a Hugo project and set up your domain.
 
 [Hugo](https://gohugo.io/) is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 
-## Follow these steps to deploy your  Hugo app on Spheron successfully.
+## Follow these steps to deploy your Hugo app on Spheron successfully.
 
 ### Step 1: Put Your Hugo Project Code in a Git Repo
 
