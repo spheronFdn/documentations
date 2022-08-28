@@ -7,7 +7,7 @@ slug: /billing/coupon
 
 Spheron automatically provides all users with a free Starter package to access and use the platform when you sign up until the user upgrades to the Pro plan.
 
-To check your spheron Plan [**please click here**](https://docs.spheron.network/billing/plans)
+To check your Spheron Plan [**please click here**](https://docs.spheron.network/billing/plans)
 
 
 ## How to upgrade your plan using the Coupon code options
@@ -18,7 +18,7 @@ To check your spheron Plan [**please click here**](https://docs.spheron.network/
 ### Step 2: Click on upgrade plan button
 <img src={require('@site/static/img/3.0.0/plan.png').default} /> <br/><br/>
 
-#### Clicking on the upgrade plan button takes you to the plan options as shown above. Click the switch to pro button
+#### Clicking on the upgrade plan button takes you to the plan options as shown above. Click the Switch to Pro button.
 
 
 ### Step 4: Input your coupon code in the Coupon box Option
@@ -28,12 +28,12 @@ To check your spheron Plan [**please click here**](https://docs.spheron.network/
 
 ## How to know the status of your Coupon code.
 
-#### On your billing page,click on the coupon button on the menu bar at the left
+#### On your billing page, click on the coupon button on the menu bar at the left
 <img src={require('@site/static/img/3.0.0/check-coupon.png').default} /> <br/><br/>
 
 
 :::info
 
-Users can check the activation and expiry date of their coupon code as well as see active,pending and expired Coupon.
+Users can check the activation and expiry date of their coupon code as well as see active, pending, and expired Coupons.
 
 :::
