@@ -1,8 +1,8 @@
 ---
-id: Bunzz
+id: bunzz
 title: Bunzz
 sidebar_label: Bunzz
-slug: /Dapp Development/bunzz
+slug: /dapp-development/bunzz
 ---
 
 ## What is Bunzz?
