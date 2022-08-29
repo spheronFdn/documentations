@@ -26,6 +26,22 @@ To check your Spheron Plan [**please click here**](https://docs.spheron.network/
 
  **Click on Upgrade plan and wait for the page to load**🔥🔥🔥🔥🔥
 
+
+ -------------------------
+
+## How to activate your Coupon code.
+### Step 1: Go to the billing page of your application, click the coupon tab.
+
+#### Click on add new coupon button as shown below.
+<img src={require('@site/static/img/3.0.0/check-coupon.png').default} /> <br/><br/>
+
+### Step 2: Add coupon code details as shown in the pop up menu below and click on Add.
+<img src={require('@site/static/img/3.0.0/add-coupon.png').default} /> <br/><br/>
+
+### Step 3: Wait for the page to reload and viola!!!🔥 see status of your coupon page.
+
+------
+
 ## How to know the status of your Coupon code.
 
 #### On your billing page, click on the coupon button on the menu bar at the left
