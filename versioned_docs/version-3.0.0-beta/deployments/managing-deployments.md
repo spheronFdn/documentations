@@ -20,7 +20,7 @@ These are the stats reflected :
 
 ### Redeploy a Project
 
-Spheron automatically redeploys your application to integrate new and existing changes. You update an application by editing, adding, or deleting its contents.
+Spheron automatically redeploys your application to integrate new and existing changes upon pushing a commit to Git. You update an application by editing, adding, or deleting its contents.
 
 However, there can be situations (e.g. bad cached data) where you need to Redeploy your application to fix issues manually. 
 
