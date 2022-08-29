@@ -59,7 +59,8 @@
         "billing/plans",
         "billing/bonus",
         "billing/invoice",
-        "billing/usage"
+        "billing/usage",
+        "billing/coupon"
       ]
     },
     "version-3.0.0-beta/nft-gated-access",
