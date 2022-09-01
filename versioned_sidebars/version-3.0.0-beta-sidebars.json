@@ -120,7 +120,8 @@
         "framework-guide/deploy-docusarus",
         "framework-guide/deploy-nuxt",
         "framework-guide/deploy-vanilla",
-        "framework-guide/deploy-hugo"
+        "framework-guide/deploy-hugo",
+        "framework-guide/deploy-preact"
       ]
     },
     "faqs",
