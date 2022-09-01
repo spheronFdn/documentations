@@ -72,3 +72,4 @@ You will also have to define the correct publish directory, here's list of defau
 | [Hugo](https://gohugo.io/)                                    | [click here](https://docs.spheron.network/framework-guild/deploy-hugo)    | `hugo -D --gc`                                 | `public`                   |
 | [Preact](https://preactjs.com/)                               |                                                                           | `yarn build`                                   | `build`                    |
 | [Sanity](https://www.sanity.io/)                              |                                                                           | `yarn build`                                   | `dist`                     |
+| [Svelte](https://svelte.dev/)                                 |                                                                           | `yarn-build`                                   | `public`                   |
