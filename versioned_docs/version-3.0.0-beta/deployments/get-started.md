@@ -73,3 +73,4 @@ You will also have to define the correct publish directory, here's list of defau
 | [Preact](https://preactjs.com/)                               |                                                                           | `yarn build`                                   | `build`                    |
 | [Sanity](https://www.sanity.io/)                              |                                                                           | `yarn build`                                   | `dist`                     |
 | [Svelte](https://svelte.dev/)                                 |                                                                           | `yarn-build`                                   | `public`                   |
+| [Gatsby](https://www.gatsbyjs.com/)                                |                                                                           | `yarn-build`                                   | `public`                   |

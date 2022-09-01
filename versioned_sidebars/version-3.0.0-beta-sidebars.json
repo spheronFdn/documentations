@@ -123,7 +123,8 @@
         "framework-guide/deploy-hugo",
         "framework-guide/deploy-preact",
         "framework-guide/deploy-sanity",
-        "framework-guide/deploy-svelte"
+        "framework-guide/deploy-svelte",
+        "framework-guide/deploy-gatsby"
       ]
     },
     "faqs",
