@@ -71,3 +71,4 @@ You will also have to define the correct publish directory, here's list of defau
 | [Vanilla JS](http://vanilla-js.com/)                          | [click here](https://docs.spheron.network/framework-guide/deploy-vanilla) |                                                |                            |
 | [Hugo](https://gohugo.io/)                                    | [click here](https://docs.spheron.network/framework-guild/deploy-hugo)    | `hugo -D --gc`                                 | `public`                   |
 | [Preact](https://preactjs.com/)                               |                                                                           | `yarn build`                                   | `build`                    |
+| [Sanity](https://www.sanity.io/)                              |                                                                           | `yarn build`                                   | `dist`                     |

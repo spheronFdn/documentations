@@ -121,7 +121,8 @@
         "framework-guide/deploy-nuxt",
         "framework-guide/deploy-vanilla",
         "framework-guide/deploy-hugo",
-        "framework-guide/deploy-preact"
+        "framework-guide/deploy-preact",
+        "framework-guide/deploy-sanity"
       ]
     },
     "faqs",
