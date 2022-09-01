@@ -7,8 +7,7 @@ slug: /framework-guide/deploy-preact
 
 This guide will show you how to deploy a Preact project and get your domain up.
 
-[Preact](https://preactjs.com/)  provides the thinnest possible Virtual DOM abstraction on top of the DOM. Preact is fast, and not just because of its size. It's one of the fastest Virtual DOM libraries out there, thanks to a simple and predictable diff implementation. We automatically batch updates and tune Preact to the extreme when it comes to performance. We work closely with browser engineers to get the maximum performance possible out of Preact.
-
+[Preact](https://preactjs.com/) provides the thinnest possible Virtual DOM abstraction on top of the DOM. Preact is fast, and not just because of its size. It's one of the fastest Virtual DOM libraries out there, thanks to a simple and predictable diff implementation. We automatically batch updates and tune Preact to the extreme when it comes to performance. We work closely with browser engineers to get the maximum performance possible out of Preact.
 
 ## Follow these steps to deploy your Preact app on Spheron.
 
@@ -57,5 +56,3 @@ Now that you've deployed your preact project on Spheron, you have all the benefi
 After deploying, your new preact project will automatically be assigned a **.spheron.app** suffixed domain. You can then add a [Custom Domain](https://docs.spheron.network/domain-and-https/centralized-domain/attach-domain) on your choice.
 
 We're so excited to see what you build with preact on Spheron!
-
-
