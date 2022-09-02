@@ -1,3 +1,9 @@
+---
+id: build-features
+title: Build Features
+sidebar_label: Build Features
+slug: /deployments/build-features
+---
 ## Build Features
 Spheron provides the following features to customize your deployments:
 
