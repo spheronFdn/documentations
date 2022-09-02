@@ -77,7 +77,7 @@ Click [here](deployments/get-started.md/#configuring-the-deployment) to know mor
 <img src={require('@site/static/img/3.0.0/deploy-build-options.png').default} />
 
 
-Select Nodde Engine
+Select Node Engine
 
 Select the node engine of your project,users have the flexibility to choose which node version their project is based on. 
 

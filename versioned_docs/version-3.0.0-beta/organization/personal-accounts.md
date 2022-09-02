@@ -9,7 +9,7 @@ slug: /organization/personal-accounts
 
 When you create a new account with Spheron, you are creating a Personal Account. A Personal Account is your own, individual account, registered with the Spheron platform and can be upgraded and can act as an admin account for your organization. 
 
-## Understanding the Personal Account and Pro Plan 
+## Understanding the Default Organization and Pro Plan 
 Your Personal Account always exists on the Starter plan and is ideal for personal projects. While you can collaborate with others via pull requests on your repository, you cannot invite others to collaborate on a Team project with a Starter Plan Account. 
 
 <img src={require('@site/static/img/3.0.0/personalaccounts-organization.png').default} />

@@ -39,7 +39,11 @@ These are the stats reflected :
 
 ## Redeploy Configuration
 
+<<<<<<< HEAD
 You can check the configuration by clicking on the view configuration before redeploying the project using Spheron. 
+=======
+Spheron automatically redeploys your application to integrate new and existing changes upon pushing a commit to Git. You update an application by editing, adding, or deleting its contents.
+>>>>>>> e4c1959b718078a8bbc7cbfca75fedeadc56b6a5
 
 <img src={require('@site/static/img/3.0.0/deploy-redeployviewconfig.png').default} />
 
