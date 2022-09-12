@@ -2,7 +2,7 @@
 id: overview
 title: Overview
 sidebar_label: Overview
-slug: /personal-accounts/overview
+slug: /personal-accounts/login-connection
 ---
 
 The Login Connections page lets you manage third-party services you are using to log into your Personal Account on Spheron.
