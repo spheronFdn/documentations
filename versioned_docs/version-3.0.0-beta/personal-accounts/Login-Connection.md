@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Overview
+title: Login Connection
 sidebar_label: Overview
 slug: /personal-accounts/login-connection
 ---
