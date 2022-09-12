@@ -2,7 +2,7 @@
 id: Caching
 title: Caching
 sidebar_label: Caching
-slug: /Edge-Network/Caching
+slug: /edge-network/caching
 ---
 ## Caching 
 
