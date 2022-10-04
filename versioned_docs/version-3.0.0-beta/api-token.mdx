@@ -5,7 +5,7 @@ sidebar_label: Spheron API
 slug: /rest-api-references
 ---
 
-Spheron API is  an API that give users access over our platform, providing all the resources that is available to you, exposed as HTTP endpoints.
+Spheron API is an API that give users access over our platform, providing all the resources that is available to you, exposed as HTTP endpoints.
 
 ## API style
 
@@ -46,19 +46,29 @@ The `Authorization` header with an access token.
 
 Access Tokens can be created and managed from inside your account settings.
 
-- Go to your profile icon in your spheron dashboard app and click on it as shown below
+- <strong>
+    Go to your profile icon in your spheron dashboard app and click on it as
+    shown below.
+  </strong>
 
 <img src={require("@site/static/img/3.0.0/acct1.png").default} />
 
-- Click on settings from the image above to go to your settings page and navigate to the Tokens in your Account Settings as shown below.
+- <strong>
+    Click on settings from the image above to go to your settings page and
+    navigate to the Tokens in your Account Settings as shown below.
+  </strong>
 
 <img src={require("@site/static/img/3.0.0/acct.png").default} />
 
-- Click Create to open a new Access Token
+- <strong>Click Create to open a new Access Token</strong>
 
 <img src={require("@site/static/img/3.0.0/acct2.png").default} />
 
-- Enter a descriptive name and choose the scope from the list of Organization in the drop-down menu and select an expiration date for the token and click create token
+- <strong>
+    Enter a descriptive name and choose the scope from the list of Organization
+    in the drop-down menu and select an expiration date for the token and click
+    create token.
+  </strong>
 
 <img src={require("@site/static/img/3.0.0/api-token.png").default} />
 
@@ -121,7 +131,7 @@ export const Link = ({ icon, title, subtitle, link }) => {
         toggleHover(false);
       }}
       onClick={(e) => {
-        window.open(link, "_self");
+        window.open(link, "_blank");
       }}
     >
       <div>
