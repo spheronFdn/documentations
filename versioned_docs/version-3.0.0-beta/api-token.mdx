@@ -26,7 +26,7 @@ TLS versions 1.2 and 1.3 are supported, with resumption.
 
 ### Content Type
 
-All requests must be encoded as JSON with the `Content-Type: application/json` header. If not otherwise specified, responses from the Spheron API, including errors, are encoded exclusively as JSON as well.
+All requests made to the API must be encoded as JSON with the `Content-Type: application/json` header. If not otherwise specified, responses from the Spheron API, including errors, are encoded exclusively as JSON as well.
 
 ### Authentication
 
@@ -44,13 +44,23 @@ The `Authorization` header with an access token.
 
 ### Creating an Access Token
 
-Access Tokens can be created and managed from inside your account settings. Go to the drop-down menu in your Account at the top-left in the Navigation bar and click Settings. Navigate to the Tokens in your Account Settings.
+Access Tokens can be created and managed from inside your account settings.
 
-<img src={require("@site/static/img/3.0.0/api-token.png").default} />
+- Go to your profile icon in your spheron dashboard app and click on it as shown below
+
+<img src={require("@site/static/img/3.0.0/acct1.png").default} />
+
+- Click on settings from the image above to go to your settings page and navigate to the Tokens in your Account Settings as shown below.
+
+<img src={require("@site/static/img/3.0.0/acct.png").default} />
 
 - Click Create to open a new Access Token
-- Enter a descriptive name and choose the scope from the list of Organization in the drop-down menu
-- Select an expiration date for the Token and click Create Token
+
+<img src={require("@site/static/img/3.0.0/acct2.png").default} />
+
+- Enter a descriptive name and choose the scope from the list of Organization in the drop-down menu and select an expiration date for the token and click create token
+
+<img src={require("@site/static/img/3.0.0/api-token.png").default} />
 
 The scope ensures that only your specified Organization can use an Access Token. Once you've created an Access Token securely store the value as it will not be shown again.
 
