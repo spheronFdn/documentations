@@ -59,7 +59,8 @@
         "billing/plans",
         "billing/bonus",
         "billing/invoice",
-        "billing/usage"
+        "billing/usage",
+        "billing/coupon"
       ]
     },
     "version-3.0.0-beta/nft-gated-access",
@@ -119,9 +120,14 @@
         "framework-guide/deploy-docusarus",
         "framework-guide/deploy-nuxt",
         "framework-guide/deploy-vanilla",
-        "framework-guide/deploy-hugo"
+        "framework-guide/deploy-hugo",
+        "framework-guide/deploy-preact",
+        "framework-guide/deploy-sanity",
+        "framework-guide/deploy-svelte",
+        "framework-guide/deploy-gatsby"
       ]
     },
+    "api-token",
     "faqs",
     "get-help"
   ]
