@@ -131,7 +131,7 @@
       "label": "Domain Registry",
       "collapsed": true,
       "items": [
-        "domain-registry/domain-registry",
+        "domain-registry/domain-registry-overview",
         "domain-registry/secure-on"
       ]
     },
