@@ -63,7 +63,6 @@
         "billing/coupon"
       ]
     },
-    "version-3.0.0-beta/nft-gated-access",
     {
       "type": "category",
       "label": "Templates",
@@ -125,6 +124,15 @@
         "framework-guide/deploy-sanity",
         "framework-guide/deploy-svelte",
         "framework-guide/deploy-gatsby"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Domain Registry",
+      "collapsed": true,
+      "items": [
+        "domain-registry/domain-registry-overview",
+        "domain-registry/secure-on"
       ]
     },
     "api-token",
