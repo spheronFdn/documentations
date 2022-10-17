@@ -1,12 +1,12 @@
 ---
 id: mvcs
-title: Connect multiple Git providers
-sidebar_label: Multiple Git providers
-slug: /deployments/connect-mvcs
+title: Connect multiple git providers
+sidebar_label: Multiple Git Providers
+slug: /deployments/connect-git
 ---
 
 
-Spheron allows deployments for different providers and every branch push to your GitHub, GitLab, and Bitbucket projects. Before starting, you would need to sync your GitHub, GitLab, and Bitbucket projects to your spheron account.
+Spheron allows deployments for different providers and every branch push to your GitHub, GitLab, and Bitbucket projects. Before starting, you must sync your GitHub, GitLab, and Bitbucket projects to your spheron account.
 
 ### Step 1
 
@@ -28,7 +28,7 @@ Spheron allows deployments for different providers and every branch push to your
 ### Step 3
 
 - <strong>
-       Click on any of the git providers and follow the authentication prompt that pops up to sync. Successfully synced accounts will be shown
+        Click on any of the git providers and follow the authentication prompt that pops up to sync. The Spheron platform will show all the successful synced accounts.
 </strong>
 
 <img src={require("@site/static/img/3.0.0/sync-acct.png").default} />
