@@ -7,6 +7,7 @@
       "items": [
         "version-3.0.0-beta/deployments/get-started",
         "version-3.0.0-beta/deployments/deployment",
+        "version-3.0.0-beta/deployments/mvcs",
         "version-3.0.0-beta/deployments/decentralized-protocols",
         "version-3.0.0-beta/deployments/git-workflow",
         "version-3.0.0-beta/deployments/deployment-environments",
