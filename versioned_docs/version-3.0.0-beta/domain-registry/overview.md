@@ -10,6 +10,7 @@ slug: /overview
 
 -   <strong>
             From your Spheron Dashboard, click on settings as shown below.
+
     </strong>
 
 <img src={require("@site/static/img/3.0.0/dsettings.png").default} />
@@ -34,7 +35,9 @@ slug: /overview
 <img src={require("@site/static/img/3.0.0/wso.png").default} />
 
     -   <strong>
+    
         Confirming the payment will redirect you to a page showing you have successfully created a domain registry.
+
     </strong>
 
 <img src={require("@site/static/img/3.0.0/scr.png").default} />
