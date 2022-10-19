@@ -2,7 +2,7 @@
 id: regions
 title: Regions
 sidebar_label: Regions
-slug: /Edge-Network/regions
+slug: /edge-Network/regions
 ---
 
 ## Regions 

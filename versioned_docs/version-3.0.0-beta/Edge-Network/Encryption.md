@@ -2,16 +2,16 @@
 id: encryption
 title: Encryption
 sidebar_label: Encryption
-slug: /Edge-Network/encryption
+slug: /edge-Network/encryption
 ---
 
 Every Deployment on Spheron is served over an HTTPS connection. The SSL certificates for these unique URLs are automatically generated free of charge.
 
 Any HTTP requests to your Deployments are automatically forwarded to HTTPS using the 308 status code:
 
-_HTTP/1.1 308 Moved Permanently_
-_Content-Type: text/plain_
-_Location: https://<your-deployment-host>_
+HTTP/1.1 308 Moved Permanently
+Content-Type: text/plain
+Location: https://<your-deployment-host>
 
 _An example showing how all HTTP requests are forwarded to HTTPS_
 

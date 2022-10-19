@@ -59,10 +59,11 @@
         "billing/plans",
         "billing/bonus",
         "billing/invoice",
-        "billing/usage"
+        "billing/usage",
+        "billing/payment-history"
       ]
     },
-    "version-3.0.0-beta/nft-gated-access",
+
     {
       "type": "category",
       "label": "Templates",
@@ -79,6 +80,18 @@
         "quick-start/configure-domain",
         "quick-start/create-org",
         "quick-start/upgrade-plan"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Edge Network",
+      "collapsed": true,
+      "items": [
+        "edge-network/overview",
+        "edge-network/caching",
+        "edge-network/compression",
+        "edge-network/encryption",
+        "edge-network/regions"
       ]
     },
     {

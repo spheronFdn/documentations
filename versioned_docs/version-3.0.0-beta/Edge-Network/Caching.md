@@ -1,5 +1,5 @@
 ---
-id: Caching
+id: caching
 title: Caching
 sidebar_label: Caching
 slug: /edge-network/caching
@@ -16,7 +16,7 @@ Static caching is automatic for all deployments. This means that no changes need
 The Cache-Control field is an HTTP header that specifies a set of caching rules for both client (browser) requests and server responses. A cache must obey the requirements defined in the Cache-Control header. For server responses to be successfully cached with the Edge Network, the following criteria must be met:
 
 
-- Request must use GET <span style="color: red;">text</span> or HEAD <span style="color: red;">text</span> method.
+- Request must use  <code>GET</code> or <code>HEAD</code> method.
 - Request must not contain the Range header.
 - Request must not contain the Authorization header.
 - Request must not contain a _spheron_no_cache=1 cookie.
@@ -40,4 +40,3 @@ Edge Network cache is segmented by region. The following caching limits apply to
 
 - Max Cacheable Response Size = 10MB
 - Max Cache Time = 31 days
-
