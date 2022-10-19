@@ -136,7 +136,12 @@
         "domain-registry/secure-on"
       ]
     },
-    "api-token",
+    {
+      "type": "category",
+      "label": "Spheron API",
+      "collapsed": true,
+      "items": ["api/overview", "api/ping-endpoint"]
+    },
     "faqs",
     "get-help"
   ]
