@@ -1,0 +1,184 @@
+---
+id: overview
+title: Spheron API
+sidebar_label: API Overview
+slug: /rest-api-references
+---
+
+Spheron API is an API that give users access over our platform, providing all the resources that is available to you, exposed as HTTP endpoints.
+
+## API style
+
+### REST API
+
+REST API called “Representational State Transfer” and it makes the APIs relatively easy to use and discover. Spheron API is a REST-styled API that makes all data available.
+REST makes data and functionality available as resources, using unique URLs. To request a data or resource,you just need to provide its URL.
+
+## API Basics
+
+Our API is exposed as an HTTP/1 and HTTP/2 service over SSL. All endpoints live under the URL <br /> `https://api-v2.spheron.network` and then generally follow the REST architecture.
+
+### HTTP and TLS
+
+The API supports HTTP versions 1, 1.1, and 2, although HTTP/2 is preferred.
+
+TLS versions 1.2 and 1.3 are supported, with resumption.
+
+### Content Type
+
+All requests made to the API must be encoded as JSON with the `Content-Type: application/json` header. If not otherwise specified, responses from the Spheron API, including errors, are encoded exclusively as JSON as well.
+
+### Authentication
+
+Spheron Access Tokens are required to authenticate and use the Spheron API.
+
+```
+Authorization: Bearer <TOKEN>
+```
+
+:::info Authorization
+
+The `Authorization` header with an access token.
+
+:::
+
+### Creating an Access Token
+
+Access Tokens can be created and managed from inside your account settings.
+
+- <strong>
+    Go to your profile icon in your spheron dashboard app and click on it as
+    shown below.
+  </strong>
+
+<img src={require("@site/static/img/3.0.0/acct1.png").default} />
+
+- <strong>
+    Click on settings from the image above to go to your settings page and
+    navigate to the Tokens in your Account Settings as shown below.
+  </strong>
+
+<img src={require("@site/static/img/3.0.0/acct.png").default} />
+
+- <strong>Click Create to open a new Access Token</strong>
+
+<img src={require("@site/static/img/3.0.0/acct2.png").default} />
+
+- <strong>
+    Enter a descriptive name and choose the scope from the list of Organization
+    in the drop-down menu and select an expiration date for the token and click
+    create token.
+  </strong>
+
+<img src={require("@site/static/img/3.0.0/api-token.png").default} />
+
+The scope ensures that only your specified Organization can use an Access Token. Once you've created an Access Token securely store the value as it will not be shown again.
+
+### Expiration
+
+Setting an expiration date on an Access Token is highly recommended and is considered one of the standard security practices that helps keep your information secure. You can select from a default list of expiration dates ranging from 1 day to 1 year. You can view the expiration date of your Access Tokens on the [tokens page](https://aqua.spheron.network/#/user/settings/api-tokens).
+
+### Failed Authentication
+
+If authentication is unsuccessful for a request, the error status code 403 is returned.
+
+### Versioning
+
+All endpoints and examples are designated with a specific version. Versions vary per endpoint and are not global.
+
+The response shape of a certain endpoint is not guaranteed to be fixed over time. In particular, we might add new keys to responses without bumping a version endpoint, which will be noted in the changelog.
+
+To ensure the security and correctness of your application, make sure to only read the keys from the response that your application needs. Don't proxy entire responses to third-parties without validation.
+
+Old versions of each endpoint are supported for as long as possible. When we intend to deprecate, we will notify users in the changelog section.
+
+Endpoint versions follow the base URL and come before the endpoint. For example:
+
+```
+https://api-v2.spheron.network/v1/deployments
+```
+
+### API Reference
+
+We have generated a swagger documentation for all the API endpoints that developer can access using the API token.
+
+import { useState } from "react";
+
+export const Link = ({ icon, title, subtitle, link }) => {
+  const [hover, setHover] = useState(false);
+  const toggleHover = (state) => {
+    setHover(state);
+  };
+  return (
+    <div
+      style={{
+        boxShadow: "0px 1px 2px rgb(0 0 0 / 12%)",
+        padding: "1rem",
+        paddingLeft: "1.5rem",
+        borderRadius: "4px",
+        border: hover
+          ? "1px solid rgb(23, 23, 83)"
+          : "1px solid rgba(227,232,237,1.00)",
+        display: "flex",
+        alignItems: "center",
+        cursor: "pointer",
+        transitionDuration: "200ms",
+      }}
+      onMouseEnter={(e) => {
+        toggleHover(true);
+      }}
+      onMouseLeave={(e) => {
+        toggleHover(false);
+      }}
+      onClick={(e) => {
+        window.open(link, "_blank");
+      }}
+    >
+      <div>
+        <div
+          style={{
+            fontWeight: "600",
+            color: "rgba(59,69,78,1.00)",
+            fontSize: "16px",
+            lineHeight: "24px",
+          }}
+        >
+          {title}
+        </div>
+        <div
+          style={{
+            color: "rgba(136,153,168,1.00)",
+            fontWeight: "400",
+            fontSize: "14px",
+            lineHeight: "24px",
+          }}
+        >
+          {subtitle}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const Grid = ({ children }) => {
+  return (
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "1fr 1fr",
+        gridGap: "1rem",
+        gap: "1rem",
+      }}
+    >
+      {children}
+    </div>
+  );
+};
+
+<Grid>
+  <Link
+    title="API Reference"
+    subtitle="Swagger documentation of Spheron API"
+    link="https://api-v2.spheron.network/docs/rest-api/"
+  />
+</Grid>

@@ -13,8 +13,8 @@ https://api-v2.spheron.network/status
 
 <strong>
 
-This is what you should see either on postman or on the browser.
-at the moment, it returns an empty page without any Json response.
+This is what you should see either on postman or the browser.
+At the moment, it returns an empty page without any JSON response.
 </strong>
 
 ## Postman 🚀🚀
