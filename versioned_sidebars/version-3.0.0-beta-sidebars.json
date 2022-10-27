@@ -123,6 +123,7 @@
         "framework-guide/deploy-preact",
         "framework-guide/deploy-react",
         "framework-guide/deploy-sanity",
+        "framework-guide/deploy-stencil",
         "framework-guide/deploy-svelte",
         "framework-guide/deploy-vanilla",
         "framework-guide/deploy-vue",
