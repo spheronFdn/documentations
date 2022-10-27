@@ -9,7 +9,7 @@ Spheron provides the feature to check the paymemt history and also use deposit a
 
 The dasboard reflects the payment history for both deposit and withdraw, here is glimpse of the dashboard : 
 
-<!-- <img src={require('@site/static/img/3.0.0/payment-history.png').default} /> -->
+<img src={require('@site/static/img/3.0.0/payment-history.png').default} /> 
 
 ## Deposit 
 

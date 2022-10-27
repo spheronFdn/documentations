@@ -15,7 +15,7 @@ The user must attach wallet benefits of Spheron's Pro package.
 
 <img src={require('@site/static/img/3.0.0/connect-wallet.png').default} />
 
-<font size="4"> <b>Step 2.</b> Choose your preferred Network and Token (<b>USDT</b>, <b>DAI</b>, <b>WMATIC</b>, <b>WETH</b>), network (<b>Polygon Mumbai</b>, <b>Arbitrum</b>, ), and wallet (<b>Metamask</b>) on the pop-up modal.</font> <br/><br/>
+<font size="4"> <b>Step 2.</b> Choose your preferred Network and Token (<b>USDT</b>, <b>DAI</b>, <b>WMATIC</b>, <b>WETH</b>), network (<b>Polygon</b>, <b>Arbitrum</b>, ), and wallet (<b>Metamask</b>) on the pop-up modal.</font> <br/><br/>
 
 ## Polygon Mainnet
 <img src={require('@site/static/img/3.0.0/polygon-payment.png').default} />

@@ -72,10 +72,6 @@ Currently, the <b>Pro</b> subscription plan costs starts from $20 per month per 
 1. Domains → Unlimited
 2. Deployment per day → 1000
 3. Notification → 20k per month
-4. IPFS & Filecoin support → Enabled
-5. Arweave support → Enabled
-6. Shared Spheron IPFS Gateway → Enabled
-7. Analytics → $10
 <b>Security</b>
 1. Edge Network → Enabled
 2. HTTPS/SSL by default → Enabled

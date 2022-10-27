@@ -1,7 +1,7 @@
 ---
 id: login-connection
-title: Login-connection
-sidebar_label: Login-connection
+title: Login Connection
+sidebar_label: Login Connection
 slug: /personal-accounts/login-connection
 ---
 
