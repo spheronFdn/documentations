@@ -7,6 +7,7 @@
       "items": [
         "version-3.0.0-beta/deployments/get-started",
         "version-3.0.0-beta/deployments/deployment",
+        "version-3.0.0-beta/deployments/mvcs",
         "version-3.0.0-beta/deployments/decentralized-protocols",
         "version-3.0.0-beta/deployments/git-workflow",
         "version-3.0.0-beta/deployments/deployment-environments",
@@ -63,7 +64,6 @@
         "billing/coupon"
       ]
     },
-    "version-3.0.0-beta/nft-gated-access",
     {
       "type": "category",
       "label": "Templates",
@@ -113,21 +113,37 @@
       "label": "Framework Guide",
       "collapsed": true,
       "items": [
-        "framework-guide/deploy-react",
-        "framework-guide/deploy-vue",
         "framework-guide/deploy-angular",
-        "framework-guide/deploy-next",
+        "framework-guide/deploy-brunch",
         "framework-guide/deploy-docusarus",
-        "framework-guide/deploy-nuxt",
-        "framework-guide/deploy-vanilla",
+        "framework-guide/deploy-gatsby",
         "framework-guide/deploy-hugo",
+        "framework-guide/deploy-next",
+        "framework-guide/deploy-nuxt",
         "framework-guide/deploy-preact",
+        "framework-guide/deploy-react",
         "framework-guide/deploy-sanity",
         "framework-guide/deploy-svelte",
-        "framework-guide/deploy-gatsby"
+        "framework-guide/deploy-vanilla",
+        "framework-guide/deploy-vue",
+        "framework-guide/deploy-vite"
       ]
     },
-    "api-token",
+    {
+      "type": "category",
+      "label": "Domain Registry",
+      "collapsed": true,
+      "items": [
+        "domain-registry/domain-registry-overview",
+        "domain-registry/secure-on"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Spheron API",
+      "collapsed": true,
+      "items": ["api/overview", "api/ping-endpoint"]
+    },
     "faqs",
     "get-help"
   ]
