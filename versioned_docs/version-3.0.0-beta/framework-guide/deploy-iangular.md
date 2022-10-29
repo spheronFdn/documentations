@@ -1,20 +1,17 @@
 ---
-id: deploy-brunch
-title: How to Deploy Brunch Apps on Spheron
-sidebar_label: Deploy Brunch App
-slug: /framework-guide/deploy-brunch
+id: deploy-iangular
+title: How to Deploy an Ionic Angular Apps on Spheron
+sidebar_label: Deploy Ionic Angular App
+slug: /framework-guide/deploy-iangular
 ---
 
-This guide will show you how to deploy a Brunch project and get your domain up.
+This guide will show you how to deploy an Ionic project and get your domain up.
 
-[Brunch](https://brunch.io/) was built with two things in mind: speed and simplicity.
+[Ionic](https://ionicframework.com/) Ionic is built to perform fast on the all of the latest mobile devices. Build apps with a small footprint and built-in best practices like hardware accelerated transitions, touch-optimized gestures, pre-rendering, and more.
 
-You will find that the typical config of a Brunch application is an order of magnitude simpler, compared to Webpack, Grunt, or Gulp.
-And that the time it takes to perform a fresh compilation? It's times faster. Even more so if you run the watcher — it will only rebuild what was changed, not everything, getting you incremental compilations in under 500ms. (Obviously, you don't have to take our word for it. See this story shared with us by a webpack user.)
+## Follow these steps to deploy your Ionic Angular app on Spheron.
 
-## Follow these steps to deploy your Brunch app on Spheron.
-
-### Step 1: Put Your Brunch Project Code in a Git Repo
+### Step 1: Put Your Ionic Angular Project Code in a Git Repo
 
 While this feature is not new to developers, the magic of Spheron is that every push to any branch in your GitHub, GitLab, or Bitbucket repo triggers a new build and deployment of your project.
 
@@ -26,7 +23,7 @@ You can **create a new Spheron project using the platform UI**. First, visit [Sp
 
 Choose your preferred Git provider from the options as seen above and authorize Spheron to access the repo you want to deploy.
 
-In the next screen, select your Brunch repo from the list.
+In the next screen, select your Ionic Angular repo from the list.
 
 <img src={require('@site/static/img/3.0.0/doca-repo.png').default} /> <br/><br/>
 
@@ -42,7 +39,7 @@ The third screen asks for details about where to create the project and how to b
 
 1. Set the **build command** to `yarn build`
 
-1. Set the **publish directory** to `public`
+1. Set the **publish directory** to `www`
 
 1. You can add some **environment variables** before the build.
 
@@ -50,12 +47,12 @@ The third screen asks for details about where to create the project and how to b
 
 1. Click **Deploy**
 
-<img src={require('@site/static/img/3.0.0/brunch.png').default} /> <br/><br/>
+<img src={require('@site/static/img/3.0.0/iangular.png').default} /> <br/><br/>
 
 ## That's All!
 
-Now that you've deployed your Brunch project on Spheron, you have all the benefits of Spheron — including a custom deployment environment, continuous deployment whenever you push to your repo, and much more — as well as the benefits of Brunch like Preview Mode, Static site rendering.
+Now that you've deployed your Ionic Angular project on Spheron, you have all the benefits of Spheron — including a custom deployment environment, continuous deployment whenever you push to your repo, and much more — as well as the benefits of the Ionic Angular framework
 
-After deploying, your new Brunch project will automatically be assigned a **.spheron.app** suffixed domain. You can then add a [Custom Domain](https://docs.spheron.network/domain-and-https/centralized-domain/attach-domain) on your choice.
+After deploying, your new Ionic Angular project will automatically be assigned a **.spheron.app** suffixed domain. You can then add a [Custom Domain](https://docs.spheron.network/domain-and-https/centralized-domain/attach-domain) on your choice.
 
-We're so excited to see what you build with Brunch on Spheron!
+We're so excited to see what you build with Ionic Angular framework on Spheron!
