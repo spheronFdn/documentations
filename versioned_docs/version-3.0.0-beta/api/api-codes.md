@@ -2,7 +2,7 @@
 id: response-codes
 title: API response codes
 sidebar_label: Response Codes
-slug: /api/api-codes
+slug: /api/response-codes
 ---
 
 REST APIs use the Status-Line part of an HTTP response message to inform clients of their request’s overarching result.
