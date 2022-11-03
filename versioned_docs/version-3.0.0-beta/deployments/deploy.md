@@ -34,7 +34,9 @@ Before you can deploy any application with another version control provider, you
 
 <img src={require('@site/static/img/3.0.0/deploy-choose-repo.png').default} />
 
-You will be redirected to the selected provider's (GitHub/Gitlab/Bitbucket) authorization page.
+<b>You will be redirected to the selected provider's (GitHub/Gitlab/Bitbucket) authorization page as shown below.</b>
+
+<img src={require('@site/static/img/3.0.0/confg.png').default} />
 
 After successful installation of your account, you will be automatically redirected to Spheron, where you can see the repositories present in your account.
 
