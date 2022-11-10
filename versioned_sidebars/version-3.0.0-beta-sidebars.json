@@ -118,6 +118,7 @@
         "framework-guide/deploy-docusarus",
         "framework-guide/deploy-gatsby",
         "framework-guide/deploy-hugo",
+        "framework-guide/deploy-ireact",
         "framework-guide/deploy-next",
         "framework-guide/deploy-nuxt",
         "framework-guide/deploy-preact",
@@ -127,6 +128,7 @@
         "framework-guide/deploy-svelte",
         "framework-guide/deploy-vanilla",
         "framework-guide/deploy-vue",
+        "framework-guide/deploy-iangular",
         "framework-guide/deploy-vite"
       ]
     },
