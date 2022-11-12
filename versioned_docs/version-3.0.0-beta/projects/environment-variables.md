@@ -25,7 +25,6 @@ Adding Environment Variables during new deployment won't work if project already
 
 :::
 
-
 ## Variable got Environment
 
 <strong>you can add an environment variable by going to Project Settings -> Environment Variables </strong>
@@ -75,4 +74,3 @@ When importing your file, you must specify name, value, and environments in a fi
 21
 
 ```
-

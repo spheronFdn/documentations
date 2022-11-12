@@ -59,7 +59,6 @@ Now, Spheron users just have to attach their domains and add the records only on
 
 To use this feature, when adding your domain to a project, you have to select the `latest` option. Choosing this option will link the latest deployed to the domain name and whenever there is any new deployment, it will be linked to the domain name.
 
-
 ## Domain got Environment
 
 Spheron users can attach a deployment environment with a particular domain. Attaching a deployment environment to the domain will give users the flexibility to segregate their domains based on the environment of a project. That means, that if the deployment of a deployment environment is finished, the domain attached to the deployment environment will get updated with the new deployment link.
