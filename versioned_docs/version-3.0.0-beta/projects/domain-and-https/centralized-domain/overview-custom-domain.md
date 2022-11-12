@@ -67,6 +67,6 @@ Spheron users can attach a deployment environment with a particular domain. Atta
 
 :::tip Note
 
-This is only applicable to centralized and subdomains
+This is only applicable to centralized domains and subdomains
 
 :::

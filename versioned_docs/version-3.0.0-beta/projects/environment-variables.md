@@ -27,7 +27,7 @@ Adding Environment Variables during new deployment won't work if project already
 
 ## Variable got Environment
 
-<strong>you can add an environment variable by going to Project Settings -> Environment Variables </strong>
+<strong>You can add an environment variable by going to Project Settings -> Environment Variables </strong>
 
 Spheron users can attach a deployment environment with a particular build environment variable. Attaching an environment to a variable will give users the flexibility to use variables only for a particular environment. For e.g., if users have different environment variables for the development and production environment, they can put 2 different values for the same variable key connected with different deployment environments.
 
