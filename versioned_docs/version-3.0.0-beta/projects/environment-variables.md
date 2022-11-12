@@ -25,14 +25,54 @@ Adding Environment Variables during new deployment won't work if project already
 
 :::
 
-<font size="4"><b>2. In Project Settings</b></font>
 
-You can add an environment variable by going to **Project Settings -> Environment Variables** as well.
+## Variable got Environment
 
-<img src={require('@site/static/img/3.0.0/env-variable.png').default} />
+<strong>you can add an environment variable by going to Project Settings -> Environment Variables </strong>
+
+Spheron users can attach a deployment environment with a particular build environment variable. Attaching an environment to a variable will give users the flexibility to use variables only for a particular environment. For e.g., if users have different environment variables for the development and production environment, they can put 2 different values for the same variable key connected with different deployment environments.
+
+<img src={require('@site/static/img/3.0.0/vge.png').default} />
 
 :::info Note
 
 Environmental Changes Variables are only applied to new deployments and are not applied to earlier deployments.
 
 :::
+
+## Import Environment
+
+Spheron users can import their environment variable from a file. The specification of the file is mentioned in the doc. Users have to create a JSON file that will look like the file below
+
+<img src={require('@site/static/img/3.0.0/ie.png').default} />
+
+:::info
+When importing your file, you must specify name, value, and environments in a file and import them from the dashboard. This will reduce the time to incorporate all the environment variables required in the project one by one.
+
+:::
+
+```json
+1
+2  {
+3    "name": "Key5", // name of the key
+4    "value": "B" // value of env variable
+5    "environments": ["Development"] // environments you need to attach to the variable
+6  },
+7  {
+8    "name": "Key8",
+9    "value": "a"
+10  },
+11  {
+12    "name": "Key5",
+13    "value": "test",
+14    "environments": ["Production"]
+15  },
+16  {
+17    "name": "Key10",
+18    "value": "base",
+19    "environments": ["Production", "Development"]
+20  }
+21
+
+```
+

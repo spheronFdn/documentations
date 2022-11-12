@@ -51,3 +51,4 @@ The domain must be verified before it is linked to the site. After adding the do
 To verify that the DNS is indeed propagated before clicking on the button, you can use a tool such as https://dnschecker.org/
 
 If the verify dns was successfull, then verify button will not be shown anymore.
+

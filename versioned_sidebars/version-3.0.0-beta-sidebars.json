@@ -148,7 +148,6 @@
       "items": ["api/overview", "api/ping-endpoint", "api/response-codes"]
     },
     "faqs",
-    "get-help",
-    "env-var"
+    "get-help"
   ]
 }
