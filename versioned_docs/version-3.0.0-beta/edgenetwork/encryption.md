@@ -2,7 +2,7 @@
 id: encryption
 title: Encryption
 sidebar_label: Encryption
-slug: /edge-Network/encryption
+slug: /edge-network/encryption
 ---
 
 Every Deployment on Spheron is served over an HTTPS connection. The SSL certificates for these unique URLs are automatically generated free of charge.
@@ -11,13 +11,13 @@ Any HTTP requests to your Deployments are automatically forwarded to HTTPS using
 
 HTTP/1.1 308 Moved Permanently
 Content-Type: text/plain
-Location: https://<your-deployment-host>
+Location: https://\<your-deployment-host\>
 
 _An example showing how all HTTP requests are forwarded to HTTPS_
 
 It is not possible to disable this redirection or prevent the Deployment from being served over HTTPS as it is considered an industry standard to serve web content over a secure connection.
 
-## How certificates are handled? 
+## How certificates are handled?
 
 OpenResty plugin automatically and transparently issues SSL certificates from Let's Encrypt (a free certificate authority) as requests are received. It works like:
 

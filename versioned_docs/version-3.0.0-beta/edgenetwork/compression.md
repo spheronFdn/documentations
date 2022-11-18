@@ -2,13 +2,10 @@
 id: compression
 title: Compression
 sidebar_label: Compression
-slug: /edge-Network/compression
+slug: /edge-network/compression
 ---
 
 To save bandwidth and make your application or site faster, the Spheron Edge Network implements two compression algorithms gzip and brotli.
-
-<span style="color: red;">gzip</span> and <span style="color: red;">brotli</span>
-
 
 While gzip has been around for quite some time, brotli is a relatively new compression algorithm built by Google that best serves text compression. brotli also has an advantage over gzip since it uses a dictionary of common keywords on both the client and server-side, which gives a better compression ratio.
 

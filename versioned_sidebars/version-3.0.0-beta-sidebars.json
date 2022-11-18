@@ -7,6 +7,7 @@
       "items": [
         "version-3.0.0-beta/deployments/get-started",
         "version-3.0.0-beta/deployments/deployment",
+        "version-3.0.0-beta/deployments/automatic-framework-detection",
         "version-3.0.0-beta/deployments/decentralized-protocols",
         "version-3.0.0-beta/deployments/git-workflow",
         "version-3.0.0-beta/deployments/deployment-environments",
@@ -63,7 +64,14 @@
         "billing/payment-history"
       ]
     },
-
+    {
+      "type": "category",
+      "label": "Personal Accounts",
+      "items": [
+        "personalaccounts/overview",
+        "personalaccounts/login-connection"
+      ]
+    },
     {
       "type": "category",
       "label": "Templates",
@@ -87,18 +95,18 @@
       "label": "Edge Network",
       "collapsed": true,
       "items": [
-        "edge-network/overview",
-        "edge-network/caching",
-        "edge-network/compression",
-        "edge-network/encryption",
-        "edge-network/regions"
+        "edgenetwork/overview",
+        "edgenetwork/caching",
+        "edgenetwork/compression",
+        "edgenetwork/encryption",
+        "edgenetwork/regions"
       ]
     },
     {
       "type": "category",
       "label": "Dapp Development",
       "collapsed": true,
-      "items": ["Dapp Development/Bunzz"]
+      "items": ["dapp-development/bunzz"]
     },
     {
       "type": "category",

@@ -76,14 +76,19 @@ Click [here](deployments/get-started.md/#configuring-the-deployment) to know mor
 
 <img src={require('@site/static/img/3.0.0/deploy-build-options.png').default} />
 
+### Part 4. Select Node Engine
 
-Select Node Engine
+Select the node engine of your project,users have the flexibility to choose which node version their project is based on.
 
-Select the node engine of your project,users have the flexibility to choose which node version their project is based on. 
+<iframe width="100%" height="540px" src="https://www.youtube.com/embed/1v13jJT3Q3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1v13jJT3Q3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Right now, we are providing **3 Node LST Versions:**
 
-### Part 4. Deploy
+- Node V12 LTS
+- Node V14 LTS
+- Node V16 LTS
+
+### Part 5. Deploy
 
 Upon successful selection of all the parameters, click the **Deploy** button to deploy your app.
 
