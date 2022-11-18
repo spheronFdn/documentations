@@ -1,7 +1,7 @@
 ---
 id: payment-history
-title: Payment-history
-sidebar_label: Payment-history
+title: Payment History
+sidebar_label: Payment History
 slug: /billing/payment-history
 ---
 
