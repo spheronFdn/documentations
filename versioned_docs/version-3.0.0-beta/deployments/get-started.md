@@ -15,7 +15,6 @@ Connecting your website's GitHub repository to deploy directly from there and en
 
 Spheron lets you get more control of how you build and deploy your repository
 
-- **Owner**: The organization's name, considered the owner of the deployment. Ex: Your Org's name
 - **Branch to Deploy**: The branch of the repository to be deployed in Spheron. Ex: main, dev, etc
 - **Root directory**: In some projects, the top-level directory of the repository may not be the root directory of the app you’d like to build. For example, your repository might be a monorepo that has a frontend directory, which contains a stand-alone Next.js app.
 
@@ -60,11 +59,18 @@ Environment variable changes are applied at deploy time and require a re-deploy 
 
 You will also have to define the correct publish directory, here's list of default configurations for popular frameworks:
 
-| Framework                                                     | Package Manager | Build Command                                  | Publish Directory          |
-| ------------------------------------------------------------- | --------------- | ---------------------------------------------- | -------------------------- |
-| Static                                                        | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
-| [React](https://reactjs.org/)                                 | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `build`                    |
-| [Create Eth App](https://github.com/paulrberg/create-eth-app) | `npm` / `yarn`  | `npm react-app:start` / `yarn react-app:start` | `packages/react-app/build` |
-| [Vue](https://vuejs.org/)                                     | `npm` / `yarn`  | `npm run build` / `yarn build`                 | `dist`                     |
-| [Next JS](https://nextjs.org/)                                | -               | `next build && next export`                    | `out`                      |
-| [Angular](https://angular.io/)                                | `npm`/`yarn`    | `npm run build` / `yarn build`                 | `dist/your-app-name`       |
+| Framework                                                     | Link to guide                                                             | Build Command                                  | Publish Directory          |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------- | -------------------------- |
+| Static                                                        |                                                                           | `npm run build` / `yarn build`                 | `build`                    |
+| [React](https://reactjs.org/)                                 | [click here](https://docs.spheron.network/framework-guide/deploy-react)   | / `yarn build`                                 | `build`                    |
+| [Create Eth App](https://github.com/paulrberg/create-eth-app) |                                                                           | `npm react-app:start` / `yarn react-app:start` | `packages/react-app/build` |
+| [Vue](https://vuejs.org/)                                     | [click here](https://docs.spheron.network/framework-guide/deploy-vue)     | `npm run build` / `yarn build`                 | `dist`                     |
+| [Next JS](https://nextjs.org/)                                | [click here](https://docs.spheron.network/framework-guide/deploy-next)    | `next build && next export`                    | `out`                      |
+| [Angular](https://angular.io/)                                | [click here](https://docs.spheron.network/framework-guide/deploy-angular) | `npm run build` / `yarn build`                 | `dist/your-app-name`       |
+| [Nuxt JS](https://nuxtjs.org/)                                | [click here](https://docs.spheron.network/framework-guide/deploy-nuxt)    | `yarn generate`                                | `dist`                     |
+| [Vanilla JS](http://vanilla-js.com/)                          | [click here](https://docs.spheron.network/framework-guide/deploy-vanilla) |                                                |                            |
+| [Hugo](https://gohugo.io/)                                    | [click here](https://docs.spheron.network/framework-guild/deploy-hugo)    | `hugo -D --gc`                                 | `public`                   |
+| [Preact](https://preactjs.com/)                               |                                                                           | `yarn build`                                   | `build`                    |
+| [Sanity](https://www.sanity.io/)                              |                                                                           | `yarn build`                                   | `dist`                     |
+| [Svelte](https://svelte.dev/)                                 |                                                                           | `yarn build`                                   | `public`                   |
+| [Gatsby](https://www.gatsbyjs.com/)                           |                                                                           | `yarn build`                                   | `public`                   |

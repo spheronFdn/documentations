@@ -8,6 +8,7 @@
         "version-3.0.0-beta/deployments/get-started",
         "version-3.0.0-beta/deployments/deployment",
         "version-3.0.0-beta/deployments/automatic-framework-detection",
+        "version-3.0.0-beta/deployments/mvcs",
         "version-3.0.0-beta/deployments/decentralized-protocols",
         "version-3.0.0-beta/deployments/git-workflow",
         "version-3.0.0-beta/deployments/deployment-environments",
@@ -48,7 +49,7 @@
       "label": "Organization",
       "items": [
         "organization/overview",
-        "organization/members",
+        "organization/roles",
         "organization/archive-project"
       ]
     },
@@ -61,7 +62,8 @@
         "billing/bonus",
         "billing/invoice",
         "billing/usage",
-        "billing/payment-history"
+        "billing/payment-history",
+        "billing/coupon"
       ]
     },
     {
@@ -118,7 +120,18 @@
         "changelogs/V3.0.2",
         "changelogs/V3.0.3",
         "changelogs/V3.0.4",
-        "changelogs/V3.0.5"
+        "changelogs/V3.0.5",
+        "changelogs/V3.0.6",
+        "changelogs/V3.0.7",
+        "changelogs/V3.0.8",
+        "changelogs/V3.0.9",
+        "changelogs/V3.1.0",
+        "changelogs/V3.1.1",
+        "changelogs/V3.1.2",
+        "changelogs/V3.1.3",
+        "changelogs/V3.1.4",
+        "changelogs/V3.2.0",
+        "changelogs/V3.2.1"
       ]
     },
     {
@@ -126,6 +139,45 @@
       "label": "Spheron Clan",
       "collapsed": true,
       "items": ["super-clan/africa", "super-clan/india"]
+    },
+    {
+      "type": "category",
+      "label": "Framework Guide",
+      "collapsed": true,
+      "items": [
+        "framework-guide/deploy-angular",
+        "framework-guide/deploy-brunch",
+        "framework-guide/deploy-docusarus",
+        "framework-guide/deploy-gatsby",
+        "framework-guide/deploy-hugo",
+        "framework-guide/deploy-ireact",
+        "framework-guide/deploy-next",
+        "framework-guide/deploy-nuxt",
+        "framework-guide/deploy-preact",
+        "framework-guide/deploy-react",
+        "framework-guide/deploy-sanity",
+        "framework-guide/deploy-stencil",
+        "framework-guide/deploy-svelte",
+        "framework-guide/deploy-vanilla",
+        "framework-guide/deploy-vue",
+        "framework-guide/deploy-iangular",
+        "framework-guide/deploy-vite"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Domain Registry",
+      "collapsed": true,
+      "items": [
+        "domain-registry/domain-registry-overview",
+        "domain-registry/secure-on"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Spheron API",
+      "collapsed": true,
+      "items": ["api/overview", "api/ping-endpoint", "api/response-codes"]
     },
     "faqs",
     "get-help"

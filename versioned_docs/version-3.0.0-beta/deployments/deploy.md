@@ -25,11 +25,18 @@ Select **New Project** on the Spheron dashboard and go through the following ste
 
 ### Part 1. Pick a Repository
 
+:::info
+Before you can deploy any application with another version control provider, you must have connected your accounts. [click here to see how to connect multiple vcs provider](#)
+
+:::
+
 <font size="4"> <b>Step 1.</b> As spheron protocol offers services from <b>GitHub</b>, <b>GitLab</b> and <b>Bitbucket</b>, users can choose their desired option. Click on any git provider to fetch the repositories associated with it. </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/deploy-choose-repo.png').default} />
 
-You will be redirected to the selected provider's (GitHub/Gitlab/Bitbucket) authorization page.
+<b>You will be redirected to the selected provider's (GitHub/Gitlab/Bitbucket) authorization page as shown below.</b>
+
+<img src={require('@site/static/img/3.0.0/confg.png').default} />
 
 After successful installation of your account, you will be automatically redirected to Spheron, where you can see the repositories present in your account.
 
