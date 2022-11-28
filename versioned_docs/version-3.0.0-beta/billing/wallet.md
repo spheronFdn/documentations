@@ -5,7 +5,9 @@ sidebar_label: Wallet
 slug: /billing/wallet
 ---
 
+
 All users get a starter pack plan from Spheron where you can upgrade to the Pro plan at any time by connecting your wallet for payments.
+
 
 :::info Note
 Spheron Starter pack is free for life but all users must connect their wallets to upgrade to the Pro plan
@@ -36,10 +38,11 @@ Select the Metamask wallet
 
 ### Step 5
 
-Metamask raises an alert message stating <code>**I'm the owner of this wallet and want to attach it to the organization**</code>. Sign the transaction. And your wallet is connected.
 
+Metamask raises an alert message stating <code>**I'm the owner of this wallet and want to attach it to the organization**</code>. Sign the transaction. And your wallet is connected.
 <img src={require('@site/static/img/3.0.0/connect-wallet-metamask.png').default} />
 
-### You have just connected your wallet and your Plan page will look like the screenshot below!!!
 
+### You have just connected your wallet and your Plan page will look like the screenshot below!!!
 <img src={require('@site/static/img/3.0.0/bill-plan.png').default} />
+

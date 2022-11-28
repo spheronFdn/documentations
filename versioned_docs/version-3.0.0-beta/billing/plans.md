@@ -10,6 +10,7 @@ Spheron platform currently offers below two package for its user:
 1. <b>Starter</b>
 2. <b>Pro</b>
 
+
 :::info Spheron Starter Pack
 Spheron Starter pack is free for all users until you upgrade to the Pro plan,[click here to see features of the Pro and Starter Plan ](https://spheron.network/pricing)
 
