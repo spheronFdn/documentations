@@ -17,26 +17,27 @@ Once a user has successfully logged in, he is automatically placed on the Starte
 Spheron’s starter pack is accessible for 30 days, starting right away. It provides the following features.
 
 <b>Application</b>
+
 1. Concurrent Build → 1
 2. Build Execution → 2000 mins 3. Bandwidth → 100 GB
 3. Decentralized domains → 2 5. IPFS Storage → 5 GB
-<b>Team</b>
-1. Member → 1
-2. Unlimited Preview Links → Enabled
-3. GitHub / Gitlab / Bitbucket Support → Enabled 4. Private Repository Support → Enabled
-<b>Business</b>
-1. Domains → Unlimited
-2. Deployment per day → 100
-3. IPFS & Filecoin support → Enabled
-4. Arweave support → Not Enabled
-5. Shared Spheron IPFS Gateway → Enabled
-<b>Security</b>
-1. Edge Network → Enabled
-2. HTTPS/SSL by default → Enabled 3. DDoS Mitigation → Not Enabled 4. Secureon support → Enabled
-<b>Support</b>
-1. Chat support → 48 hrs turn around
-2. Notification → In-app notification only 3. Community Support → Enabled
-4. Onboarding call → 15 mins
+   <b>Team</b>
+4. Member → 1
+5. Unlimited Preview Links → Enabled
+6. GitHub / Gitlab / Bitbucket Support → Enabled 4. Private Repository Support → Enabled
+   <b>Business</b>
+7. Domains → Unlimited
+8. Deployment per day → 100
+9. IPFS & Filecoin support → Enabled
+10. Arweave support → Not Enabled
+11. Shared Spheron IPFS Gateway → Enabled
+    <b>Security</b>
+12. Edge Network → Enabled
+13. HTTPS/SSL by default → Enabled 3. DDoS Mitigation → Not Enabled 4. Secureon support → Enabled
+    <b>Support</b>
+14. Chat support → 48 hrs turn around
+15. Notification → In-app notification only 3. Community Support → Enabled
+16. Onboarding call → 15 mins
 
 ### How do I upgrade to the Pro package?
 
@@ -57,31 +58,32 @@ Users can upgrade or downsize their team in Spheron's Pro membership model to fi
 Currently, the <b>Pro</b> subscription plan costs starts from $20 per month per member. Covering in features like
 
 <b>Application</b>
+
 1. Concurrent Build → 3
-2. Build Execution → 6000 mins 
-3. Bandwidth → 1 TB 
-4. Decentralized domains → 10 
-5. IPFS Storage → 10 GB 
-6. Arweave → 1 GB 
-<b>Team</b>
-1. Member → 1 
-2. Unlimited Preview Links → Enabled
-3. GitHub / Gitlab / Bitbucket Support → Enabled
-4. Private Repository Support → Enabled
-<b>Business</b>
-1. Domains → Unlimited
-2. Deployment per day → 1000
-3. Notification → 20k per month
-<b>Security</b>
-1. Edge Network → Enabled
-2. HTTPS/SSL by default → Enabled
-3. DDoS Mitigation → Enabled
-4. Secureon support → Enabled
-<b>Support</b>
-1. Chat support → 24 hrs turn around
-2. Notification → In-app notification, Email & Slack
-3. Community Support → Enabled
-4. Onboarding call → 30 mins
+2. Build Execution → 6000 mins
+3. Bandwidth → 1 TB
+4. Decentralized domains → 10
+5. IPFS Storage → 10 GB
+6. Arweave → 1 GB
+   <b>Team</b>
+7. Member → 1
+8. Unlimited Preview Links → Enabled
+9. GitHub / Gitlab / Bitbucket Support → Enabled
+10. Private Repository Support → Enabled
+    <b>Business</b>
+11. Domains → Unlimited
+12. Deployment per day → 1000
+13. Notification → 20k per month
+    <b>Security</b>
+14. Edge Network → Enabled
+15. HTTPS/SSL by default → Enabled
+16. DDoS Mitigation → Enabled
+17. Secureon support → Enabled
+    <b>Support</b>
+18. Chat support → 24 hrs turn around
+19. Notification → In-app notification, Email & Slack
+20. Community Support → Enabled
+21. Onboarding call → 30 mins
 
 Please checkout our [Pricing](https://spheron.network/pricing) page for more details.
 
