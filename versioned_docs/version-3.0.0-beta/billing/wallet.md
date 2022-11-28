@@ -5,44 +5,26 @@ sidebar_label: Wallet
 slug: /billing/wallet
 ---
 
+As per defualt you get a Strater pack from Spheron and you can upgrade the plan and attach your wallet for payment and billing.
 
-All users get a starter pack plan from Spheron where you can upgrade to the Pro plan at any time by connecting your wallet for payments.
-
-
-:::info Note
-Spheron Starter pack is free for life but all users must connect their wallets to upgrade to the Pro plan
-:::
+The user must attach wallet benefits of Spheron's Pro package.
 
 ## Connect Wallet
 
-### Step 1.
-
-Go to Billing section and click on <code>Connect Wallet</code> button.
+<font size="4"> <b>Step 1.</b> Go to Billing section and click on <code>Connect Wallet</code> button. </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/connect-wallet.png').default} />
 
-### Step 2.
+<font size="4"> <b>Step 2.</b> Choose your preferred Network and Token (<b>USDT</b>, <b>DAI</b>, <b>WMATIC</b>, <b>WETH</b>), network (<b>Polygon</b>, <b>Arbitrum</b>, ), and wallet (<b>Metamask</b>) on the pop-up modal.</font> <br/><br/>
 
-Choose your preferred Network **(Optimism, Polygon, Arbitrum )** from the pop-up modal.
-<img src={require('@site/static/img/3.0.0/choose-network.png').default} />
+## Polygon Mainnet
 
-### Step 3
+<img src={require('@site/static/img/3.0.0/polygon-payment.png').default} />
 
-Select the token of your choice to pay with.
-<img src={require('@site/static/img/3.0.0/choose-token.png').default} />
+## Arbitrum One
 
-### Step 4
+<img src={require('@site/static/img/3.0.0/arbitrum-payment.png').default} />
 
-Select the Metamask wallet
-<img src={require('@site/static/img/3.0.0/choose-metamask.png').default} />
+<font size="4"> <b>Step 3.</b> Metamask raises an alert message stating <code>I'm the owner of this wallet and want to attach it to the organization</code>. Sign the transaction. And your wallet is connected. </font> <br/><br/>
 
-### Step 5
-
-
-Metamask raises an alert message stating <code>**I'm the owner of this wallet and want to attach it to the organization**</code>. Sign the transaction. And your wallet is connected.
 <img src={require('@site/static/img/3.0.0/connect-wallet-metamask.png').default} />
-
-
-### You have just connected your wallet and your Plan page will look like the screenshot below!!!
-<img src={require('@site/static/img/3.0.0/bill-plan.png').default} />
-
