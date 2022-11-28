@@ -17,13 +17,13 @@ Once a user has successfully logged in, he is automatically placed on the Starte
 Spheron’s starter pack is accessible for 30 days, starting right away. It provides the following features.
 
 - <b>100 GB bandwidth</b>
+- <b>2000 minutes Build Execution</b>
 - <b>1 Concurrent Build</b>
 - <b>100 Deployments / Day</b>
+- <b>Unlimited Domains </b>
 - <b>10 Domain Limit</b>
-- <b>10 ENS Domain Limit</b>
-- <b>10 HNS Domain Limit</b>
-
-### How do I upgrade to the Pro package?
+- <b>1 ENS Domain Limit</b>
+- <b>1 HNS Domain Limit</b>
 
 **Pro** is Spheron's exclusive package. To upgrade to Pro, go to the **Billing** section of your organization and follow the steps mentioned [here](/quick-start/upgrade-plan#upgrade-plan).
 
@@ -33,46 +33,52 @@ Make sure you have connected your wallet and have set your allowance.
 
 :::
 
-### Upgrade Plan
+#### PRO Plan
 
 Users can upgrade or downsize their team in Spheron's Pro membership model to fit their company needs.
 
-#### PRO Package
-
 Currently, the <b>Pro</b> subscription plan costs $10 per month per member. Covering in features like
 
-- <b>Unlimited Members, Unlimited Concurrent Builds</b>
-- <b>1000 minutes Build Execution</b>
-- <b>50 Domain Limit</b>
-- <b>50 ENS Domain Limit</b>
-- <b>50 HNS Domain Limit</b>
-- <b>2 Storage Package - 300MB Arweave, 4GB Skynet, 2GB Pinata, 2GB Filecoin</b>
+- <b>Unlimited Members</b>
+- <b>6000 minutes Build Execution</b>
+- <b>1000 Deployment / Day </b>
+- <b>3 Concurrent Build</b>
+- <b>1 TB Bandwidth </b>
+- <b>Unlimited Domains</b>
+- <b>5 ENS Domain Limit</b>
+- <b>5 HNS Domain Limit</b>
+- <b>2 Storage Package - 1 GB Arweave, 10 GB Filecoin</b>
 
 Please checkout our [Pricing](https://spheron.network/pricing) page for more details.
 
 To leverage the features of Spheron’s Pro subscription, Click on <b>Upgrade Plan</b> and follow these steps -
 
-<font size="4"> <b>Step 1.</b> Click on the <b>Upgrade plan</b>. </font> <br/><br/>
+## How to upgrade to the Pro Plan
 
+### Step 1
+
+Go to the **Billing**, Click on the Upgrade plan button
 <img src={require('@site/static/img/3.0.0/upgrade-plan.png').default} />
 
-<font size="4"> <b>Step 2.</b> Click on <b>Switch to Pro</b>. Currently Spheron provides only a Pro subscription. </font> <br/><br/>
-
-<img src={require('@site/static/img/3.0.0/approve-plan.png').default} />
-
-:::info
-
-Review the plan summary, Token chosen, and Token value.
+:::info Note
+To upgrade plan, you must have connect your wallet to your organisation,[click here to see how to connect your wallet to Organisation](http://localhost:3000/billing/wallet)
 
 :::
 
-<font size="4"> <b>Step 3.</b> If the current allowance is less than the required <b>Token Value</b>, a popup for setting allownce will show. Enter the allowance equal or more than the token value to proceed.</font> <br/><br/>
+### Step 2
 
-Click [here](/quick-start/configuring-wallet#allowance) to know more about allowance.
+Click on <b>Switch to Pro,</b> then **Click on Deposit**
+<img src={require('@site/static/img/3.0.0/approve-plan.png').default} />
+
+### Step 3
+
+Input allowance and click approve, [click here](/quick-start/configuring-wallet#allowance) to know more about allowance.
 
 <img src={require('@site/static/img/3.0.0/upgrade-set-allowance.png').default} />
 
-<font size="4"> <b>Step 4.</b> Click on <b>Upgrade plan</b>. It will move to upgrade pending state, and upon successful payment, your plan will get active! </font> <br/><br/>
+### Step 4
+
+Click on **_Upgrade plan_** It will move to upgrade pending state, and upon successful payment, your plan will get active!
 
 <img src={require('@site/static/img/3.0.0/upgrade-pending.png').default} />
 
