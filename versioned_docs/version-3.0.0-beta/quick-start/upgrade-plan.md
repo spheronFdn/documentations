@@ -33,8 +33,8 @@ Make sure you have connected your wallet and have set your allowance.
 
 :::
 
-
 #### PRO Plan
+
 Users can upgrade or downsize their team in Spheron's Pro membership model to fit their company needs.
 
 Currently, the <b>Pro</b> subscription plan costs $10 per month per member. Covering in features like
@@ -43,7 +43,7 @@ Currently, the <b>Pro</b> subscription plan costs $10 per month per member. Cove
 - <b>6000 minutes Build Execution</b>
 - <b>1000 Deployment / Day </b>
 - <b>3 Concurrent Build</b>
-- <b>1 TB Bandwidth  </b>
+- <b>1 TB Bandwidth </b>
 - <b>Unlimited Domains</b>
 - <b>5 ENS Domain Limit</b>
 - <b>5 HNS Domain Limit</b>
@@ -56,6 +56,7 @@ To leverage the features of Spheron’s Pro subscription, Click on <b>Upgrade Pl
 ## How to upgrade to the Pro Plan
 
 ### Step 1
+
 Go to the **Billing**, Click on the Upgrade plan button
 <img src={require('@site/static/img/3.0.0/upgrade-plan.png').default} />
 
@@ -65,16 +66,19 @@ To upgrade plan, you must have connect your wallet to your organisation,[click h
 :::
 
 ### Step 2
- Click on <b>Switch to Pro,</b> then **Click on Deposit**
+
+Click on <b>Switch to Pro,</b> then **Click on Deposit**
 <img src={require('@site/static/img/3.0.0/approve-plan.png').default} />
 
 ### Step 3
+
 Input allowance and click approve, [click here](/quick-start/configuring-wallet#allowance) to know more about allowance.
 
 <img src={require('@site/static/img/3.0.0/upgrade-set-allowance.png').default} />
 
 ### Step 4
-Click on ***Upgrade plan*** It will move to upgrade pending state, and upon successful payment, your plan will get active!
+
+Click on **_Upgrade plan_** It will move to upgrade pending state, and upon successful payment, your plan will get active!
 
 <img src={require('@site/static/img/3.0.0/upgrade-pending.png').default} />
 

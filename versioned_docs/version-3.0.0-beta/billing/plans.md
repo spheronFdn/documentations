@@ -18,6 +18,7 @@ Spheron Starter pack is free for all users until you upgrade to the Pro plan,[cl
 ## How to upgrade to the Pro Plan
 
 ### Step 1
+
 Go to the **Billing**, Click on the Upgrade plan button
 <img src={require('@site/static/img/3.0.0/upgrade-plan.png').default} />
 
@@ -27,16 +28,19 @@ To upgrade plan, you must have connect your wallet to your organisation,[click h
 :::
 
 ### Step 2
- Click on <b>Switch to Pro,</b> then **Click on Deposit**
+
+Click on <b>Switch to Pro,</b> then **Click on Deposit**
 <img src={require('@site/static/img/3.0.0/approve-plan.png').default} />
 
 ### Step 3
+
 Input allowance and click approve, [click here](/quick-start/configuring-wallet#allowance) to know more about allowance.
 
 <img src={require('@site/static/img/3.0.0/upgrade-set-allowance.png').default} />
 
 ### Step 4
-Click on ***Upgrade plan*** It will move to upgrade pending state, and upon successful payment, your plan will get active!
+
+Click on **_Upgrade plan_** It will move to upgrade pending state, and upon successful payment, your plan will get active!
 
 <img src={require('@site/static/img/3.0.0/upgrade-pending.png').default} />
 
