@@ -7,6 +7,7 @@
       "items": [
         "version-3.0.0-beta/deployments/get-started",
         "version-3.0.0-beta/deployments/deployment",
+        "version-3.0.0-beta/deployments/automatic-framework-detection",
         "version-3.0.0-beta/deployments/mvcs",
         "version-3.0.0-beta/deployments/decentralized-protocols",
         "version-3.0.0-beta/deployments/git-workflow",
@@ -61,7 +62,28 @@
         "billing/bonus",
         "billing/invoice",
         "billing/usage",
+        "billing/payment-history",
         "billing/coupon"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Personal Accounts",
+      "items": [
+        "personalaccounts/overview",
+        "personalaccounts/login-connection"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Edge Network",
+      "collapsed": true,
+      "items": [
+        "edgenetwork/overview",
+        "edgenetwork/caching",
+        "edgenetwork/compression",
+        "edgenetwork/encryption",
+        "edgenetwork/regions"
       ]
     },
     {
