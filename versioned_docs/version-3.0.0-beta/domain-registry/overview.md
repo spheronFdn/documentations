@@ -7,34 +7,32 @@ slug: /overview
 
 ### Creating a domain registry
 
-- <strong>
-          From your Spheron Dashboard, click on settings as shown below.
-  </strong>
+<strong>
+    Step 1: From your Spheron Dashboard, click on settings as shown below.
+</strong>
 
 <img src={require("@site/static/img/3.0.0/dsettings.png").default} />
 
-- <strong>
-      From your settings page, navigate to the sidebar on the left and click on  Secureon registry.
-  </strong>
+<strong>
+    Step 2: From your settings page, navigate to the sidebar on the left and click on  Secureon registry.
+</strong>
 
 <img src={require("@site/static/img/3.0.0/lsb.png").default} />
 
-- <strong>
-
-      Click on create a registry, add registry details, and click on **Create**.
-
-  </strong>
+<strong>
+    Step 3: Click on create a registry, add registry details, and click on Create button.
+</strong>
 
 <img src={require("@site/static/img/3.0.0/ccsr.png").default} />
 
-- <strong>
-      You will get a metamask prompt to confirm and pay for the contract to create the registry, click on confirm
-  </strong>
+<strong>
+    Step 4: You will get a metamask prompt to confirm and pay the gas fees for the contract to create the registry, click on confirm
+</strong>
 
 <img src={require("@site/static/img/3.0.0/wso.png").default} />
 
-    -   <strong>
-        Confirming the payment will redirect you to a page showing you have successfully created a domain registry.
-    </strong>
+<strong>
+    Step 5: Confirming the gas fees payment will redirect you to a page showing you have successfully created a domain registry.
+</strong>
 
 <img src={require("@site/static/img/3.0.0/scr.png").default} />

@@ -76,6 +76,18 @@
     },
     {
       "type": "category",
+      "label": "Edge Network",
+      "collapsed": true,
+      "items": [
+        "edgenetwork/overview",
+        "edgenetwork/caching",
+        "edgenetwork/compression",
+        "edgenetwork/encryption",
+        "edgenetwork/regions"
+      ]
+    },
+    {
+      "type": "category",
       "label": "Templates",
       "items": ["templates/koii-template"]
     },
@@ -90,18 +102,6 @@
         "quick-start/configure-domain",
         "quick-start/create-org",
         "quick-start/upgrade-plan"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Edge Network",
-      "collapsed": true,
-      "items": [
-        "edgenetwork/overview",
-        "edgenetwork/caching",
-        "edgenetwork/compression",
-        "edgenetwork/encryption",
-        "edgenetwork/regions"
       ]
     },
     {

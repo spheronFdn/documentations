@@ -17,11 +17,13 @@ To deposit funds, you can do it diretly from the plans section, where you can ch
 
 <img src={require('@site/static/img/3.0.0/deposit-funds-1.png').default} />
 
-Once you click on deposit fund, you will get a prompt from your wallet to approve the transaction.
+Once you click on deposit fund, you will get a prompt from your wallet to approve the token usage by the smart contract.
 
 <img src={require('@site/static/img/3.0.0/deposit-funds3.png').default} />
 
-After Successful deployment you will get a prompt of successful deposit
+Once the approval is successful, you need to deposit the fund to the escrow wallet by clicking on the deposit button which will prompt your wallet to approve the transaction.
+
+After successful deposit, you will get a prompt for the same.
 
 <img src={require('@site/static/img/3.0.0/successful-deposit.png').default} />
 
