@@ -20,7 +20,7 @@ While this feature is not new to developers, the magic of Spheron is that every 
 
 ### Step 2: Deploy using the Spheron Platform UI.
 
-You can **create a new Spheron project using the platform UI**. First, visit [Spheron Protocol](https://aqua.spheron.network/) in your browser.
+You can **create a new Spheron project using the platform UI**. First, visit [Spheron Protocol](https://app.spheron.network/) in your browser.
 
 <img src={require('@site/static/img/3.0.0/doca-git.png').default} /> <br/><br/>
 
