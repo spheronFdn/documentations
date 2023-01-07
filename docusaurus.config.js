@@ -41,7 +41,7 @@ module.exports = {
           position: "right",
         },
         {
-          to: "https://aqua.spheron.network/",
+          to: "https://app.spheron.network/",
           label: "Signup",
           position: "right",
         },
