@@ -14,6 +14,13 @@
         "version-3.0.0-beta/deployments/deployment-environments",
         "version-3.0.0-beta/deployments/logs"
       ]
+      {
+        "type": "category",
+        "label": "Compute", 
+        "items": [
+          "compute/import from docker hub",
+          "compute/start from a new template", 
+        ]
     },
     {
       "type": "category",
