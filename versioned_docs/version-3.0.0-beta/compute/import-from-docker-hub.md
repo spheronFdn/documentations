@@ -54,6 +54,3 @@ must have 5 AKT and the amount needed to run the instance for at least
 one day available.**(#).
 
 :::
-
-
-
