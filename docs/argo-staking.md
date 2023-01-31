@@ -21,7 +21,7 @@ You can refer to the below video to know the full process of staking in ArGo.
 
 <img src={require('@site/static/img/staking.png').default} /> <br/><br/>
 
-To stake in The **ARGO** Pool, you must have **$ARGO** tokens. You can get **$ARGO** tokens by trading on , ARGO-ETH UNI LP token ARGO-MATIC DFYN LP Token <br/><br/>
+To stake in The **ARGO** Pool, you must have **$ARGO** tokens. You can get **$ARGO** tokens by trading on, ARGO-ETH UNI LP token ARGO-MATIC DFYN LP Token <br/><br/>
 
 <img src={require('@site/static/img/staking-pool.png').default} />
 
@@ -66,7 +66,7 @@ Ans. Harvest transfers all the reward ARGO account into your wallet and keeps th
 
 <b>Q8. What does harvest and stake do ?</b><br/>
 
-Ans. Harvest and stake inboth pools (ARGO and ARGO_LP) deposits the rewarded ARGO into ARGO Pool, this enables you to compound your ARGO stake without wasting gas fees. <br/><br/>
+Ans. Harvest and stake in both pools (ARGO and ARGO_LP) deposits the rewarded ARGO into ARGO Pool, this enables you to compound your ARGO stake without wasting gas fees. <br/><br/>
 
 <b>Q9. How can I transfer my ARGO from Ethereum or Polygon or vice-versa ?</b><br/>
 
