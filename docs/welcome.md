@@ -32,7 +32,7 @@ Explore our documentation to learn about Spheron products and features. Here are
 
 **Domains & HTTPS** – Register your own domain in the Spheron UI, to assign a custom domain to your site. By default Spheron provides a cool subdomain to each of your deployed projects.
 
-**Collaborate with the team** - Spheron provides a a team feature as well. Particularly tailored for business use cases and collaboration, it makes it easier for users to work on developing a larger idea and collaborating with other team members.
+**Collaborate with the team** - Spheron provides a team feature as well. Particularly tailored for business use cases and collaboration, it makes it easier for users to work on developing a larger idea and collaborating with other team members.
 
 **Subscribe with your favorite token** - Users must specify a token, network, and wallet provider in order to install web apps utilizing Spheron. Spheron presently offers four distinct types of tokens for subscription payment: USDT, WMATIC, DAI, and WETH.
 
