@@ -19,7 +19,7 @@
         "type": "category",
         "label": "Compute", 
         "items": [
-          "compute/getting-started-compute",
+          "compute/getting-started",
           "compute/import-from-docker-hub",
           "compute/start-from-a-new-template"
         ]

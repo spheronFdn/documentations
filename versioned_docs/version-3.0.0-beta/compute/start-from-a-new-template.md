@@ -10,9 +10,10 @@ slug: /compute/start-from-a-new-template
 In this segement you can choose from any templated segment, Create a new cluster based on a template, push new code and that's it!
 
 1. The first step is to pick a Template 
-		○ Choose from wide range of templates 
-		○ Choose from Database, Node or Tools as per the reqirement
-		○ Choose from Redis, MongoDB, IPFS, Grafana and many others. 
+		Choose from wide range of templates
+		 
+		Choose from Database, Node or Tools as per the reqirement
+		Choose from Redis, MongoDB, IPFS, Grafana and many others. 
 
 <img src={require('@site/static/img/startfromatemplate.png').default} />
 
