@@ -9,7 +9,9 @@ The **Plan Usage** tab displays how much data was utilized in each parameter.
 
 The progress bar will increase and will turn red once the pack's consumption is about to get exhausted. To obtain further services for a particular parameter(s), the user must purchase/add a bonus(es) for the same.
 
-<img src={require('@site/static/img/3.0.0/plan-usage.png').default} />
+<img src={require('@site/static/img/3.0.0/plan-usage.png').default} width="70%" height="30%"/> <br></br>
+
+<br></br>
 
 :::info
 
