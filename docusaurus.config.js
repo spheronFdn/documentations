@@ -7,7 +7,7 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "argoapp-live", // Usually your GitHub org/user name.
+  organizationName: "spheron", // Usually your GitHub org/user name.
   projectName: "argo-docs", // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
@@ -31,7 +31,7 @@ module.exports = {
           to: "https://spheron.medium.com/",
         },
         {
-          to: "https://github.com/argoapp-live",
+          to: "https://github.com/spheron",
           label: "GitHub",
           position: "right",
         },
@@ -103,7 +103,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              to: "https://github.com/argoapp-live",
+              to: "https://github.com/spheron",
             },
           ],
         },
@@ -119,7 +119,7 @@ module.exports = {
           includeCurrentVersion: false,
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/argoapp-live/argo-docs",
+          editUrl: "https://github.com/spheron/argo-docs",
           routeBasePath: "/",
         },
         theme: {

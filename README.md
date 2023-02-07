@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/argoapp-live/argo-docs/tree/main.svg?style=shield)](https://circleci.com/gh/argoapp-live/argo-docs/tree/main)
+[![CircleCI](https://circleci.com/gh/spheron/argo-docs/tree/main.svg?style=shield)](https://circleci.com/gh/spheron/argo-docs/tree/main)
 
 <p align="center">
   <a href="https://spheron.network/">
@@ -20,7 +20,7 @@ Spheron Protocol is a simple & powerful platform to deploy your frontend app to 
 
 Follow below steps to run ARGO DOC in your local
 
-- Clone argo-doc code into your local by using git clone `https://github.com/argoapp-live/argo-docs.git`
+- Clone argo-doc code into your local by using git clone `https://github.com/spheron/argo-docs.git`
 - Once clone do branch checkout to main `git checkout main`
 - Install packages using either yarn or npm from root folder yarn or npm install
 - Run yarn dev or npm dev
@@ -31,7 +31,7 @@ Follow below steps to run ARGO DOC in your local
 - Fork or Clone this repository
 
 ```
-git clone https://github.com/argoapp-live/argo-docs.git
+git clone https://github.com/spheron/argo-docs.git
 ```
 
 - Docker build -
