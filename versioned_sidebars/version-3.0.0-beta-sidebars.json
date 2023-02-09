@@ -105,7 +105,6 @@
       "label": "Quick Start",
       "collapsed": true,
       "items": [
-        "quick-start/minting-101",
         "quick-start/configuring-wallet",
         "quick-start/quick-deploy",
         "quick-start/configure-domain",
@@ -143,12 +142,7 @@
         "changelogs/V3.2.1"
       ]
     },
-    {
-      "type": "category",
-      "label": "Spheron Clan",
-      "collapsed": true,
-      "items": ["super-clan/africa", "super-clan/india"]
-    },
+
     {
       "type": "category",
       "label": "Framework Guide",
