@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/spheron/argo-docs/tree/main.svg?style=shield)](https://circleci.com/gh/spheron/argo-docs/tree/main)
+[![CircleCI](https://circleci.com/gh/spheron/documentations/tree/main.svg?style=shield)](https://circleci.com/gh/spheron/documentations/tree/main)
 
 <p align="center">
   <a href="https://spheron.network/">
@@ -16,11 +16,11 @@
 
 Spheron Protocol is a simple & powerful platform to deploy your frontend app to Arweave Permaweb where your app will live for eternity.
 
-## Installation for argo-doc development
+## Installation for spheron doc development
 
-Follow below steps to run ARGO DOC in your local
+Follow below steps to run SPHERON DOC in your local
 
-- Clone argo-doc code into your local by using git clone `https://github.com/spheron/argo-docs.git`
+- Clone spheron doc code into your local by using git clone `https://github.com/spheron/documentations.git`
 - Once clone do branch checkout to main `git checkout main`
 - Install packages using either yarn or npm from root folder yarn or npm install
 - Run yarn dev or npm dev
@@ -31,19 +31,19 @@ Follow below steps to run ARGO DOC in your local
 - Fork or Clone this repository
 
 ```
-git clone https://github.com/spheron/argo-docs.git
+git clone https://github.com/spheron/documentations.git
 ```
 
 - Docker build -
 
 ```
-docker build -t argo-docs .
+docker build -t documentations .
 ```
 
 - Docker run -
 
 ```
-docker run -p 3000:3000 argo-docs
+docker run -p 3000:3000 documentations
 ```
 
 ## Contributing

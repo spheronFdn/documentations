@@ -9,7 +9,7 @@ The SDK is written in TypeScript, has a robust test suite, performs arbitrary pr
 
 ## Code
 
-The source code is available on [GitHub](https://github.com/spheron/argo-payments-js).
+The source code is available on [GitHub](https://github.com/spheron/desub-js).
 
 ## Dependencies
 

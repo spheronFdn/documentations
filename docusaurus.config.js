@@ -119,7 +119,7 @@ module.exports = {
           includeCurrentVersion: false,
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/spheron/argo-docs",
+          editUrl: "https://github.com/spheron/documentations",
           routeBasePath: "/",
         },
         theme: {
