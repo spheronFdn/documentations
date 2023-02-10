@@ -41,5 +41,5 @@ Know us better by connecting with us on below channels -
 
 - [Twitter](https://twitter.com/SpheronHQ)
 - [LinkedIn](https://www.linkedin.com/company/spheron/)
-- [Github](https://github.com/spheron)
+- [Github](https://github.com/spheronFdn)
 - [Medium](https://spheron.medium.com/)

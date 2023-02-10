@@ -31,7 +31,7 @@ module.exports = {
           to: "https://spheron.medium.com/",
         },
         {
-          to: "https://github.com/spheron",
+          to: "https://github.com/spheronFdn",
           label: "GitHub",
           position: "right",
         },
@@ -103,7 +103,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              to: "https://github.com/spheron",
+              to: "https://github.com/spheronFdn",
             },
           ],
         },
@@ -119,7 +119,7 @@ module.exports = {
           includeCurrentVersion: false,
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/spheron/documentations",
+          editUrl: "https://github.com/spheronFdn/documentations",
           routeBasePath: "/",
         },
         theme: {

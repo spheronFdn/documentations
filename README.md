@@ -20,7 +20,7 @@ Spheron Protocol is a simple & powerful platform to deploy your frontend app to 
 
 Follow below steps to run SPHERON DOC in your local
 
-- Clone spheron doc code into your local by using git clone `https://github.com/spheron/documentations.git`
+- Clone spheron doc code into your local by using git clone `https://github.com/spheronFdn/documentations.git`
 - Once clone do branch checkout to main `git checkout main`
 - Install packages using either yarn or npm from root folder yarn or npm install
 - Run yarn dev or npm dev
@@ -31,7 +31,7 @@ Follow below steps to run SPHERON DOC in your local
 - Fork or Clone this repository
 
 ```
-git clone https://github.com/spheron/documentations.git
+git clone https://github.com/spheronFdn/documentations.git
 ```
 
 - Docker build -
