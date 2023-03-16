@@ -17,69 +17,90 @@ Check out below video to learn how to use MetaMask in your browser.
 
 <iframe src="https://www.youtube.com/embed/ZIGUC9JAAw8" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-:::danger Matic Testnet
-
-Make sure to switch to the Matic Testnet network before connecting.
-
-Please check out [here](https://docs.matic.network/docs/develop/network-details/network/) for information regarding Matic Mumbai Testnet!
-
-:::
-
 ### Part 2. Connect Wallet
 
 <font size="4"> <b>Step 1.</b> Go to Billing section and click on <code>Connect Wallet</code> button. </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/connect-wallet.png').default} />
 
-<font size="4"> <b>Step 2.</b> Choose your preferred token (<b>USDT</b>, <b>DAI</b>, <b>WMATIC</b>, <b>WETH</b>), network (<b>Polygon Mumbai</b>), and wallet (<b>Metamask</b>) on the pop-up modal.</font> <br/><br/>
+---
 
-<img src={require('@site/static/img/3.0.0/connect-wallet-modal.png').default} />
+<font size="4"> <b>Step 2.</b>  Choose <code>Network</code>, <code>Token</code> and the <code>wallet</code>. </font>
+
+1. Choose the Network you want to connect your wallet to with your Spheron Account. You can choose from the following set of wide network which Spheron offers : 
+- Optimism Network 
+- BSC Mainnet 
+- Ploygon Mainnet 
+- Solana 
+- Arbitrum One 
+- Avlanche Mainnet 
+
+2. Choose token for the transaction, you can choose from: 
+- USDT 
+- WMATIC
+- DAI 
+- WETH
+
+3. Choose the wallet, you can choose from two wallets: 
+- Metamask 
+- Phantom 
+
+<img src={require('@site/static/img/3.0.0/billing-wallet.png').default} width="60%" height="30%"/>
+
+---
 
 <font size="4"> <b>Step 3.</b> Metamask raises an alert message stating <code>I'm the owner of this wallet and want to attach it to the organization</code>. Sign the transaction. And your wallet is connected. </font> <br/><br/>
 
 <img src={require('@site/static/img/3.0.0/connect-wallet-metamask.png').default} />
 
-## Spheron Faucet
+---
+## Deposit Fund 
 
-A Faucet is a tool that provides a small number of funds to start using a cryptocurrency without having to buy some. Spheron has its own faucet app, which will send the selected **TEST** tokens straight into your wallet. The goal of this faucet is to make the onboarding to the Spheron Platform smoother.
+As a user you get an option to deposit funds to Spheron Escrow contract and provide the approved amount on the network and once clicking on apporove it reqiures you to confirm the transaction 
 
-Spheron faucet sends **100 TEST USDT**, **100 TEST DAI**, **0.05 TEST WETH** or **70 TEST WMATIC** based on the chosen token. You can use it up to 3 times a day.
+To make sure your subscription is renued every month, we ask you to deposit some funds to Spheron
+escrow contract. 
 
-Please visit Spheron [**Faucet**](https://faucet.spheron.network/) to get **TEST** tokens in your wallet, and get started with Spheron.
+The steps are as follows : 
+1. Switch to the network you choose for payment 
+2. Approve funds on the network 
+  - You will be prompted by the walllet apporoval 
+3. Provide the funds as the deposit amount 
 
-## Allowance
+:::caution
 
-Spheron asks you to give a token allowance amount to ensure that your subscription is renewed every month. Unable to cut subscription may stop all the all services running in the platform. Please make sure, your wallet have enough balance.
-
-:::danger Overdue
-
-Failure in payment to pay for a PRO plan may cause your organization to go into an overdue state, halting all platform services for your organization.
-
-:::
-It is informed to ensure that your wallet has sufficient funds.
-
-Only the wallet's owner has the ability to set the allowance.
-
-:::info Gasless
-
-We utilize Biconomy for the approval transaction, therefore it's Gasless. As a result, no <b>$MATIC</b> tokens are required for approval.
+Insufficient balance in the contract may stop all the services running in the platform.
+Please make sure, your escrow have enough balance.
 
 :::
 
-### Set Allowance
+Here are few screenshots to assist you with the next steps and the prompts: 
 
-<font size="4"> <b>Step 1.</b> Go to Billing section and under the wallet dropdown, click on <code>Set Allowance</code>. </font> <br/><br/>
+<img src={require('@site/static/img/3.0.0/depositfund.png').default} width="70%" height="30%"/><br/><br/>
 
-<img src={require('@site/static/img/3.0.0/set-allowance.png').default} />
 
-<font size="4"> <b>Step 2.</b> In the allowance popup, input the amount you want to allow Spheron, which can be cut from your wallet for subscriptions. </font> <br/><br/>
+<img src={require('@site/static/img/3.0.0/confirmdeposit .png').default} width="40%" height="30%"/><br/><br/>
 
-<img src={require('@site/static/img/3.0.0/set-allowance-popup.png').default} />
+---
 
-<font size="4"> <b>Step 3.</b> Sign the <b>Metamask</b> Signature Request, and voila! you have set your allowance successfully!</font> <br/><br/>
+## Withdraw Funds
+
+You can withdraw amount from your escrow account if you no longer want to pay for the subscription. 
+
+:::caution
+
+Please note that insufficient balance in the contract may stop all the services running in the platform.
+
+:::
+
+<br></br>
+
+<img src={require('@site/static/img/3.0.0/witdrawfunds.png').default} width="70%" height="30%"/>
+
+---
 
 ## View Wallet
 
-Viewing the connected wallet lets you check the pre-set <b>Allowance</b> and <b>Wallet Balance</b>. The wallet also gives you details about the current token and network your organization is connected to.
+Viewing the connected wallet lets you check the pre-set <b>Deposit</b> and <b>Withdraw</b>. The wallet also gives you details about the current token and network your organization is connected to.
 
-<img src={require('@site/static/img/3.0.0/view-wallet.png').default} />
+<img src={require('@site/static/img/3.0.0/viewwallet.png').default} width="70%" height="30%"/>

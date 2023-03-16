@@ -9,39 +9,48 @@ Spheron automatically provides all users a free Starter package to access and us
 
 To check your Spheron Plan [**please click here**](https://docs.spheron.network/billing/plans)
 
-## How to upgrade your plan using the Coupon code options
-
-### Step 1: Navigate to the billing page of your Application
-
-<img src={require('@site/static/img/3.0.0/billing-page.png').default} /> <br/><br/>
-
-### Step 2: Click on upgrade plan button
-
-<img src={require('@site/static/img/3.0.0/plan.png').default} /> <br/><br/>
-
-#### Clicking on the upgrade plan button takes you to the plan options as shown above. Click the Switch to Pro button.
-
-### Step 4: Input your coupon code in the Coupon box Option
-
-<img src={require('@site/static/img/3.0.0/coupon-option.png').default} /> <br/><br/>
-
-**Click on Upgrade plan and wait for the page to load**🔥🔥🔥🔥🔥
+## How to upgrade your plan using the coupon code 
 
 ---
 
-## How to activate your Coupon code.
+### Step 1: Navigate to the coupons section on the side bar of the billing section
+
+<img src={require('@site/static/img/coupon1.png').default} /> <br/><br/>
+
+---
+
+### Step 2: Click on add coupon button 
+
+<img src={require('@site/static/img/coupon2.png').default} width="60%" height="30%" /> <br/><br/>
+
+---
+
+#### When you sucssfully add a coupon, you will be prompted by the following pop-up in the right corner. 
+
+<img src={require('@site/static/img/coupon3.png').default} width="60%" height="30%" /> <br/><br/>
+
+---
+**Click on Upgrade plan and wait for the page to load**
+
+### Step 3: After final activation of the coupon the follwing page is reflected. 
+
+<img src={require('@site/static/img/coupon5.png').default} /> <br/><br/>
+
+---
+
+## How to add coupoun code on the upgrade plan page.
 
 ### Step 1: Go to the billing page of your application, and click the coupon tab.
 
-#### Click on add new coupon button as shown below.
+#### Click on the upgrade plan option and select the plan, you can enter the coupon code in the highlighted box. 
 
-<img src={require('@site/static/img/3.0.0/check-coupon.png').default} /> <br/><br/>
+<img src={require('@site/static/img/coupon4.png').default} /> <br/><br/>
 
-### Step 2: Add coupon code details as shown in the popup menu below and click on Add.
+### Step 2: Add coupon code details and click on Deposit
 
-<img src={require('@site/static/img/3.0.0/add-coupon.png').default} /> <br/><br/>
+<img src={require('@site/static/img/coupon6.png').default} width="60%" height="30%"/> <br/><br/>
 
-### Step 3: Wait for the page to reload, and viola!!!🔥 see the status of your coupon page.
+### Step 3: Wait for the page to reload, and  see the status of your coupon page.
 
 ---
 
@@ -49,7 +58,7 @@ To check your Spheron Plan [**please click here**](https://docs.spheron.network/
 
 #### On your billing page, click on the coupon tab on the menu bar at the left
 
-<img src={require('@site/static/img/3.0.0/check-coupon.png').default} /> <br/><br/>
+<!-- <img src={require('@site/static/img/3.0.0/check-coupon.png').default} /> <br/><br/> -->
 
 :::info
 
